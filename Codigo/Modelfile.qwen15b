@@ -1,0 +1,11 @@
+FROM qwen2.5:1.5b
+
+# Optimizaciones para CPU (Intel Core Ultra 7 - 12 cores)
+PARAMETER num_thread 12
+PARAMETER num_ctx 2048
+PARAMETER num_batch 512
+PARAMETER temperature 0.1
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.1
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "</s>"

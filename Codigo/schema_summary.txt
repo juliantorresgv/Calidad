@@ -1,0 +1,1222 @@
+ACCPRG (7 columnas)
+  - PrfCdg: smallint(5,0)
+  - PrgCdg: char(35)
+  - AccAdc: smallint(5,0)
+  - AccMdf: smallint(5,0)
+  - AccDlt: smallint(5,0)
+  - AccCns: smallint(5,0)
+  - AccStd: smallint(5,0)
+
+ActuaUsuariosIntegra (19 columnas)
+  - Codigo: varchar(50)
+  - Usuario: varchar(50)
+  - Compa–’a: varchar(50)
+  - Sucursal: varchar(50)
+  - Perfil: varchar(50)
+  - Estado: varchar(50)
+  - CŽdula: varchar(50)
+  - nomcompleto: varchar(50)
+  - cargo: varchar(50)
+  - Firma: varchar(50)
+  - Proceso: varchar(50)
+  - Correo Electronico: varchar(50)
+  - PrimerNombre: varchar(50)
+  - SegundoNombre: varchar(50)
+  - PrimerApellido: varchar(50)
+  - SegundoApellido: varchar(50)
+  - Clave: varchar(50)
+  - Temporal: varchar(50)
+  - Si: varchar(50)
+
+ActuaUsuariosIntegras (19 columnas)
+  - Codigo: varchar(50)
+  - Usuario: varchar(50)
+  - Compa–’a: varchar(50)
+  - Sucursal: varchar(50)
+  - Perfil: varchar(50)
+  - Estado: varchar(50)
+  - CŽdula: varchar(50)
+  - nomcompleto: varchar(50)
+  - cargo: varchar(100)
+  - Firma: varchar(50)
+  - Proceso: varchar(50)
+  - Correo Electronico: varchar(50)
+  - PrimerNombre: varchar(50)
+  - SegundoNombre: varchar(50)
+  - PrimerApellido: varchar(50)
+  - SegundoApellido: varchar(50)
+  - Clave: varchar(50)
+  - Temporal: varchar(50)
+  - Si: varchar(50)
+
+AnalisisRiesgos (3 columnas)
+  - AnalisisRiesgos: char(80)
+  - AnalisisRiesgosCns: smallint(5,0)
+  - AnalisisRiesgosPreg: varchar(200)
+
+AplicacionParametros (3 columnas)
+  - APIdentificador: smallint(5,0)
+  - APNombre: varchar(35)
+  - APValor: varchar(150)
+
+ArchMultimedia (4 columnas)
+  - ArchMultimedia_Id: smallint(5,0)
+  - FundamentosCorp_Id: int(10,0)
+  - ArchMultimedia_NomExt: varchar(100)
+  - ArchMultimedia_Ext: varchar(5)
+
+AudInforme (14 columnas)
+  - AudInfId: int(10,0)
+  - AudInfTitulo: varchar(150)
+  - AudInfCodigoOM: varchar(20)
+  - AudInfDescripcion: varchar(500)
+  - AudInfTipo: varchar(35)
+  - AudInfEstado: varchar(35)
+  - AudInfFchCre: datetime
+  - AudInfFchAct: datetime
+  - AudInfUltCns: int(10,0)
+  - AudiScrCdg: varchar(8)
+  - AudiInfObjetivo: varchar(500)
+  - AreaCod: char(3)
+  - AudiInfFchCie: datetime
+  - AudiInfOpinion: varchar(500)
+
+AudiEmpHallazgos (3 columnas)
+  - AudInfId: int(10,0)
+  - IngHallasgosDetId: int(10,0)
+  - AudiEmpCod: int(10,0)
+
+AudiHallazgos (25 columnas)
+  - AudInfId: int(10,0)
+  - IngHallasgosDetId: int(10,0)
+  - AudiAreaCod: char(3)
+  - AudInfHallCriticidad: varchar(35)
+  - AudInfHallDescripcion: varchar(1000)
+  - AudInfHallAceptacion: varchar(1)
+  - AudInfHallFecModificacion: datetime
+  - AudInfHallFecCreacion: datetime
+  - AudiInfHallUltCns: int(10,0)
+  - AudInfHallDocumento1: varbinary(-1)
+  - IngHallazgosExtDoc1: char(4)
+  - IngHallazgosNombDoc1: char(60)
+  - AudInfHallDocumento2: varbinary(-1)
+  - IngHallazgosExtDoc2: char(4)
+  - IngHallazgosNombDoc2: char(60)
+  - AudInfHallDocumento3: varbinary(-1)
+  - IngHallazgosExtDoc3: char(4)
+  - IngHallazgosNombDoc3: char(60)
+  - AudInfHallDocumento4: varbinary(-1)
+  - IngHallazgosExtDoc4: char(4)
+  - IngHallazgosNombDoc4: char(60)
+  - AudInfHallDocumento5: varbinary(-1)
+  - IngHallazgosExtDoc5: char(4)
+  - IngHallazgosNombDoc5: char(60)
+  - AudiHallEstado: varchar(35)
+
+AudiPlnAccDocumentos (10 columnas)
+  - AudInfId: int(10,0)
+  - AudInfHallId: int(10,0)
+  - AudiPlnAccion: int(10,0)
+  - DocumentoId: int(10,0)
+  - DocPlnArchivo: varbinary(-1)
+  - DocPlnNombreDocumento: char(150)
+  - DocFchModificacion: datetime
+  - DocFchCreacion: datetime
+  - DocPlnNomArchivo: char(60)
+  - DocPlnExtArchivo: char(4)
+
+AudiPlnAccion (10 columnas)
+  - AudInfId: int(10,0)
+  - AudInfHallId: int(10,0)
+  - AudiPlnAccion: int(10,0)
+  - AudiPlnPlan: varchar(1000)
+  - AudiPlnFchCreacion: datetime
+  - AudiPlnFchModificacion: datetime
+  - AudiPlnFchEjecucion: datetime
+  - AudiPlnAprobadoAuditor: bit
+  - AudiPlnEstado: varchar(1)
+  - AudiEmpCod: int(10,0)
+
+AudiPrograma (2 columnas)
+  - AudConProg: varchar(30)
+  - AudConId: int(10,0)
+
+AudiResponsables (3 columnas)
+  - AudInfId: int(10,0)
+  - AuditorUsrCdgC: int(10,0)
+  - AuditorRol: varchar(1)
+
+AudiSucursales (2 columnas)
+  - AudiScrCdg: varchar(8)
+  - AudiScrDsc: varchar(50)
+
+AuditoriaSistema (7 columnas)
+  - AuditoriaSistema_Id: decimal(10,0)
+  - UsrCdgC: int(10,0)
+  - AuditoriaSistema_FchLog: datetime
+  - AuditoriaSistema_HraLog: char(8)
+  - AuditoriaSistema_LogAccion: varchar(60)
+  - Programa_Id: int(10,0)
+  - AuditoriaSistema_LogWrkSt: char(20)
+
+Auditoria_NC (2 columnas)
+  - Auditoria_NC_Id: smallint(5,0)
+  - Auditoria_NC_Nombre: char(35)
+
+BODCTOF (3 columnas)
+  - BodegaCod: char(4)
+  - CtoFrio: char(20)
+  - CtoFrioNom: char(30)
+
+BODEGA (2 columnas)
+  - BodegaCod: char(4)
+  - BodegaNom: char(40)
+
+CENTROCONSULTA (9 columnas)
+  - AreaCod: char(3)
+  - ScrCdg: char(8)
+  - AreaNom: char(60)
+  - CiaCdg: char(12)
+  - AreaEstado: char(1)
+  - UsrCdgCNResp: char(60)
+  - UsrCdgRes: int(10,0)
+  - UsrCdgMRes: char(60)
+  - AreaMarcTem: char(1)
+
+CERRET (4 columnas)
+  - CerRetAyo: smallint(5,0)
+  - CerRetEmpc: char(14)
+  - CerRetTip: char(1)
+  - CerRetEst: smallint(5,0)
+
+CIUDAD (6 columnas)
+  - CiuCod: char(8)
+  - CiuNom: char(35)
+  - CiuCln: char(8)
+  - CiuZna: char(5)
+  - CiuTipDist: char(1)
+  - CiuDep: char(35)
+
+COMBO (2 columnas)
+  - ComboCod: smallint(5,0)
+  - ForCalCod: char(20)
+
+COMBO1 (2 columnas)
+  - ComboCod: smallint(5,0)
+  - ComboDes: char(20)
+
+Capa (38 columnas)
+  - CapaNumero: char(20)
+  - CapaTipo: char(1)
+  - CapaFuente: char(1)
+  - CapaProdNCon: char(1)
+  - CapaCriticidad: char(1)
+  - CapaClasificacion: char(3)
+  - CapaSucedido: varchar(700)
+  - CapaFechSuceso: datetime
+  - CapaUsrRegi: int(10,0)
+  - CapaFeRegistra: datetime
+  - CapaUltimEstado: char(2)
+  - CapaUsrAnalisas: int(10,0)
+  - CapaFechAnalisis: datetime
+  - CapaUsrRevisi: int(10,0)
+  - CapaFechRevisi: datetime
+  - CapaUsrPlanAcc: int(10,0)
+  - CapaFechPlanAcc: datetime
+  - CapaUsrCierre: int(10,0)
+  - CapaFchCierre: datetime
+  - CapaCentroC: char(3)
+  - MacroProcesoCod: char(10)
+  - ProcesoCod: char(6)
+  - CapaProcedimi: char(30)
+  - CapaSucursal: char(8)
+  - CapaProcediNom: char(60)
+  - CapaServicioCod: char(6)
+  - CapaClnNit: char(12)
+  - CapaPlanUlCns: smallint(5,0)
+  - CapaTipoCausa: char(1)
+  - CapaUsrPlanEje: int(10,0)
+  - CapaFechPlanEje: datetime
+  - CapaObserRegCorr: varchar(500)
+  - CapaObserSegCie: varchar(500)
+  - CapaFchRevSeg: datetime
+  - CapaUsrRevSeg: int(10,0)
+  - CapaAyo: smallint(5,0)
+  - CapaMes: smallint(5,0)
+  - CapaFechRegD: datetime
+
+Capa5Porque (8 columnas)
+  - CapaNumero: char(20)
+  - CapaAnaCns: smallint(5,0)
+  - CapaAnaPorq5: varchar(500)
+  - CapaAnaPorq4: varchar(500)
+  - CapaAnaPorq3: varchar(500)
+  - CapaAnaPorq2: varchar(500)
+  - CapaAnaPorq1: varchar(500)
+  - CapaAnaTipo: char(3)
+
+CapaAnalisisRiesgos (6 columnas)
+  - CapaNumero: char(20)
+  - AnalisisRiesgos: char(80)
+  - AnalisisRiesgosCns: smallint(5,0)
+  - CapaAnalisisRiesgoS: smallint(5,0)
+  - CapaAnalisisRiesgoN: smallint(5,0)
+  - CapaAnalisisRiesgoC: varchar(200)
+
+CapaCorreccion (7 columnas)
+  - CapaNumero: char(20)
+  - CapaCnsCorre: smallint(5,0)
+  - CapaResponsable: int(10,0)
+  - CapaCorreFech: datetime
+  - CapaCorrFecR: datetime
+  - CapaCorrUsReg: int(10,0)
+  - CapaCorreccion: char(500)
+
+CapaEspinaPescado (6 columnas)
+  - CapaNumero: char(20)
+  - CapaEspinaTipo: char(3)
+  - CapaEspinaPesCau: varchar(500)
+  - CapaEspinaPesSCa1: varchar(500)
+  - CapaEspinaPesSCa2: varchar(500)
+  - CapaEspinaPesSCa3: varchar(500)
+
+CapaEstado (8 columnas)
+  - CapaEstadoCns: smallint(5,0)
+  - CapaNumero: char(20)
+  - Capaestado: char(2)
+  - CapaEstadoFecha: datetime
+  - CapaEstadoHora: char(5)
+  - CapaEstadoUsri: int(10,0)
+  - CapaEstadoFchHora: datetime
+  - CapaEstObserva: varchar(-1)
+
+CapaNorma (3 columnas)
+  - CapaNumero: char(20)
+  - CapaNormaCod: char(20)
+  - CapaNormaNumeral: char(7)
+
+CapaPlanAccion (17 columnas)
+  - CapaNumero: char(20)
+  - CapaPlanAccCns: smallint(5,0)
+  - CapaPlanAccUnio: smallint(5,0)
+  - CapaPlanAccTip: char(3)
+  - CapaPlanAccCausa: varchar(500)
+  - CapaPlanAccPlan: varchar(500)
+  - CapaPlanAccUsr: int(10,0)
+  - CapaPlanAccFch: datetime
+  - CapaPlanAccSop: varbinary(-1)
+  - CapaPlanAccTipA: char(4)
+  - CapaPlanAccNoma: char(60)
+  - CapaPlanAccionSeg: varchar(500)
+  - CapaPlanAccApro: char(1)
+  - CapaPlanAccSo2: varbinary(-1)
+  - CapaPlanAccSo1: varbinary(-1)
+  - CapaPlanAccFchSSop: datetime
+  - CapaPlanAccionUlt: char(1)
+
+ClasificacionNC (3 columnas)
+  - ClasificacionNC_Id: smallint(5,0)
+  - ClasificacionNC_Nombre: char(35)
+  - ClasificacionNC_Desc: varchar(60)
+
+Cliente (6 columnas)
+  - ClnNit: char(12)
+  - ClnNmb: char(35)
+  - ClnTlf: char(20)
+  - ClnDrc: char(50)
+  - TipoParteInt_Id: smallint(5,0)
+  - Cliente_Regulacion: smallint(5,0)
+
+Comunicaciones (8 columnas)
+  - Comunicaciones_Id: int(10,0)
+  - Comunicaciones_FchPub: datetime
+  - Comunicaciones_Doc: varbinary(-1)
+  - Comunicaciones_UsrCrea: int(10,0)
+  - Comunicaciones_FechCrea: datetime
+  - TipoComunicacion_Id: smallint(5,0)
+  - Comunicaciones_Ext: char(4)
+  - Comunicaciones_Nom: char(60)
+
+ControlReporte (7 columnas)
+  - ControlRepId: decimal(18,0)
+  - UsrCdg: int(10,0)
+  - ControlRepAle: char(500)
+  - ControlRepPro: char(30)
+  - ControlRepEst: smallint(5,0)
+  - ControlRepImp: char(1)
+  - ControlRepfecha: datetime
+
+CorreccionNC (6 columnas)
+  - CorreccionNC_Id: decimal(10,0)
+  - NC_Id: decimal(10,0)
+  - CorreccionNC_Fecha: datetime
+  - CorreccionNC_Registro: smallint(5,0)
+  - CorreccionNC_Elaboracion: int(10,0)
+  - CorreccionNC_Observa: char(300)
+
+DATALOGGER (2 columnas)
+  - DataLoggerCod: char(30)
+  - DataLoggerNom: char(60)
+
+DocumenExternos (10 columnas)
+  - DocumenExternosCod: char(20)
+  - DocumenExternosTip: char(4)
+  - DocumenExternosNom: char(60)
+  - DocumenExternosmEa: char(1)
+  - DocumenNCopia: smallint(5,0)
+  - DocumenExternosArch: varbinary(-1)
+  - DocumenExternosTit: char(120)
+  - ClnNit: char(12)
+  - DocumenExternosEst: smallint(5,0)
+  - DocumenExternostiArc: char(4)
+
+DocumenExternosCentroConsulta (2 columnas)
+  - DocumenExternosCod: char(20)
+  - DocumenAreaCod: char(3)
+
+DocumenExternosLugarAlmacenami (2 columnas)
+  - DocumenExternosCod: char(20)
+  - DocumenLugAl: char(3)
+
+EMPDATA (7 columnas)
+  - EmpId: smallint(5,0)
+  - EmpName: char(20)
+  - EmpAddress: char(100)
+  - EmpPhoto: image(2147483647)
+  - EmpMiscellaneousFiles: image(2147483647)
+  - EmpFileExt: char(4)
+  - EmpFileName: char(25)
+
+EMPDATA1 (4 columnas)
+  - EmpId: smallint(5,0)
+  - EmpDocId: smallint(5,0)
+  - EmpDocDsc: char(20)
+  - EmpDocument: image(2147483647)
+
+Empresa (27 columnas)
+  - EmpNit: char(11)
+  - EmpTip: char(1)
+  - EmpDsc: char(60)
+  - EmpTlf: char(10)
+  - EmpDrc: char(40)
+  - EmpCiuCdg: char(8)
+  - EmpAut: char(4)
+  - EmpNmrAut: decimal(10,0)
+  - EmpDsd: decimal(10,0)
+  - EmpHst: decimal(10,0)
+  - EmpRsl: char(40)
+  - EmpRngTxt: char(70)
+  - EmpRgn: smallint(5,0)
+  - EmpCtrAnt: smallint(5,0)
+  - EmpCtrAntM: char(400)
+  - EmpCtrAntP: char(1)
+  - EmpCtrWebSer: char(1)
+  - EmpCtrPDF: char(1)
+  - EmpCorreoHost: char(50)
+  - EmpCorrePort: smallint(5,0)
+  - EmpCorreAuthentication: smallint(5,0)
+  - EmpCorreUserName: char(60)
+  - EmpCorrePassword: char(20)
+  - EmpCorreAddress: varchar(1024)
+  - EmpCorreTimeout: smallint(5,0)
+  - EmpresaCnsViaje: decimal(18,0)
+  - EmpCorreoName: char(80)
+
+FORMCAL (8 columnas)
+  - ForCalCod: char(20)
+  - ForCalNom: char(100)
+  - ForCalTip: char(1)
+  - ForCalnH: smallint(5,0)
+  - ForMImag: image(2147483647)
+  - GrpCdg: char(5)
+  - TFormCalUlt: smallint(5,0)
+  - FormatoEst: smallint(5,0)
+
+FORMCALDET (3 columnas)
+  - ForCalCod: char(20)
+  - ForCodSig: numeric(3,0)
+  - ForCalImGD: image(2147483647)
+
+Formatos-Proced (5 columnas)
+  - Procecod: char(30)
+  - ProceNom: char(60)
+  - ForCalCod: char(20)
+  - ForCalNom: char(100)
+  - ForCalnH: smallint(5,0)
+
+Fuente (3 columnas)
+  - FuenteCod: char(1)
+  - FuenteNom: char(30)
+  - FuenteTipo: char(1)
+
+FundamentosCorp (6 columnas)
+  - FundamentosCorp_Id: int(10,0)
+  - FundamentosCorp_Nombre: varchar(80)
+  - TipoOrganizacion_Id: smallint(5,0)
+  - FundamentosCorp_Tipo: char(4)
+  - FundamentosCorp_NomArch: char(30)
+  - FundamentosCorp_Archivo: varbinary(-1)
+
+GRUPOS (2 columnas)
+  - GrpCdg: char(5)
+  - GrpNom: char(35)
+
+GXA0081 (14 columnas)
+  - CapaNumero: char(20)
+  - CapaPlanAccCns: smallint(5,0)
+  - CapaPlanAccUnio: smallint(5,0)
+  - CapaPlanAccTip: char(3)
+  - CapaPlanAccCausa: varchar(500)
+  - CapaPlanAccPlan: varchar(500)
+  - CapaPlanAccUsr: int(10,0)
+  - CapaPlanAccFch: datetime
+  - CapaPlanAccSop: varbinary(-1)
+  - CapaPlanAccTipA: char(4)
+  - CapaPlanAccNoma: char(60)
+  - CapaPlanAccionSeg: varchar(500)
+  - CapaPlanAccionFchS: datetime
+  - CapaPlanAccApro: char(1)
+
+Glosario (3 columnas)
+  - GlosarioPalabra: char(60)
+  - GlosarioLetra: char(1)
+  - Glosariodefinicion: varchar(1000)
+
+LOGUSO (6 columnas)
+  - LogFch: datetime
+  - LogHra: char(8)
+  - UsrCdgC: int(10,0)
+  - PrgCdg: char(35)
+  - LogKey: char(60)
+  - LogWrk: char(20)
+
+MACROPROCESO (5 columnas)
+  - MacroProcesoCod: char(10)
+  - MacroProcesoNom: char(60)
+  - ResponsableCod: smallint(5,0)
+  - ProcesoMision: varchar(500)
+  - ProcesoUsuRApro: int(10,0)
+
+MACROPROCESOPROCESO (3 columnas)
+  - MacroProcesoCod: char(10)
+  - ProcesoCod: char(6)
+  - ProcesoCnsCapa: smallint(5,0)
+
+MatrizGesInt (6 columnas)
+  - MatrizGesIntCod: char(20)
+  - MatrizGesIntNom: char(60)
+  - MatrizGesIntDto: varbinary(-1)
+  - MatrizGesIntArch: char(4)
+  - MatrizGesIntTit: char(60)
+  - MatrizGesIntTipo: char(2)
+
+Modulo_Menu (7 columnas)
+  - Modulo_Id: int(10,0)
+  - Modulo_Dscr: varchar(50)
+  - Modulo_FechCrea: datetime
+  - Modulo_UsrCrea: int(10,0)
+  - Modulo_FechMod: datetime
+  - Modulo_UsrMod: int(10,0)
+  - Modulo_Icono: char(50)
+
+NEVERA (7 columnas)
+  - NvrIdn: int(10,0)
+  - NvrBdgNmb: char(30)
+  - NvrRngLow: smallmoney(10,4)
+  - NvRnPrLw: smallmoney(10,4)
+  - NvRngHgh: smallmoney(10,4)
+  - NvRnPrHg: smallmoney(10,4)
+  - NvrPT100: smallint(5,0)
+
+NORMAS (3 columnas)
+  - NormaCod: char(20)
+  - NormaNumeral: char(7)
+  - NormaNombreNumeral: char(60)
+
+NoConformidad (24 columnas)
+  - NC_Id: decimal(10,0)
+  - NC_Consecutivo: char(20)
+  - NC_FechCreacion: datetime
+  - Auditoria_NC_Id: smallint(5,0)
+  - ClnNit: char(12)
+  - ProcesoCod: char(6)
+  - NC_CUANDOPASO: varchar(-1)
+  - NC_DONDEPASO: varchar(-1)
+  - NC_QUEPASO: varchar(-1)
+  - NC_COMOPASO: varchar(-1)
+  - NC_QUIEN: varchar(-1)
+  - NormaCod: char(20)
+  - ClasificacionNC_Id: smallint(5,0)
+  - NC_Categoria: smallint(5,0)
+  - TipoNC_Id: smallint(5,0)
+  - CiuCod: char(8)
+  - NC_Elaboracion: int(10,0)
+  - NC_FechaDesviacion: datetime
+  - AreaCod: char(3)
+  - NoConformidadSucursal: char(8)
+  - NoConformidad_CorreosResponsab: varchar(-1)
+  - NC_Cons: smallint(5,0)
+  - NC_Estado: smallint(5,0)
+  - NormaNumeral: char(7)
+
+NoConformidadRes (2 columnas)
+  - NC_Id: decimal(10,0)
+  - NC_RUsrC1: int(10,0)
+
+Notificacion (13 columnas)
+  - NotificacionId: decimal(18,0)
+  - NotificacionUrs: int(10,0)
+  - NotificacionCapa: char(20)
+  - NotificacionTipo: char(2)
+  - NotificacionFchHReg: datetime
+  - NotificacionFchReg: datetime
+  - NotificacionFchImpl: datetime
+  - NotificacionFchImpS: datetime
+  - NotificacionFchCierre: datetime
+  - NotificacionUsrRegis: int(10,0)
+  - NotificacionEstado: char(1)
+  - NotificacionCnscapa: smallint(5,0)
+  - NotiCapaPlanAccUnio: smallint(5,0)
+
+NuevoActuaUsuariosIntegra (20 columnas)
+  - Codigo: decimal(28,0)
+  - Usuario: varchar(50)
+  - Compa–’a: varchar(50)
+  - Sucursal: varchar(50)
+  - Perfil: varchar(50)
+  - Estado: varchar(50)
+  - CŽdula: varchar(50)
+  - nomcompleto: varchar(50)
+  - cargo: varchar(100)
+  - Firma: varchar(50)
+  - Proceso: varchar(50)
+  - Correo Electronico: varchar(50)
+  - PrimerNombre: varchar(50)
+  - SegundoNombre: varchar(50)
+  - PrimerApellido: varchar(50)
+  - SegundoApellido: varchar(50)
+  - Clave: varchar(50)
+  - Temporal: varchar(50)
+  - Si: varchar(50)
+  - procesocod: char(3)
+
+Organizacion (10 columnas)
+  - Organizacioncns: decimal(12,0)
+  - OrganizacionTip: char(3)
+  - OrganizacionPoli: varchar(-1)
+  - OrganizacionEstr: varchar(-1)
+  - OrganizacionMision: char(500)
+  - OrganizacionVision: char(500)
+  - OrganizacionValores: varchar(-1)
+  - Organizacionpdf: varbinary(-1)
+  - OrganizacioNombre: char(60)
+  - OrganizacionTipo: char(4)
+
+PERFIL (3 columnas)
+  - PrfCdg: smallint(5,0)
+  - PrfDsc: char(40)
+  - PrfStd: smallint(5,0)
+
+PERFILPROGRAMAPrograma (4 columnas)
+  - SEG_PERFIL_ID: smallint(5,0)
+  - Programa_Id: int(10,0)
+  - PERFILPROGRAMA_Crea: int(10,0)
+  - PERFILPROGRAMA_FechCrea: datetime
+
+PROCEDIMIENTOANEXOS (6 columnas)
+  - Procecod: char(30)
+  - AnexosCod: char(6)
+  - AnexosNom: char(200)
+  - AnexosArch: image(2147483647)
+  - AnexoNomb: char(60)
+  - Anexotipo: char(4)
+
+PROCEDIMIENTOAREA (4 columnas)
+  - Procecod: char(30)
+  - AreaCod: char(3)
+  - ProDisCop: char(1)
+  - ProDisCnsR: char(1)
+
+PROCEDIMIENTOCAMBIO (5 columnas)
+  - Procecod: char(30)
+  - ProceCamCns: smallint(5,0)
+  - ProcediObserb: text(2147483647)
+  - Procedifech: datetime
+  - ProcediUsrC: int(10,0)
+
+PROCEDIMIENTOFORMATO (2 columnas)
+  - Procecod: char(30)
+  - ForCalCod: char(20)
+
+PROCEDIMIENTONORMAS (3 columnas)
+  - Procecod: char(30)
+  - NormaCod: char(20)
+  - NormaNumeral: char(7)
+
+PROCEDIMIENTOS (31 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - ProcesoCod: char(6)
+  - TipoDocumento_Id: smallint(5,0)
+  - PROCEDIMIENTOS_ANTE: char(30)
+  - PROCEDIMIENTOS_NOMBRE: char(120)
+  - PROCEDIMIENTOS_VIGENCIA: int(10,0)
+  - PROCEDIMIENTOS_ELABORADOR: int(10,0)
+  - PROCEDIMIENTOS_FCHELBABORACION: datetime
+  - PROCEDIMIENTOS_WORD: varchar(-1)
+  - PROCEDIMIENTOS_ESTADO: char(1)
+  - PROCEDIMIENTOS_REVISORPROC: int(10,0)
+  - PROCEDIMIENTOS_FCHREVISIONPROC: datetime
+  - PROCEDIMIENTOS_REVISIONCALIDAD: int(10,0)
+  - PROCEDIMIENTOS_FECHREVISIONCAL: datetime
+  - PROCEDIMIENTOS_APROGERENCIA: int(10,0)
+  - PROCEDIMIENTOS_FCHAPROGERENCIA: datetime
+  - PROCEDIMIENTOS_PUBLICACION: int(10,0)
+  - PROCEDIMIENTOS_FCHPUBLICACION: datetime
+  - PROCEDIMIENTOS_ULTCONS: smallint(5,0)
+  - PROCEDIMIENTOS_OBSERVACION: varchar(200)
+  - PROCEDIMIENTOS_FCHOBSOLETO: datetime
+  - PROCEDIMIENTOS_CONULTANEX: smallint(5,0)
+  - PROCEDIMIENTOS_REVCARGO: char(60)
+  - PROCEDIMIENTOS_REVCALCARGO: char(60)
+  - PROCEDIMIENTOS_APROGERCARGO: char(60)
+  - PROCEDIMIENTOS_CARGOELABORA: char(60)
+  - PROCEDIMIENTOS_HORREVISIONPROC: datetime
+  - PROCEDIMIENTOS_HORREVISIONCALI: datetime
+  - PROCEDIMIENTOS_HORAPROGERENCIA: datetime
+  - PROCEDIMIENTOS_HORPUBLICACION: datetime
+  - PROCEDIMIENTOS_HORAELABORACION: datetime
+
+PROCEDIMIENTOSANEXO (6 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - ANEXO_COD: smallint(5,0)
+  - ANEXO_NOM: char(200)
+  - ANEXO_ARCHIVO: varbinary(-1)
+  - ANEXO_TIPO: char(4)
+  - ANEXO_NOMBARCH: varchar(70)
+
+PROCEDIMIENTOSCAMBIO (5 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - PROCE_CAMBIOCONS: smallint(5,0)
+  - PROCE_CAMBIOOBSERV: varchar(-1)
+  - PROCE_CAMBIOFCH: datetime
+  - PROCE_CAMBIOUSR: int(10,0)
+
+PROCEDIMIENTOSCENTROCONSULTA (2 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - AreaCod: char(3)
+
+PROCEDIMIENTOSFORMATO (2 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - ForCalCod: char(20)
+
+PROCEDIMIENTOSNORMAS (3 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - NormaCod: char(20)
+  - NormaNumeral: char(7)
+
+PROCEDIMIENTOS_ESTADOS (7 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - PROCEDIMIENTOS_ESTADOR: char(1)
+  - PROCEDIMIENTOS_ESTADOS_CONS: smallint(5,0)
+  - PROCEDIMIENTOS_ESTADOS_USUARIO: int(10,0)
+  - PROCEDIMIENTOS_ESTADOS_FECHA: datetime
+  - PROCEDIMIENTOS_ESTADOS_HORA: char(5)
+  - PROCEDIMIENTOS_ESTADOS_GRAL: datetime
+
+PROCESORESPONSABLE (5 columnas)
+  - ProcesoCod: char(6)
+  - ProcesoCns: smallint(5,0)
+  - ProcesoUsuPubQA: int(10,0)
+  - ProcesoUsuRev: int(10,0)
+  - ProcesousuRevQA: int(10,0)
+
+PROGRAM (6 columnas)
+  - PrgCdg: char(35)
+  - PrgDsc: char(35)
+  - PrgStd: char(1)
+  - PrgMod: char(30)
+  - PrgMen: char(40)
+  - PrgOpc: char(50)
+
+PRUEBA (2 columnas)
+  - id: smallint(5,0)
+  - archivo: image(2147483647)
+
+PRUEBCAMBIO (5 columnas)
+  - PROCEDIMIENTOS_COD: char(30)
+  - PROCE_CAMBIOCONS: smallint(5,0)
+  - PROCE_CAMBIOOBSERV: varchar(-1)
+  - PROCE_CAMBIOFCH: datetime
+  - PROCE_CAMBIOUSR: int(10,0)
+
+Parametros (3 columnas)
+  - Parametroscns: smallint(5,0)
+  - ParametrosUrl: varchar(150)
+  - ParametrosRuta: varchar(150)
+
+PlanesAccionNC (29 columnas)
+  - PlanesAccionNC_Id: decimal(10,0)
+  - NC_Id: decimal(10,0)
+  - PlanesAccionNC_RCA: varchar(500)
+  - PlanesAccionNC_RCAAnexo: varbinary(-1)
+  - PlanesAccionNC_Aprobacion: smallint(5,0)
+  - PlanesAccionNC_Tipo: char(5)
+  - PlanesAccionNC_Usuario: int(10,0)
+  - UsrCdgC: int(10,0)
+  - PlanesAccionNC_SopEjePA: varbinary(-1)
+  - PlanesAccionNC_AproEjePA: char(1)
+  - PlanesAccionNC_AprPA: int(10,0)
+  - PlanesAccionNC_FchApr: datetime
+  - PlanesAccionNC_AutExt: varbinary(-1)
+  - PlanesAccionNC_TipoAnexo: char(5)
+  - PlanesAccionNC_NomAnexo: char(70)
+  - PlanesAccionNC_PATipo: char(5)
+  - PlanesAccionNC_PANomArch: char(70)
+  - PlanesAccionNC_FchRegistro: datetime
+  - PlanesAccionNC_FchCompromiso: datetime
+  - PlanesAccionNC_PAEjec: varchar(250)
+  - PlanesAccionNC_ObsApr: char(250)
+  - PlanesAccionNC_ObsRec: char(250)
+  - PlanesAccionNC_ObsEjePA: varchar(250)
+  - PlanesAccionNC_FecEjePA: datetime
+  - PlanesAccionNC_AprPro: char(1)
+  - PlanesAccionNC_UsrAprPro: int(10,0)
+  - PlanesAccionNC_FecAprPro: datetime
+  - PlanesAccionNC_ObsAprPro: varchar(250)
+  - PlanesAccionNC_EstPA: char(2)
+
+Procedimiento (41 columnas)
+  - Procecod: char(30)
+  - ProcedimientoAnte: char(30)
+  - ProceNom: char(60)
+  - ProcedimientoVig: int(10,0)
+  - ProceFchElb: datetime
+  - ProceWord: varchar(-1)
+  - ProceEst: char(1)
+  - ProceFPubli: datetime
+  - MacroProcesoCod: char(10)
+  - ProcesoCod: char(6)
+  - ProcedimientoUltCns: smallint(5,0)
+  - ProcedimientoObserR: varchar(200)
+  - ProceCElb: int(10,0)
+  - ProceFchObsoleto: datetime
+  - ProceCRev: int(10,0)
+  - ProceFchR: datetime
+  - ProceCRes: int(10,0)
+  - ProceCRevC: int(10,0)
+  - ProceFchRevC: datetime
+  - ProceCApro: int(10,0)
+  - ProceFchAp: datetime
+  - ProceMailR: char(60)
+  - ProceFchImp: datetime
+  - ProceCPub: int(10,0)
+  - ProcedimientoMrc: char(1)
+  - ProceNCargPub: char(60)
+  - ProceCCargPub: char(10)
+  - ProceNCargApro: char(60)
+  - ProceCCargApro: char(10)
+  - ProceNCargRevC: char(60)
+  - ProceCCargRevC: char(10)
+  - ProceNCargRes: char(60)
+  - ProceCCargRes: char(10)
+  - ProceNCargRev: char(60)
+  - ProceCCargRev: char(10)
+  - ProceNCargElb: char(60)
+  - ProceCCargElb: char(10)
+  - ProceNCargElb2: char(60)
+  - ProceNCargRevC2: char(60)
+  - ProceNCargApro2: char(60)
+  - ProceNCargRev2: char(60)
+
+ProcedimientoEstado (7 columnas)
+  - Procecod: char(30)
+  - ProceEstado: char(1)
+  - ProceEstaCns: smallint(5,0)
+  - ProceEstUsurio: int(10,0)
+  - ProceEstadFch: datetime
+  - ProceEstHora: char(5)
+  - ProceEstGener: datetime
+
+Proceso (6 columnas)
+  - ProcesoCod: char(6)
+  - ProcesoNom: char(35)
+  - ProcesoCnsUlt: smallint(5,0)
+  - ProcesoconseImp: smallint(5,0)
+  - ProcesoMisionC: varchar(700)
+  - ProcesoFlujo: varbinary(-1)
+
+ProcesoControles (3 columnas)
+  - ProcesoCod: char(6)
+  - ProcesoControlCod: smallint(5,0)
+  - ProcesoControlNom: char(150)
+
+ProcesoIndicadores (4 columnas)
+  - ProcesoCod: char(6)
+  - ProcesoIndicaCod: smallint(5,0)
+  - ProcesoIndicaNom: char(150)
+  - ProcesoIndicaTip: char(1)
+
+ProcesoRecursos (3 columnas)
+  - ProcesoCod: char(6)
+  - ProcesoRecuCod: smallint(5,0)
+  - ProcesoRecuNom: char(60)
+
+ProcesoRequisitos (3 columnas)
+  - ProcesoCod: char(6)
+  - ProcesoRequiCod: smallint(5,0)
+  - ProcesoRequiNom: char(80)
+
+Procesoprocesos (3 columnas)
+  - ProcesoCod: char(6)
+  - ProcesosCod: char(6)
+  - ProcesosActivo: varchar(-1)
+
+Programa (11 columnas)
+  - Programa_Id: int(10,0)
+  - Programa_Dscr: varchar(50)
+  - Programa_NomInt: char(50)
+  - Modulo_Id: int(10,0)
+  - Programa_Orden: smallint(5,0)
+  - Programa_FechCre: datetime
+  - Programa_UsrCrea: int(10,0)
+  - Programa_Fech_Mod: datetime
+  - Programa_UsrMod: int(10,0)
+  - Programa_Estado: smallint(5,0)
+  - Programa_ParentId: int(10,0)
+
+RESPONSABLE (2 columnas)
+  - ResponsableCod: smallint(5,0)
+  - ResponsableNom: char(40)
+
+RegistroDataLogg (9 columnas)
+  - BodegaCod: char(4)
+  - CtoFrio: char(20)
+  - RegFech: datetime
+  - DataLoggerCod: char(30)
+  - RegHora: char(8)
+  - RegUsuario: char(12)
+  - RegArch: varbinary(-1)
+  - RegExt: char(4)
+  - RegNombre: char(60)
+
+SEG_PERFIL (3 columnas)
+  - SEG_PERFIL_ID: smallint(5,0)
+  - SEG_PERFIL_DESCR: varchar(50)
+  - SEG_PERFIL_TIPO: char(1)
+
+SEG_PERFILACCPRG (3 columnas)
+  - SEG_PERFIL_ID: smallint(5,0)
+  - PrgCdg: char(35)
+  - PermisoFuncionalidad: smallint(5,0)
+
+Servicios (2 columnas)
+  - ServicioCod: char(6)
+  - ServiciosNom: char(40)
+
+SoporteCorreccionNC (6 columnas)
+  - SoporteCorreccionNC_Id: smallint(5,0)
+  - CorreccionNC_Id: decimal(10,0)
+  - SoporteCorreccionNC_NomExt: varchar(100)
+  - SoporteCorreccionNC_Ext: varchar(5)
+  - SoporteCorreccionNC_Fch: datetime
+  - SoporteCorreccionNC_User: int(10,0)
+
+TEMAREAPROCE (3 columnas)
+  - TemProcecod: char(20)
+  - TemAreaCod: char(3)
+  - TemAreaNom: char(60)
+
+TEMPNEVE (4 columnas)
+  - NvrIdn: int(10,0)
+  - Hora: char(8)
+  - Fecha: char(8)
+  - Tmprtra: smallmoney(10,4)
+
+TUSUARIO2 (4 columnas)
+  - UsrCdg: int(10,0)
+  - Usr2Mod: char(16)
+  - Usr2Evt: char(16)
+  - Usr2Aut: char(1)
+
+TUSUARIOCCENTROCONSULTA (2 columnas)
+  - UsrCdgC: int(10,0)
+  - UsrArea: char(3)
+
+TUsuarioAuditoria (8 columnas)
+  - UsrCdgC: int(10,0)
+  - UsuAReg: char(3)
+  - UsuAFchUE: datetime
+  - UsuAAct: char(1)
+  - UsuAFchS: datetime
+  - UsuAWrk: char(20)
+  - UsuANroA: smallint(5,0)
+  - UsuANroC: smallint(5,0)
+
+TUsuarioC (31 columnas)
+  - UsrCdgC: int(10,0)
+  - UsrDscC: char(35)
+  - CiaCdg: char(12)
+  - ScrCdg: char(8)
+  - PrfCdg: smallint(5,0)
+  - UsrEstC: char(1)
+  - UsrCedula: char(12)
+  - UsrNombre: char(60)
+  - UsrCargo: char(10)
+  - UsrNcargo: char(60)
+  - UsrFirma: char(20)
+  - UsrProceso: char(6)
+  - UsrMailC: varchar(100)
+  - UsrPNombre: varchar(50)
+  - UsrSNombre: varchar(50)
+  - UsrPApellido: varchar(50)
+  - UsrSApellido: varchar(50)
+  - UsrFechMod: datetime
+  - UsrIndic: char(1)
+  - UsrManAud: char(1)
+  - UsrPassC: char(20)
+  - UsrFchCrea: datetime
+  - UsrLlvEnc: char(32)
+  - UsrlndCmbC: char(1)
+  - UsrFchCmb: datetime
+  - UsrPass: char(35)
+  - UsrClv: char(35)
+  - UsrToken: smallint(5,0)
+  - SEG_PERFIL_ID: smallint(5,0)
+  - ProcesoCod: char(6)
+  - UsurTemp: numeric(1,0)
+
+TUsuarioCGrupos (2 columnas)
+  - UsrCdgC: int(10,0)
+  - GrpCdg: char(5)
+
+TUsuarioCProcesos (2 columnas)
+  - UsrCdgC: int(10,0)
+  - ProcesoCod: char(6)
+
+TipoComunicacion (3 columnas)
+  - TipoComunicacion_Id: smallint(5,0)
+  - TipoComunicacion_Nombre: char(35)
+  - TipoComunicacion_Desc: varchar(100)
+
+TipoDocApoy (2 columnas)
+  - DocumenExternosTip: char(4)
+  - DocumenExternosTNom: char(60)
+
+TipoDocumento (2 columnas)
+  - TipoDocumento_Id: smallint(5,0)
+  - TipoDocumento_Descr: varchar(40)
+
+TipoNC (3 columnas)
+  - TipoNC_Id: smallint(5,0)
+  - TipoNC_Nombre: char(35)
+  - TipoNC_Desc: varchar(40)
+
+TipoNCAuditoria (2 columnas)
+  - TipoNC_Id: smallint(5,0)
+  - Auditoria_NC_Id: smallint(5,0)
+
+TipoOrganizacion (3 columnas)
+  - TipoOrganizacion_Id: smallint(5,0)
+  - TipoOrganizacion_Nombre: varchar(60)
+  - TipoOrganizacion_Dscr: varchar(80)
+
+TipoParteInt (3 columnas)
+  - TipoParteInt_Id: smallint(5,0)
+  - TipoParteInt_Nombre: char(35)
+  - TipoParteInt_Desc: varchar(100)
+
+TipoPlanAccion (3 columnas)
+  - TipoPlanAccion_Id: smallint(5,0)
+  - TipoPlanAccion_Cod: char(5)
+  - TipoPlanAccion_Nombre: varchar(40)
+
+USRGRPL (2 columnas)
+  - PorGxDoc: char(20)
+  - GrpCdg: char(5)
+
+USUANEVE (2 columnas)
+  - UsrNvrLgn: char(20)
+  - NvrIdn: int(10,0)
+
+USUARIO (2 columnas)
+  - UsrNvrLgn: char(20)
+  - UsrNvrTpo: char(1)
+
+USUARIOAREA (2 columnas)
+  - PorGxDoc: char(20)
+  - AreaCod: char(3)
+
+USUARIOBOD (2 columnas)
+  - PorGxDoc: char(20)
+  - BodegaCod: char(4)
+
+USUARIOT (28 columnas)
+  - UsrCdg: int(10,0)
+  - Estacion: char(5)
+  - UsrDsc: char(35)
+  - UsrClv: char(20)
+  - UsrFchCrc: datetime
+  - UsrFchCmb: datetime
+  - UsrEst: char(5)
+  - UsrFchRtr: datetime
+  - GrpCdg: char(5)
+  - TerCdg: char(15)
+  - EmpCdg: numeric(12,0)
+  - CiuCod: char(8)
+  - PrfCdg: numeric(18,0)
+  - UsrPass: char(20)
+  - UsrTemporal: char(100)
+  - Usract: char(1)
+  - Fchpass: datetime
+  - Tpusrcd: char(5)
+  - Usrfecret: datetime
+  - Usractivo: char(1)
+  - Usrfcampsw: datetime
+  - UsrIndReex: char(1)
+  - UsrlndCmbC: nchar(1)
+  - UsrLoc: char(4)
+  - UsrMail: char(60)
+  - UsrMdfRms: char(1)
+  - UsrClasif: char(10)
+  - UsrCargo: char(40)
+
+USUCENTRO (2 columnas)
+  - PorGxDoc: char(20)
+  - CentroDistCod: char(3)
+
+Usuario3 (12 columnas)
+  - UsrCdg: int(10,0)
+  - Usr3Prg: char(16)
+  - Usr3Mod: char(16)
+  - Usr3FchE: datetime
+  - Usr3HraE: char(5)
+  - Usr3Act: char(1)
+  - Usr3FchS: datetime
+  - Usr3HraS: char(5)
+  - Usr3Wrk: char(20)
+  - Usr3NroA: int(10,0)
+  - Usr3Ver: char(10)
+  - Usr3NroC: int(10,0)
+
+UsuariosAreas (13 columnas)
+  - UsrCdgC: int(10,0)
+  - UsrDscC: char(35)
+  - PrfCdg: smallint(5,0)
+  - PrfDsc: char(40)
+  - UsrEstC: char(1)
+  - ScrCdg: char(8)
+  - UsrNombre: char(60)
+  - UsrCargo: char(10)
+  - UsrNcargo: char(60)
+  - UsrFirma: char(20)
+  - UsrMailC: varchar(100)
+  - AreaCod: char(3)
+  - AreaNom: char(60)
+
+VDocumenExternos (12 columnas)
+  - DWUsrCdgC: int(10,0)
+  - DWDocumenAreaCod: char(3)
+  - DWDocumenExternosCod: char(20)
+  - DWDocumenExternosTip: char(4)
+  - DWDocumenExternosNom: char(60)
+  - DWDocumenExternosmEa: char(1)
+  - DWDocumenNCopia: smallint(5,0)
+  - DWDocumenExternosArch: varbinary(-1)
+  - DWDocumenExternosTit: char(120)
+  - DWClnNit: char(12)
+  - DWDocumenExternosEst: smallint(5,0)
+  - DWDocumenExternostiArc: char(4)
+
+VProcedimientoant (15 columnas)
+  - Procecod: char(10)
+  - ProceNom: char(60)
+  - ProceFchImp: datetime
+  - ProcesoNom: char(35)
+  - ProceWord: text(2147483647)
+  - ProceFchElb: datetime
+  - ProceFchR: datetime
+  - ProceFchRevC: datetime
+  - ProceFchAp: datetime
+  - aprueba: char(35)
+  - Revisa: char(35)
+  - Elabora: char(35)
+  - CargoApru: char(40)
+  - CargoRevisa: char(40)
+  - CargoElabora: char(40)
+
+Vprocedimiento1 (15 columnas)
+  - procedimiento: varchar(30)
+  - nombreprocedimiento: char(60)
+  - Fpublica: datetime
+  - word: varchar(-1)
+  - Felaboracion: datetime
+  - FRevision: datetime
+  - FrevisionQA: datetime
+  - Faprobacion: datetime
+  - aprueba: char(35)
+  - Elabora: char(35)
+  - Revisa: char(35)
+  - CargoApru: char(60)
+  - CargoElabora: char(60)
+  - CargoRevisa: char(60)
+  - Clasificacion: char(60)
+
+VprocedimientoObsoleto (15 columnas)
+  - procedimiento: char(30)
+  - nombreprocedimiento: char(60)
+  - Fpublica: datetime
+  - word: varchar(-1)
+  - Felaboracion: datetime
+  - FRevision: datetime
+  - FrevisionQA: datetime
+  - Faprobacion: datetime
+  - aprueba: char(35)
+  - Elabora: char(35)
+  - Revisa: char(35)
+  - CargoApru: char(60)
+  - CargoElabora: char(60)
+  - CargoRevisa: char(60)
+  - Clasificacion: char(60)
+
+Vprocedimientoactual (15 columnas)
+  - procedimiento: varchar(30)
+  - nombreprocedimiento: char(60)
+  - Fpublica: datetime
+  - word: varchar(-1)
+  - Felaboracion: datetime
+  - FRevision: datetime
+  - FrevisionQA: datetime
+  - Faprobacion: datetime
+  - aprueba: char(35)
+  - Elabora: char(35)
+  - Revisa: char(35)
+  - CargoApru: char(60)
+  - CargoElabora: char(60)
+  - CargoRevisa: char(60)
+  - Clasificacion: char(60)
+
+diascpa (6 columnas)
+  - CapaNumero: char(20)
+  - CapaFechRegD: datetime
+  - CapaEstadoFecha: datetime
+  - CapaEstadoCns: smallint(5,0)
+  - CapaCriticidad: char(1)
+  - diferencia: int(10,0)
+
+dtproperties (7 columnas)
+  - id: int(10,0)
+  - objectid: int(10,0)
+  - property: varchar(64)
+  - value: varchar(255)
+  - uvalue: nvarchar(255)
+  - lvalue: image(2147483647)
+  - version: int(10,0)
+
+lllClasificacionNC (3 columnas)
+  - ClasificacionNC_Id: smallint(5,0)
+  - ClasificacionNC_Nombre: char(35)
+  - ClasificacionNC_Desc: varchar(60)
+
+responsabels (2 columnas)
+  - Procecod: char(10)
+  - ProcesoUsuRev: int(10,0)

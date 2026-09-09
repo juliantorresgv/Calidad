@@ -1,0 +1,438 @@
+Integra-20260826_142649-Grabación de la reunión
+26 de agosto de 2026, 7:26p.m.
+24m 4s
+
+Javier Prada inició la transcripción
+
+Alejandro Quitian Tellez   0:03
+cada uno tiene unos códigos tienen unos nombres tienen unos centros de consulta y están basados en procesos de gestión de calidad o procesos de recursos humanos bueno todo lo que ustedes vean dentro de la compañía ahí están plasmados acá en estos procedimientos estos procedimientos en donde lo encontramos acá por base de datos
+
+Javier Prada   0:04
+No.
+
+Alejandro Quitian Tellez   0:25
+Está una tabla que se llama procedimientos esta como tal. Aquí hay un digamos que por aquí usted encuentra una tabla que se llama procedimiento, pero ese procedimiento era un antiguo, un antiguo desarrollo que había, sino que nunca lo quitaron. Entonces ahora la tabla es procedimientos.
+
+Julian Yamid Torres   0:28
+Is the Singh of Stop Spa.
+
+Javier Prada   0:29
+What's the West West?
+
+Julian Yamid Torres   0:30
+Same.
+
+Javier Prada   0:37
+Big Time.
+Send that.
+
+Alejandro Quitian Tellez   0:44
+Todo en mayúscula, esta es la tabla.
+En la cual encontramos todos los diferentes.
+Auto 20.
+Y en él encontramos.
+La diferente información de de eso y aquí está el campito que les comentaba que este es el PDF como tal. Sí, eso es un don bar char en el cual ustedes, digamos, ya sea que se tome por.
+
+Javier Prada   1:04
+Can you?
+
+Julian Yamid Torres   1:13
+Okay, listo.
+
+Alejandro Quitian Tellez   1:22
+¿Por qué se consuma la base de datos?
+
+Javier Prada   1:26
+Si.
+
+Alejandro Quitian Tellez   1:26
+Y esto se transforma, se se manda a un PDF y se hace la transformación, y ahí es donde arroja esos PDFs que tienen allá en el SharePoint y digamos que tienen una estructura y una definición de cada uno de los PDFs. Cada uno de esos PDFs tiene una descripción, un nombre al cual hace.
+Referencia unos códigos que utilizan en tienen procesos de calidad que hay otra tabla que es acá.
+
+Julian Yamid Torres   1:53
+Sí.
+
+Alejandro Quitian Tellez   2:03
+Entonces está macroprocesos.
+Estos son los que utilizan como lo que uno tecnología, está tecnología, LTLWH, recursos humanos, diferentes, digamos procesos que se tienen dentro de la compañía.
+
+Javier Prada   2:12
+Yes.
+Google.
+No.
+Está muy bien.
+
+Alejandro Quitian Tellez   2:25
+Y bueno, esta tabla procedimientos, como lo veíamos, esa tiene también unos varios hijos en los cuales están procedimientos de área.
+Por ejemplo, una pregunta que le pueden hacer es cuál eran las versiones de ese de un X procedimiento, sí.
+
+Julian Yamid Torres   2:44
+Mhm.
+
+Alejandro Quitian Tellez   2:46
+Entonces acá hay procedimiento de cambio, entonces en este nos dice, mira, este procedimiento ha tenido tantas versiones, esto es lo que le han cambiado a cada uno de las de las versiones. Estos son los nombres de la fecha cuando le hicieron ese cambio. ¿En cuál fue el usuario que le cambió? Hay una tabla que se llama usuarios.
+
+Javier Prada   2:51
+Yep.
+Sex.
+
+Julian Yamid Torres   2:59
+Okay.
+
+Javier Prada   3:08
+This is.
+
+Alejandro Quitian Tellez   3:11
+de usuario c en esa tabla es donde tenemos para meter todos los usuarios ese tiene unos estados todos los que están en a tiene el nombre tienen el perdón el la descripción del código se identificados con un código
+Tienen números de cédula, tienen los nombres, tiene y cuál es el cargo que usted utilizando. Tienen una firma como tal.
+
+Javier Prada   3:36
+Si.
+Estoy.
+And.
+
+Alejandro Quitian Tellez   3:42
+Los emails.
+Aquí los que están activos fueron los que se cambiaron ya el correo AGV, los otros ya se dejaron, los que están inactivos, ya no se les colocó sino el correo anterior, tiene los nombres, fecha, modificaciones. ¿Y qué más tiene acá? Bueno, usuarios, contraseñas como tal, perfil acción.
+
+Julian Yamid Torres   3:55
+Same.
+
+Alejandro Quitian Tellez   4:05
+esa información la maneja acá y cada uno de los procesos están con los usuarios en un procedimiento siempre hay como digamos está la parte de calidad que es quien lo elabora Entonces por acá en este procedimiento está quién lo elaboró después quién lo aprobó en
+
+Javier Prada   4:17
+Yeah.
+
+Alejandro Quitian Tellez   4:26
+Y la revisación del proceso que no revisó de parte calidad.
+¿Quién lo aprobó de la gerencia? Entonces eso no es diferentes. Vamos a dimensionar cuáles son las preguntas que le pueden hacer es esos tipos de preguntas, sí, fechas de aprobación, fechas de publicación. Entonces un procedimiento entonces pasa por elaborado, después lo revisa una persona de calidad.
+
+Julian Yamid Torres   4:44
+Mhm, sí.
+
+Alejandro Quitian Tellez   4:54
+después eso se lo envía a un a un doliente que es el la revisión del proceso de área después eso se lo envían al gerente del área por ejemplo en el caso de ti se lo envían a Javier Villamizar Entonces él lo aprueba después de eso ya probarlo entonces pasa otra vez a calidad y hay una persona que los
+publica al publicarlo, ya queda como en en la última versión del documento y esa es la que se toma como como se debe hacer el proceso. ¿Qué más hay? Hay procedimientos de formato. ¿Entonces, qué formato maneja ese procedimiento? ¿Cuáles son las normas que maneja ese procedimiento?
+
+Javier Prada   5:26
+No.
+
+Alejandro Quitian Tellez   5:33
+Hay diferentes anexos, centros de consulta.
+Bueno, diferentes cosas que se manejan adicionales a, digamos, al procedimiento como tal.
+
+Julian Yamid Torres   5:43
+¿Alguna pregunta? Eso es un favor.
+
+Alejandro Quitian Tellez   5:46
+Eso es la parte, digamos, de base documental.
+Si se reúnen con Jairo, con Jairo de calidad, pues él les va a hablar de la parte de no conformidades. Sí, si se reúnen con en este caso Paola ya no está en la compañía, ahí quedó encargada fue Danna.
+Ella le puede hablar de toda la parte también de lo de procedimental, lo de base documental. Entonces, por eso es que el sistema se divide en 2 grandes, en base documental y en no conformidades.
+¿Entonces, qué más les puedo decir de aquí de Integra?
+Esas son las tablas como principales los perfiles, pues esto ya es perfiles de qué es lo que se puede hacer, qué es lo que no puede hacer, diferentes perfiles que manejan las personas dentro del sistema información y.
+
+Javier Prada   6:29
+Yes.
+Yeah, yo.
+Yeah.
+
+Alejandro Quitian Tellez   6:42
+que más regulatorio hay unos documentos que son de este tipo regulatorio Entonces estos también se deben consultar pero por debajo están guardados dentro de una tabla procedimientos sino que están identificados como documentos regulatorios correcto está la parte de formatos Esto sí es digamos otro
+
+Javier Prada   6:57
+Set a record.
+
+Alejandro Quitian Tellez   7:02
+otro otro tipo de consultas que se hace. Entonces se elaboran los formatos y se consultan los diferentes formatos que manejan dentro de la compañía. Entonces ahí están, digamos, actas de reunión. Es como se hace una acta reunión, como la bitácora ingreso de cada bueno, de todo lo procedimental que manejamos dentro de la compañía.
+
+Javier Prada   7:21
+Oh.
+
+Alejandro Quitian Tellez   7:22
+Esto está acá.
+
+Javier Prada   7:23
+What?
+Camila.
+
+Alejandro Quitian Tellez   7:26
+En formatos, documentos externos, documentos externos son, por ejemplo, cosas que se manejan para los diferentes clientes, que los clientes tienen, digamos, procedimientos que se deben contemplar en las en las diferentes bodegas o algún manejo de un producto regulatorio, un producto que tenga.
+
+Javier Prada   7:39
+This is funny.
+
+Alejandro Quitian Tellez   7:47
+un manejo especial, entonces en eso también se está ahí.
+
+Javier Prada   7:52
+Pero es un lado que te apoyé.
+
+Alejandro Quitian Tellez   7:53
+Hay una parte de glosario que es esto, toda la información de lo que se puede consultar para que tengan el conocimiento de qué se maneja en con.
+
+Javier Prada   7:56
+¿Qué hay para?
+Singh Singh Singh Singh Singh.
+
+Alejandro Quitian Tellez   8:06
+¿Con qué? En la parte de calidad, que es un activo fijo, bueno, que son las alarmas, que son los alimentos, todo ese glosario que se maneja ahí. Eso también lo podría usted, digamos, consumir esa tabla para poder plasmarla ya en en ese repositorio. Y bueno, esto sin procesos.
+
+Javier Prada   8:09
+Es algo que.
+
+Alejandro Quitian Tellez   8:26
+grupos de formatos sucursales listas de procesos listados comunicaciones esto también es otro tema Cuando ustedes ven alguna comunicación que en parte de parte de calidad que lo reparten a toda la compañía diciendo salió el procedimiento cero cero uno de tecnología un ejemplo Sí entonces a
+
+Javier Prada   8:33
+Abre follow.
+
+Alejandro Quitian Tellez   8:46
+eso es una comunicación que se envía a toda la compañía de eso también se deja trazabilidad acá en el sistema Y qué más fundamentos corporativos Esos son como documentos o todo lo que se puede plasmar dentro de la compañía también está basada en unas tablas
+
+Javier Prada   8:51
+What?
+Thank you.
+I got it.
+
+Alejandro Quitian Tellez   9:04
+Y está la parte de no conformidades que está la elaboración de una no conformidad. Entonces entiéndese una no conformidad con algo que no esté cumpliendo algún área o algún algo específico en la cual tenemos hay una no conformidad.
+
+Javier Prada   9:06
+Sí.
+
+Alejandro Quitian Tellez   9:24
+Dentro de esas no conformidades se le generan los diferentes planes de acción y esos planes de acción los debe cumplir un ejemplo.
+Yo nosotros de tecnología tenemos que llegar todos los días a las 8:00 de la mañana. Un ejemplo, entonces una de la conformidad es que parto llega a las 9:00 de la mañana. ¿Sí, entonces, cuál sería, digamos, el plan de acción? Entonces velar de que parto llegue todos los días a las 8 de la mañana. Entonces, y usted adjuntar un un qué.
+
+Javier Prada   9:42
+Lo mismo que.
+Okay.
+No.
+Set this candy move by the world.
+So.
+
+Alejandro Quitian Tellez   10:13
+Y eso es, digamos, las no conformidades, hay tipos de no conformidades.
+
+Javier Prada   10:14
+Pero.
+
+Alejandro Quitian Tellez   10:21
+Y hay control de cambios, tipos de conformidad. Aquí se le está haciendo, digamos, un requerimiento que pidieron. Entonces son por ahí ajustes que se están haciendo. ¿Qué más les puedo contar de esto?
+
+Javier Prada   10:27
+Alright.
+Good.
+
+Alejandro Quitian Tellez   10:36
+Entonces acá, por ejemplo, una no conformidad, vamos a ver si esta tiene, sí.
+
+Javier Prada   10:39
+Different.
+
+Alejandro Quitian Tellez   10:41
+Entonces está basado en cuándo pasó, dónde pasó, qué pasó, sí, toda esa información usted la puede consultar dentro de esa tabla que se llama no conformidad y quién es el responsable de esa vuelta y quién es el que dice que sí que está, quién colocó la no conformidad, que muchas veces los clientes son los que colocan la no conformidad a.
+
+Javier Prada   10:52
+Es.
+O.
+
+Alejandro Quitian Tellez   11:05
+a procesos de la compañía que nos están cumpliendo. Hay una corrección y hay diferentes planes de acción. Bueno, este no tiene nada, es bueno, miramos otro.
+
+Javier Prada   11:16
+Yeah.
+
+Alejandro Quitian Tellez   11:17
+Y vemos y planes de este.
+
+Javier Prada   11:17
+Up.
+
+Alejandro Quitian Tellez   11:21
+Entonces apenas está en levantamiento, este sí tiene, mire, entonces qué para cuándo pasó, entonces pasó esto, laboratorio Sofía, cuándo pasó, qué pasó, cómo pasó y quién pasó, entonces le colocan a una conformidad, quiénes son los responsables de allá, cuáles son los correos.
+Y aquí los diferentes planes de acción. Entonces son el registro de análisis de causa. Entonces identifican cuáles son los análisis de causa de por qué sucedió eso. Entonces le mandan a decir por qué parte está llegando tarde, entonces porque no, que tal cosa sí, cosas así y ahí.
+Pues se le da tratamiento a cada uno de los planes de causa cuando estén cerrados todos los planes de caos de acción y ya se cierra la no conformidad. Este es el proceso que maneja con ese lo pueden trajar con Jairo, que Jairo es el que digamos ha plasmado ese proceso y tienen conocimiento de eso.
+
+Javier Prada   12:20
+Home.
+
+Alejandro Quitian Tellez   12:22
+Jairo Lady.
+El de calidad.
+Y más por acá normas que se manejan partes interesadas. Digamos que hay un gran número de tablas en las cuales pueden ir a consumir y sacar información. Yo digo que.
+
+Javier Prada   12:26
+Right.
+Good.
+
+Alejandro Quitian Tellez   12:40
+Pues yo me podría poner a armar servicios y servicios y servicios para consultar toda la información, sí, pero.
+Pero es básicamente, pues no sé cómo serían.
+Yo creo que será mejor pegarle a las tablas.
+
+Javier Prada   13:00
+Ajá.
+
+Alejandro Quitian Tellez   13:00
+O ustedes dirán.
+
+Javier Prada   13:03
+What?
+
+Alejandro Quitian Tellez   13:04
+No.
+Ese es el gran proceso, ese es el proceso que se maneja en Integra, no así un barrido como rápido, no al digamos, no al detalle.
+
+Julian Yamid Torres   13:07
+Sí.
+
+Alejandro Quitian Tellez   13:15
+Y se puede ir consultando y la tabla de las bases de la base de datos es la que le compartió Javier Prada y la base entonces.
+
+Javier Prada   13:22
+Ya encontré.
+Yo ya encontré el diagrama.
+
+Alejandro Quitian Tellez   13:27
+Listo, ¿quieres lo comparte?
+
+Javier Prada   13:28
+Ya lo cuento, estoy pelo con Pato por aquí.
+Él estaba esparciendo para pero ya le comparto a Juliana el diagrama, ahí está, ahí se ven como los cuatro bloques principales, no estas imagina que son las.
+Las tablas, pues lo ampliamos, que le estaba oliendo para organizarlos.
+Can I be?
+A conformidad y ahí está.
+Voy a terminar de arreglarlo y se lo comparto a Julian.
+Este es el de.
+
+Julian Yamid Torres   14:25
+Dale, Javiola.
+
+Javier Prada   14:27
+Se llama procedimiento, sí, ahí se ven los bloques de.
+Mucho.
+Allá se ve el lo que.
+Ahí más o menos ya se ve cuáles son las tablas principales y las que más reciben.
+Pues yo pienso que sería como empezar a hacer unas como alguna funcionalidad en la medida en que Julian empiece a hacerla a determinar las funcionalidades que determina con Jairo. Ahí ya se determinaría si se hace, usted llega la base de datos o se crea una app. Yo pienso que no.
+
+Alejandro Quitian Tellez   14:54
+Yeah.
+Sí.
+Sí, exacto.
+
+Javier Prada   15:02
+Para no Para no ponerse una perder el trabajo, el tiempo si.
+Después vamos a hacer directo y para qué.
+O Office.
+
+Julian Yamid Torres   15:11
+De acuerdo y por ahora solamente necesitaría lectura, no necesitaría nada más.
+
+Alejandro Quitian Tellez   15:11
+Sí, como el alcance.
+Entonces, sí, ese es como el diagrama que tiene ahí.
+
+Javier Prada   15:26
+Y ahí hay un hay una forma de crearle, digamos que para ese para ese agente, un usuario en el motor que sea solo lectura, pues para tratamentarlo con clientes donde veas la sonda.
+Porque él no va a escribir, él se lo va a leer para que no usara, para que no usara un usuario con derechos de escritura y no solamente lectura y que era.
+
+Alejandro Quitian Tellez   15:45
+Sí.
+Sí, eso sí tocaría pedírselo a eso. ¿Quién? ¿Quién le da autorización parto de esto?
+Creo que Sergio, no, o yo no sé quién.
+
+Javier Prada   16:02
+Thank you.
+
+Alejandro Quitian Tellez   16:02
+Toca traer de palomito y palomito entonces.
+
+Juan Carlos Pardo   16:06
+De pronto, Raúl directamente, porque es el responsable como el business partner.
+
+Alejandro Quitian Tellez   16:08
+Raúl, sí, para solicitar ese usuario que consulta.
+
+Javier Prada   16:14
+Y solo consulta.
+
+Alejandro Quitian Tellez   16:16
+Sí.
+
+Javier Prada   16:22
+Jose Julian ahí que cómo lo vio.
+
+Julian Yamid Torres   16:25
+No, pues bien, está interesante. Me voy a poner a revisar bien el diagrama y pues si tengo preguntas, pues las estaré buscando y les estaré molestando, pero.
+
+Javier Prada   16:35
+Igual ahí en echarle compartir los manuales del usuario que me compartió Paola, sí.
+
+Alejandro Quitian Tellez   16:40
+Sí.
+
+Julian Yamid Torres   16:41
+Okay, dale.
+Sí, si no, sí, yo me pongo a revisarlo bien y de ahí me imagino.
+
+Javier Prada   16:45
+También en el ese sí.
+Y ya le comparto este diagrama y ya le comparto ese diagrama también.
+
+Alejandro Quitian Tellez   16:52
+Sí, y la idea es que, por ejemplo, si usted sienta con Jairo y Jairo le diga, bueno, necesito que esto muestre por acá, por acá. Entonces usted me dice, Alejandro, miremos en qué tabla yo puedo consultar esto. Entonces yo le digo, mire esto y este campo es sí, y esta es la información como para que usted vaya.
+
+Julian Yamid Torres   16:52
+Dale, muchas gracias.
+
+Javier Prada   17:09
+Open.
+
+Julian Yamid Torres   17:10
+Mhm.
+Dale, dale.
+
+Alejandro Quitian Tellez   17:13
+Listo.
+
+Julian Yamid Torres   17:14
+Sí, me parece bien trabajar de esa manera.
+
+Alejandro Quitian Tellez   17:17
+Correcto, entonces cualquier cosita ahí estamos atentos.
+Ahí me escriben, si no le contesto, le contesto al rato, pero le contesto, listo.
+
+Julian Yamid Torres   17:21
+Dale, muchas gracias.
+Listo, vale, no hay problema, muchas gracias por todo.
+
+Javier Prada   17:30
+Listo, Alejo, muchas gracias.
+
+Juan Carlos Pardo   17:31
+Listo, vale Alejo, gracias a todos, equipo.
+
+Alejandro Quitian Tellez   17:32
+¿Listo? Bueno, que estoy bien, chao.
+
+Julian Yamid Torres   17:33
+Gracias a todos, hasta luego.
+
+Juan Carlos Pardo   17:36
+Bueno, feliz tarde.
+
+Javier Prada   19:56
+What have me?
+Ya.
+I.
+Yeah, yeah.
+Yes.
+Dividad.
+No.
+What?
+A ver.
+Y.
+
+Javier Prada detuvo la transcripción

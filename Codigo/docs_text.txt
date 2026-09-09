@@ -1,0 +1,666 @@
+
+============================================================
+ARCHIVO: ANEXO 1 PERFILES DE USUARIO INTEGR@.xlsx
+============================================================
+--- Hoja: Table 1 ---
+None | PERFILES DE USUARIO INTEGR@ | None | None | None | None | None | None | None | None | ANEXO 1 del MGC-47 | None | None
+None | None | None | None | None | None | None | None | None | None | FECHA: 01/08/2025 | None | None
+MÓDULO | PROGRAMA | ACTIVIDAD - ACCESO | PERFILES | None | None | None | None | None | None | None | None | None
+None | None | None | Administrador calidad | Administrador TI | Consulta | Consulta y edición | Consulta,
+edición, revisión, aprobación | Calidad Central | Calidad Operación | Asuntos Regulatorios | Coordinador Tecnico de Calidad | None
+Base Documental | Consulta de Procedimientos | Consultar procedimiento, anexos y
+Normas, centros de consulta y cambio historico del procedimiento | X | X | X | X | X | X | X | X | X | None
+None | None | Consulta,  procedimiento, anexos y
+trazabilidad, impresión y descarga de documentos | X | None | None | None | None | X | None | None | None | None
+None | None | Consultar y decargar listado de
+procedimientos especifico según centros de consulta - en pdf | X | X | X | X | X | X | X | X | X | None
+None | Elaboración Documentos | Crear, modificar, enviar a revisión,
+copiar documento base documental | X | X | None | X | X | X | X | X | X | None
+None | None | Modificar documento en cualquier
+estado (publicado, elaborado, en revisión, revisado, revisado qa, aprobado) | X | None | None | None | None | None | None | None | None | None
+None | None | Crear, modificar, enviar a revisión,
+copiar documento servicios técnicos | X | None | None | None | None | X | None | None | None | None
+None | None | Asignar centros de consulta | X | X | None | None | None | None | None | None | None | None
+None | None | Eliminar documento | X | None | None | None | None | None | None | None | None | None
+None | None | Pasar a obsoleto Documento | X | None | None | None | None | None | None | X | None | None
+None | None | Ver y consultar documentos
+obsoletos en el listado | X | None | None | None | None | None | None | None | None | None
+None | None | Exportar listado a pdf | X | None | None | None | None | None | None | None | None | None
+None | Revisión Responsable del Proceso | Aprobar o rechazar revisión, agregar
+comentarios | X | None | None | None | X | None | None | None | None | None
+None | Revisión Calidad | Aprobar o rechazar revisión, agregar
+comentarios | X | None | None | None | None | X | None | None | None | None
+None | Aprobación gerencial | Aprobar o rechazar revisión, agregar
+comentarios | X | None | None | None | X | None | None | None | None | None
+None | Publicación | Publicar documento | X | None | None | None | None | None | None | X | None | None
+None | Indicador Base Documental | Consultar | X | None | None | None | None | X | None | None | None | None
+None | Listado Maestro de Documentos | Consultar y descargar Listado
+general - en excel | X | None | None | None | None | X | None | None | None | None
+None | Documentos obsoletos | Consultar | X | None | None | None | None | None | None | None | None | None
+None | Tipo de Documentos | Agregar, modificar y eliminar tipo de
+documentos | X | X | None | None | None | None | None | None | None | None
+Contenido | Módulos | Agregar, modificar y eliminar módulos | X | X | None | None | None | None | None | None | None | None
+None | Programas | Agregar, modificar y eliminar
+programas | X | X | None | None | None | None | None | None | None | None
+Servicios Técnicos | Consulta de documentos servicios técnicos | Consulta | X | X | X | X | X | X | X | X | X | None
+None | None | Consulta, impresión de documentos | X | None | None | None | None | X | None | None | None | None
+Formatos | Consulta Formatos | Consulta e impresión | X | X | X | X | X | X | X | X | X | None
+None | None | Consultar y descargar listado de
+formatos en excel según centros de consulta | X | X | None | None | None | X | X | X | X | None
+None | Elaboración Formatos | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | None | Descargar listado de formatos
+activos e inactivos | X | None | None | None | None | None | None | None | None | None
+Documentos Externos | Tipo Documentos Externos | Crear, modificar o eliminar | X | None | None | None | None | None | None | None | None | None
+None | Consulta Documentos Externos | Consultar | X | X | X | X | X | X | X | X | X | None
+None | Elaboración Documentos Externos | Crear, modificar o eliminar | X | None | None | None | None | X | None | None | None | None
+Glosario Logistico | Consulta de Glosario Logistico | Consultar | X | X | X | X | X | X | X | X | X | None
+None | Elaboración Glosació Logistico | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Grupos de Formatos | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+Procesos | Sucursales | Consultar | X | None | None | None | None | None | None | None | None | None
+None | None | Modificar | None | X | None | None | None | None | None | None | None | None
+None | Listado de Procesos | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Listado Centros de Consulta | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+Usuarios | Usuarios | Crear, modificar y inactivar | X | X | None | None | None | None | None | None | None | None
+None | Perfiles de Usuario | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Permiso a Programas | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Auditoría de Usuarios | Consultar | X | X | None | None | None | None | None | None | None | None
+Comunicaciones Calidad | Elaboración Comunicaciones | Crear, modificar y eliminar | X | None | None | None | None | X | None | None | None | None
+None | Consulta Comunicaciones | Consultar, descargar e imprimir
+comunicaciones | X | X | X | X | X | X | X | X | X | None
+None | Tipo Comunicación | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+Fundamentos Corporativos | Elaboración Fundamentos Corporativos | Crear, modificar y eliminar contenido
+de los módulos | X | None | None | None | None | None | None | None | None | None
+None | Consulta Fundamentos Corporativos | Consultar | X | X | X | X | X | X | X | X | X | None
+None | Tipos Fundamentos Corporativos | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Elaboración Matrices del Sistema de Gestión
+Integral | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Consulta Matrices del Sistema de Gestión Integral | Consultar | X | X | X | X | X | X | X | X | X | None
+No Conformidades | Elaboración No Conformidad | Crear no conformidades | X | X | None | X | X | X | X | X | X | None
+None | None | Modificar no conformidades | X | None | None | None | None | None | None | None | None | None
+None | None | Eliminar no conformidades | X | None | None | None | None | X | None | None | None | None
+None | None | Consulta y descarga de data | X | None | None | None | None | X | None | None | None | None
+None | Clasificación No Conformidad | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Tipo No Conformidad | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Auditorias No Conformidad | Crear, modificar y eliminar | X | None | None | None | None | None | None | None | None | None
+None | Corrección No Conformidades | Generar corrección | X | X | None | X | X | X | X | X | X | None
+None | Planes de Acción | Generación de planes de acción | X | X | None | X | X | X | X | X | X | None
+None | None | Cumplido a planes de acción | X | None | None | None | None | X | None | None | None | None
+None | Aprobación | Aprobación y rechazo de planes de
+acción | X | None | None | None | None | X | None | None | X | None
+Partes Interesadas y Normas | Partes Interesadas | Crear, modificar o eliminar partes
+interesadas | X | None | None | None | None | None | None | None | None | None
+None | Normas | Crear, modificar o eliminar Normas | X | None | None | None | None | None | None | None | None | None
+None | Tipos Partes Interesadas | Crear, modificar o eliminar | X | None | None | None | None | None | None | None | None | None
+Razón Social: Operaciones Nacionales de Mercadeo – Open Market NIT: 860350940-1
+ | None | None | None | None | None | None | None | None | None | None | None | None
+--- Hoja: Table 2 ---
+None | PERFILES DE USUARIO INTEGR@ | ANEXO 1 del MGC-47
+None | None | FECHA: 01/08/2025
+PERFIL DE USUARIO | ASIGNACIÓN DE CARGOS POR PERFIL | None
+Administrador calidad | Director Técnico y Asuntos HSEQ, jefe de procesos de calidad, gestor de Calidad. | None
+Administrador TI | Técnicos de Soporte. | None
+Consulta | Auxiliares, almacenistas, digitadores, técnicos, asistentes, practicantes. | None
+Consulta y edición | Supervisores, analistas, ejecutivos de cuenta, business, gestores. | None
+Consulta, edición, revisión,
+aprobación | Gerencias, coordinadores, jefaturas, lideres. | None
+Calidad Central | Analistas de procesos de calidad. | None
+Calidad Operación | Analistas de calidad, Analista de Gestión de Calidad, auxiliares de procesos de calidad, auxiliares de calidad. | None
+Coordinador Técnico de Calidad | Coordinadores técnicos de Calidad. | None
+Asuntos Regulatorios | Coordinador Técnico de Calidad (Calidad Central), Analista de procesos de Calidad (Servicios Técnicos) | None
+Razón Social: Operaciones Nacionales de Mercadeo – Open Market NIT: 860350940-1 | None | None
+============================================================
+ARCHIVO: IGC-47-01-11 CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS BASE DOCUMENTAL - INTEGR@.docx
+============================================================
+CREACIÓN DE PROCEDIMIENTOS.
+Ingrese a la página de colaboradores de la compañía https://colaboradores.solistica.com/ y de clic en “INTEGRA”.  
+Ingrese su usuario y contraseña asignados.
+Ingrese al módulo de Base documental y seleccione el programa “Elaboración Documentos”. 
+Seleccione el icono para crear un procedimiento. 
+Ingrese  la información del procedimiento que desea crear: 
+Código completo incluyendo  versión.
+Nombre, que no supere los 60 caracteres de acuerdo a los permitidos en la plataforma.
+Vigencia (1095 días), 
+Proceso al que pertenece el procedimiento, 
+Por ultimo seleccione en tipo de documento la opción Base Documental.  
+NOTA: La fecha de elaboración corresponde a la fecha en la que inició el proceso de elaboración o de actualización del documento, esta fecha es diferente a la fecha de implementación o fecha de entrada en vigencia.   
+En la siguiente ventana debe redactar el procedimiento, el editor cuenta con una barra de herramientas que podrá usar para ajustar la información según lo desee. 
+NOTA: Si cuenta con un documento en Word donde se encuentra el procedimiento, puede pegar la información en la plataforma por medio de WordPad, donde debe pegar la información del Word, seguidamente debe seleccionar todo el texto y pegarlo en el editor en la plataforma.
+                                Word                                  WordPad                                        Integr@
+En caso de que el procedimiento que desea cargar contenga tablas, estas se pueden insertar a través de la barra de herramientas del editor de Integr@, en caso de que la tabla este en un documento en Word o Excel puede copiarla del documento y pegarla directamente en el editor de la plataforma sin requerir el uso de WordPad. 
+Cuando el procedimiento contenga gráficos, imágenes, etc, estos se deben insertar en Integr@ de la siguiente forma: 
+Guarde la imagen o gráfico en formato PNG. 
+De clic en el icono de “Agregar Archivos”, posteriormente debe seleccionar la imagen de que desea cargar. 
+Una vez seleccione la imagen de clic en “Iniciar subida” y posteriormente debe ubicarse en el cuerpo del procedimiento donde la imagen estará ubicada.   
+Para insertar la imagen en el procedimiento debe dar clic en el siguiente icono:
+Debe aparecer la siguiente ventana, en el campo URL se debe ingresar el siguiente link https://appcolombia.solistica.com/IntegraV2/Imagenes/NOMBREDELAIMAGEN.png en este link  debe ir relacionado el nombre con el que fue cargada la imagen. 
+ Cuando se vizualice la imagen cargada en el recuadro, de clic en “Aceptar”.
+FORMATOS: Para relacionar los formatos que esten anclados al procedimiento, antes de  realizar la selección de los formatos se debe validar que estos ya se encuentren cargados en la plataforma por Gestión de Calidad	 (ver instructivo IGC-46-02 CREACIÓN Y ACTUALIZACIÓN DE FORMATOS – INTEGR@), en la siguiente ventana podra seleccionar el formato según corresponda:     
+Debe realizar la busqueda de los formatos correspondientes por nombre o código, es importante especificar el “tipo de Formato” debido a que se agrupan según su orientacion: vertical, horizontal o ½ Pagina.  
+Para seleccionar el formato correspondiente se debe dar clic en el icono       
+CENTROS DE CONSULTA: La asignación de los centros de consulta que podrán visualizar el procedimiento  una vez entre en vigencia se puede realizar de dos 2 formas:
+Despues de dar clic en el icono de elaboración o actualización de documento identifique la siguiente ventana y de clic en el icono :
+Cuando se visualice la siguiente ventana debe seleccionar  los centros de consulta que aplican al procedimiento según corresponda dando clic en el icono 
+NOTA: La asignación de los centros de consulta en esta ventana se debe realizar seleccionandolos uno por uno.
+En el buscador de el programa “Elaboración de Documentos” digite el sígno % seguido del código o nombre del procedimiento, y seleccione el proceso al que pertenece el documento, posteriormente de clic en el icono  
+En la siguiente ventana seleccione los centros de consulta que desea asignar al procedimiento, cuando complete la selección de clic en “Transferir selección Centros de Consulta”, posteriormente de clic en el icono  para anexar la información al procedimiento, por ultimo de clic en confirmar o presione la tecla “Esc”.
+NORMAS: Si la información contenida en el procedimiento que esta elaborando este relacionado con el cumplimiento de un requisito de una norma, despues de dar clic en el icono de elaboración o actualización de documento identifique la siguiente ventana y de clic en el icono :
+Cuando se visualice la siguiente ventana debe seleccionar  las normas y numerales que aplican al procedimiento según corresponda dando click en el icono 
+ANEXOS: En caso de que el procedimiento cuente con anexos o instructivos se debe realizar el cargue de los archivos en formato PDF, de lo contrario estos no podrán visualizarse en la plataforma. Para realizar el cargue de estos debe relacionar el nombre y código del documento y posteriormente de clic en la pestaña “Seleccionar archivo”. 
+Una vez termine de cargar toda la información en Integr@, debe dar clic en el siguiente icono “Confirmar” para guardar la información. 
+NOTA: Es importante que durante el proceso de cargue de un procedimiento en la plataforma, se este guardando la información ya que la sesión expira automáticamente tras un periodo de inactividad de 10 minutos aproximadamente, si se agrega información cuando la plataforma este inactiva estos cambios no se guardarán. 
+Plataforma activa: 
+Plataforma inactiva: 
+ACTUALIZACIÓN DE PROCEDIMIENTOS
+Para realizar la actualización de un procedimiento existente debe ingresar a el programa “Elaboración de documentos”, posteriormente debe realizar la busqueda del procedimiento que requiere actualizar, digite el signo % seguido del nombre o  código con la versión del procedimiento que desea actualizar y seleccione el proceso al que pertenece el documento.
+Una vez el procedimiento sea visible de clic en el icono       el cual permite realizar una copia total del procedimiento vigente.
+Al dar clic en el icono de copiar procedimiento, se abrirá la siguiente ventana: 
+En el espacio “número procedimiento nuevo” relacione el código con la versión nueva del procedimiento y de clic en confirmar. 
+Una vez haya realizado la copia del procedimiento, realice la busqueda de este en el programa “Elaboración de documentos” con el signo % seguido del nuevo código, el procedimiento debe aparecer en estado de elaborado, posteriormente de clic en el icono          para realizar la modificación del procedimiento. 
+Al dar clic en el icono de modificar se abrirá la siguiente ventana:
+Para realizar el cargue de la actualización del procedimiento siga los pasos del numeral  1.3 reemplazando la información del procedimiento anterior con la del nuevo procedimiento. 
+Para registrar el cambio realizado al procedimiento debe relacionarlo en la siguiente ventana:
+Para guardar la información de clic en icono “confirmar”.
+SOLICITUD DE REVISIÓN Y APROBACIÓN DE PROCEDIMIENTOS 
+Una vez se realice el cargue de un procedimiento en la plataforma se debe enviar la solicitud de revisión al responsable del proceso de la siguiente forma:
+En el buscador de el programa de “Elaboración de Documentos” relacione el código o nombre del procedimiento que desea enviar a revisión. 
+ De clic en el icono para enviar a revisión por el responsable del proceso, al dar clic en el icono la plataforma emitirá una notificación al responsable asignado a la revisión, posteriormente se continuará con el flujo de revisiones conforme a lo establecido en el numeral 4 del presente documento.
+NOTA: En caso de que se generen observaciones en alguna de las revisiones, la plataforma emitirá una notificación a traves de correo electronico con los comentarios al responsable de la elaboración o actualización, quien deberá hacer los ajustes correspondientes y deberá enviar nuevamente el procedimiento a revisión.
+REVISIÓN Y APROBACIÓN DE PROCEDIMIENTOS (RESPONSABLE DEL PROCESO, CALIDAD Y APROBACIÓN GERENCIAL)
+Ingrese al módulo de Base documental y seleccione el programa según la revisión que desea realizar “Revisión Responsable del Proceso, Calidad o Aprobación Gerencial”.
+Al ingresar a la ventana podrá visualizar los documentos que están pendientes por revisión, en caso de que desee revisar un documento especifico, en el buscador de la ventana digite el signo % seguido del código con la versión o el nombre del documento que desea revisar.
+NOTA: Al dar clic en el icono de revisar, la plataforma emitirá una notificación a través de correo electrónico a la persona responsable de la siguiente revisión.
+Para visualizar el documento de clic en el icono .
+Para aprobar la revisión del documento de clic en el icono .
+Para rechazar o devolver el documento al responsable de la elaboración o la actualización de clic en el icono , posteriormente la plataforma desplegará un cuadro de observaciones donde podrá relacionar los comentarios por los que se rechaza o devuelve el documento.
+De clic en “Confirmar” para guardar los comentarios.
+Cuando el documento cuente con el visto bueno del responsable del proceso, de Gestión de Calidad y cuente con la Aprobación Gerencial, Gestión de calidad debe realizar la publicación de este en la Plataforma conforme a lo establecido en el numeral 5 del presente documento.
+NOTA: Cuando el procedimiento cuente con la aprobación gerencial, la plataforma emitirá una notificación a través de correo electrónico al responsable de la creación o actualización del procedimiento, notificando que el procedimiento está en proceso de publicación.
+PUBLICACIÓN Y PASO A OBSOLETO DE PROCEDIMIENTOS.
+Cuando el procedimiento cuente con el visto bueno del Responsable del Proceso, Gestión de Calidad y Aprobación Gerencial, Gestión de Calidad realizará el proceso de publicación del procedimiento en la plataforma de la siguiente forma:
+En el módulo de base documental, seleccione el programa publicación: 
+En el buscador de el programa “Publicación” digite el signo % seguido del código o nombre del procedimiento que desea publicar: 
+NOTA:  La plataforma solamente permite publicar los procedimientos que esten en estado aprobado y que hayan completado todo el flujo de revisión y aprobación.
+Para publicar el procedimiento seleccione el icono 
+NOTA: La fecha de implementación del procedimiento, corresponderá a la fecha en la que este sea publicado en la plataforma integra.
+Una vez el nuevo procedimiento sea publicado en la plataforma, Gestión de Calidad deberá enviar a obsoleta la versión anterior si aplica, de la siguiente forma: 
+Ingrese al programa “Elaboración de Documentos”, posteriormente en el buscador seleccione el proceso al que pertenece el procedimiento y digite el signo % seguido  del código o nombre del procedimiento que desea pasar a obsoleto. 
+Para pasar a obsoleto el procedimiento de clic en el icono 
+De clic en el icono “Aceptar”.
+============================================================
+ARCHIVO: IGC-47-02-08 CREACIÓN Y ACTUALIZACIÓN DE FORMATOS - INTEGR@ (1).docx
+============================================================
+CREACIÓN DE FORMATOS
+Ingrese a la página de colaboradores de la compañía https://colaboradores.solistica.com/ y de clic en “INTEGRA”.  
+Ingrese su usuario y contraseña asignados.
+Ingrese al módulo de “Formatos” y seleccione el programa de “Elaboración Formatos”. 
+De clic en el siguiente icono 
+Debe aparecer la siguiente ventana, diligencie la información en cada casilla según corresponda.
+CÓDIGO: El código asignado al formato junto la última versión.
+NOMBRE: Nombre correspondiente al Formato.
+TIPO: Si la orientación es vertical, horizontal o solo de media página.
+NÚMERO DE HOJAS: La cantidad de hojas que compongan el formato.
+ESTADO DE LA IMAGEN: Para que el formato pueda ser visualizado debe activarse.
+GRUPO: Se selecciona el grupo al que pertenece el formato este grupo hace referencia al Proceso, lo anterior define quienes pueden visualizar el formato después de ser cargado en la plataforma. 
+FORMATOS DETALLE: Cuando un formato cuenta con más de una página se debe cargar la secuencia de las imágenes en este espacio.
+NOTA: Las páginas del formato deben ser cargadas como Archivo PNG. 
+De clic en confirmar para guardar los cambios. 
+ACTUALIZACIÓN DE FORMATOS 
+Cuando se genere la actualización de un formato que ya este cargado en la plataforma, se deben seguir los pasos establecidos en el numeral 1 CREACIÓN DE FORMATOS, realizando el cargue a la plataforma de la nueva versión del formato. 
+Para inactivar la versión obsoleta del formato, ingrese al módulo de formatos, digite el código o nombre completo de la versión obsoleta y de clic en el siguiente icono: 
+4.3 En el campo de ESTADO IMAGEN seleccione la opción inactivo y de clic en confirmar para guardar los cambios. 
+============================================================
+ARCHIVO: IGC-47-02-08 CREACIÓN Y ACTUALIZACIÓN DE FORMATOS - INTEGR@.docx
+============================================================
+CREACIÓN DE FORMATOS
+Ingrese a la página de colaboradores de la compañía https://colaboradores.solistica.com/ y de clic en “INTEGRA”.  
+Ingrese su usuario y contraseña asignados.
+Ingrese al módulo de “Formatos” y seleccione el programa de “Elaboración Formatos”. 
+De clic en el siguiente icono 
+Debe aparecer la siguiente ventana, diligencie la información en cada casilla según corresponda.
+CÓDIGO: El código asignado al formato junto la última versión.
+NOMBRE: Nombre correspondiente al Formato.
+TIPO: Si la orientación es vertical, horizontal o solo de media página.
+NÚMERO DE HOJAS: La cantidad de hojas que compongan el formato.
+ESTADO DE LA IMAGEN: Para que el formato pueda ser visualizado debe activarse.
+GRUPO: Se selecciona el grupo al que pertenece el formato este grupo hace referencia al Proceso, lo anterior define quienes pueden visualizar el formato después de ser cargado en la plataforma. 
+FORMATOS DETALLE: Cuando un formato cuenta con más de una página se debe cargar la secuencia de las imágenes en este espacio.
+NOTA: Las páginas del formato deben ser cargadas como Archivo PNG. 
+De clic en confirmar para guardar los cambios. 
+ACTUALIZACIÓN DE FORMATOS 
+Cuando se genere la actualización de un formato que ya este cargado en la plataforma, se deben seguir los pasos establecidos en el numeral 1 CREACIÓN DE FORMATOS, realizando el cargue a la plataforma de la nueva versión del formato. 
+Para inactivar la versión obsoleta del formato, ingrese al módulo de formatos, digite el código o nombre completo de la versión obsoleta y de clic en el siguiente icono: 
+4.3 En el campo de ESTADO IMAGEN seleccione la opción inactivo y de clic en confirmar para guardar los cambios. 
+============================================================
+ARCHIVO: IGC-47-03-07 CONSULTA DE DOCUMENTOS E IMPRESIÓN DE FORMATOS - INTEGR@.docx
+============================================================
+INGRESO A LA PLATAFORMA.
+Ingrese a la página de colaboradores de la compañía https://colaboradores.solistica.com/ y de clic en “INTEGRA”.  
+Ingrese su usuario y contraseña asignados.
+CONSULTA DE PROCEDIMIENTOS.
+Ingrese al módulo de Base documental y seleccione el programa “Consulta de Procedimientos”.
+En el buscador de la ventana, relacione el signo % seguido del nombre y/o código con la versión del procedimiento que desea consultar, posteriormente seleccione el proceso al que pertenece el procedimiento. 
+Una vez observe el procedimiento que desea consultar, de clic en el icono  para visualizarlo.
+NOTA: Algunos usuarios tendrán acceso a imprimir procedimientos, para poder visualizar el procedimiento y posteriormente imprimirlo debe dar clic en el icono , lo anterior dependerá del perfil que le sea asignado al usuario en la plataforma.
+Deberá aparecer la siguiente página donde podrá visualizar la información del procedimiento. 
+Si desea consultar información adicional del procedimiento como normas, anexos, formatos, instructivos, trazabilidad, cambios y centros de consulta debe dar clic sobre el nombre del procedimiento que desea consultar: 
+De clic en la pestaña que desee consultar: 
+Para consultar los formatos anclados al procedimiento debe dar clic en la pestaña formatos y posteriormente dar clic en el icono .
+NOTA: La impresión de formatos se debe realizar según lo establecido en el numeral 3. IMPRESIÓN DE FORMATOS, ya que esta ventana únicamente es de consulta.
+Para consultar los anexos e instructivos del procedimiento debe dar clic en la pestaña anexos y posteriormente dar clic en el icono .
+En la pestaña de “Normas” podrá consultar las normas aplicables al procedimiento, en la pestaña “Cambio” podrá consultar la trazabilidad de los cambios que se le han realizado al procedimiento, en la pestaña “Centro de Consulta” podrá visualizar los centros de consulta que fueron asignados al procedimiento.
+ Si desea descargar el listado de procedimientos que se visualizan en el buscador del módulo de consulta de documentos podrá descargar el archivo dando clic al icono 
+IMPRESIÓN DE FORMATOS
+ Ingrese al módulo de “Formatos” y seleccione el programa “Consulta de Formatos”.
+En el buscador de la ventana digite el signo % seguido del código del formato con su versión vigente o una palabra clave en el nombre, posteriormente seleccione el proceso al que pertenece el formato y de clic en el icono  
+Debe mostrarse la siguiente ventana, verifique que este es el formato que desea imprimir y de clic en el icono e imprima. 
+NOTA: Al final del formato deberá salir un pie de página en el que se relaciona el usuario que realizó la impresión, fecha, hora, páginas y la frase “COPIA OFICIAL” lo anterior confirma que el formato impreso corresponde a una copia oficial del cargado en la plataforma.
+CONSULTA DOCUMENTOS REGULATORIOS
+NOTA: Los documentos de Regulatorios (Servicios Técnicos) que fueron cargados en la plataforma en su versión anterior, se deben consultar a través del módulo “Documentos Externos” (Ver numeral 6), la consulta de documentos Regulatorios que sean cargados a partir de la fecha de entrada en vigencia de la actualización de la plataforma se realizara conforme a lo establecido en el presente numeral.
+Ingrese al módulo de “Regulatorios” y seleccione el programa “Consulta Documentos Regulatorios”.
+Seleccione el proceso al que pertenece el documento, posteriormente digite el signo % seguido del código o nombre del documento, cuando visualice el documento que desea consultar de clic en el icono .
+CONSULTA DE FUNDAMENTOS CORPORATIVOS
+Ingrese al módulo “Fundamentos Corporativos” y seleccione el programa “Consulta Fundamentos Corporativos”.
+	En el buscador de la ventana digite el signo % seguido del nombre y el tipo de fundamento corporativo que desea consultar, cuando visualice el documento de clic en el icono .
+CONSULTA DE MATRICES DEL SISTEMA DE GESTIÓN INTEGRAL
+Ingrese al Módulo de “Fundamentos Corporativos” y seleccione el programa “Consulta Matrices Sistema de Gestión Integral”.
+	En el buscador de la ventana digite el signo % seguido del nombre o código de la matriz que desea consultar, posteriormente de clic en el icono .
+CONSULTA DE COMUNICACIONES CALIDAD
+Ingrese al módulo “Comunicaciones Calidad” y seleccione el programa “Consulta Comunicaciones”.
+En el buscador de la ventana seleccione el tipo de comunicación que desea consultar y posteriormente de clic en el icono 
+NOTA: La última comunicación que se cargue en la plataforma es la que se podrá visualizar en la ventana de inicio que se visualiza al ingresar a Integr@.
+CONSULTA DE DOCUMENTOS EXTERNOS
+Ingrese al módulo “Documentos Externos” y seleccione el programa “Consulta Documentos Externos”.
+	En el buscador del módulo relacione la información del documento que desea consultar: Código, nombre, Parte Interesada y Tipo de documento, posteriormente de clic en el icono	
+CONSULTA DE GLOSARIO LOGISTICO.
+Ingrese al módulo de “Glosario Logístico” y seleccione el programa “Consulta de Glosario Logístico”.
+Posteriormente en el buscador de la ventana relacione el término o definición que desea consultar. 
+============================================================
+ARCHIVO: IGC-47-04-01 CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS REGULATORIOS - INTEGR@.docx
+============================================================
+CREACIÓN DE DOCUMENTOS.
+Ingrese a la página de colaboradores de la compañía https://colaboradores.solistica.com/ y de clic en “INTEGRA”.  
+Ingrese su usuario y contraseña asignados.
+Ingrese al módulo de Base documental y seleccione el programa “Elaboración Documentos”. 
+Seleccione el icono para crear un Documento. 
+Ingrese  la información del Documento que desea crear: Código completo incluyendo  versión, nombre, vigencia (en días), proceso al que pertenece el Documento, por ultimo seleccione en tipo de documento la opción Servicios Técnicos.  
+NOTA: La fecha de elaboración corresponde a la fecha en la que inició el proceso de elaboración o de actualización del documento, esta fecha es diferente a la fecha de implementación o fecha de entrada en vigencia.   
+En la siguiente ventana debe redactar el Documento, el editor cuenta con una barra de herramientas que podrá usar para ajustar la información según lo desee. 
+NOTA: Si cuenta con un documento en Word donde se encuentra el Documento, puede pegar la información en la plataforma por medio de WordPad, donde debe pegar la informacion del Word, seguidamente puede seleccionar todo el texto y pegarlo en el editor en la platafoma.
+                                Word                                  WordPad                                        Integr@
+En caso de que el procedimiento que desea cargar contenga tablas, estas se pueden insertar a través de la barra de herramientas del editor de Integr@, en caso de que la tabla este en un documento en Word o Excel puede copiarla del documento y pegarla directamente en el editor de la plataforma sin requerir el uso de WordPad. 
+Cuando el Documento contenga gráficos, imágenes, etc, estos se deben insertar en Integr@ de la siguiente forma: 
+Guarde la imagen o gráfico en formato PNG. 
+De clic en el icono de “Agregar Archivos”, posteriormente debe seleccionar la imagen de que desea cargar. 
+Una vez seleccione la imagen de clic en “Iniciar subida” y posteriormente debe ubicarse en el cuerpo del Documento donde la imagen estará ubicada.   
+Para insertar la imagen en el Documento debe dar clic en el siguiente icono:
+Debe aparecer la siguiente ventana, en el campo URL se debe ingresar el siguiente link https://appcolombia.solistica.com/IntegraV2/Imagenes/NOMBREDELAIMAGEN.png en este link  debe ir relacionado el nombre con el que fue cargada la imagen. 
+Cuando se vizualice la imagen cargada en el recuadro, de clic en “Aceptar”.
+FORMATOS: Para la creación o actualización de documentos de Servicios Técnicos omita el ítem de “Formato”, ya que esta ventana solamente aplica para los documentos de Base Documental.
+CENTROS DE CONSULTA: La asignación de los centros de consulta que podrán visualizar el Documento una vez entre en vigencia se puede realizar de dos 2 formas:
+Despues de dar clic en el icono de elaboración o actualización de documento identifique la siguiente ventana y de clic en el icono :
+Cuando se visualice la siguiente ventana debe seleccionar  los centros de consulta que aplican al Documento según corresponda dando clic en el icono 
+NOTA: La asignación de los centros de consulta en esta ventana se debe realizar seleccionandolos uno por uno.
+En el buscador de el programa “Elaboración de Documentos” digite el sígno % seguido del código o nombre del Documento, y seleccione el proceso al que pertenece el documento, posteriormente de clic en el icono  
+En la siguiente ventana seleccione los centros de consulta que desea asignar al documento, cuando complete la selección de clic en “Transferir selección Centros de Consulta”, posteriormente de clic en el icono  para anexar la información al documento, por ultimo de clic en confirmar o presione la tecla “Esc”.
+NORMAS: Si la información contenida en el documento que esta elaborando esta relacionada con el cumplimiento de un requisito de una norma, despues de dar clic en el icono de elaboración o actualización de documento identifique la siguiente ventana y de clic en el icono :
+Cuando se visualice la siguiente ventana debe seleccionar  las normas y numerales que aplican al documento según corresponda dando click en el icono 
+ANEXOS: En caso de que el documento cuente con anexos o instructivos se debe realizar el cargue de los archivos en formato PDF, de lo contrario estos no podrán visualizarse en la plataforma. Para realizar el cargue de estos debe relacionar el nombre y código del documento y posteriormente de clic en la pestaña “Seleccionar archivo”. 
+Una vez termine de cargar toda la información en Integr@, debe dar clic en el siguiente icono “Confirmar” para guardar la información. 
+NOTA: Es importante que durante el proceso de cargue de un procedimiento en la plataforma, se este guardando la información ya que la sesión expira automáticamente tras un periodo de inactividad de 10 minutos aproximadamente, si se agrega información cuando la plataforma este inactiva estos cambios no se guardarán. 
+Plataforma activa: 
+Plataforma inactiva: 
+ACTUALIZACIÓN DE DOCUMENTOS
+Para realizar la actualización de un documento existente debe ingresar a la pestaña “Elaboración de documentos”, posteriormente debe realizar la busqueda del documento que requiere actualizar, digite el signo % seguido del nombre o  código con la versión que va a pasar a ser obsoleta y seleccione el proceso al que pertenece el documento.
+Una vez el documento sea visible de clic en el icono         el cual permite realizar una copia total del documento vigente.
+Al dar clic en el icono de copiar procedimiento, se abrirá la siguiente ventana: 
+En el espacio “número procedimiento nuevo” relacione el código con la versión del nuevo y de clic en confirmar. 
+Una vez haya realizado la copia del documento, realice la busqueda de este en la pestaña “Elaboración de documentos” con el signo % seguido del nuevo código, el documento debe aparecer en estado de elaborado, posteriormente de clic en el icono          para realizar la modificación del documento. 
+Al dar clic en el icono de modificar se abrirá la siguiente ventana:
+Para realizar el cargue de la actualización del documento siga los pasos del numeral  1.3 reemplazando la información del documento anterior con la nueva. 
+Para registrar el cambio realizado al documento debe relacionarlo en la siguiente ventana:
+Para guardar la información de clic en icono “confirmar”.
+SOLICITUD DE REVISIÓN Y APROBACIÓN DE DOCUMENTOS 
+Una vez se realice el cargue de un documento en la plataforma se debe enviar la solicitud de revisión al responsable del proceso de la siguiente forma:
+En el buscador de la pestaña de “Elaboración de Documentos” relacione el código o nombre del documento que desea enviar a revisión.
+ De clic en el icono para enviar a revisión por el responsable del proceso, al dar clic en el icono la plataforma emitirá una notificación al responsable asignado a la revisión, posteriormente se continuará con el flujo de revisiones conforme a lo establecido en el numeral 4 del presente documento.
+NOTA: En caso de que se generen observaciones en alguna de las revisiones, la plataforma emitirá una notificación a traves de correo electronico con los comentarios al responsable de la elaboración o actualización, quien deberá hacer los ajustes correspondientes y deberá enviar nuevamente el documento a revisión.
+REVISIÓN Y APROBACIÓN DE DOCUMENTOS (RESPONSABLE DEL PROCESO, CALIDAD Y APROBACIÓN GERENCIAL)
+Ingrese al módulo de Base documental y seleccione la pestaña según la revisión que desea realizar “Revisión Responsable del Proceso, Calidad o Aprobación Gerencial”.
+Al ingresar a la ventana podrá visualizar los documentos que están pendientes por revisión, en caso de que desee revisar un documento especifico en el buscador de la ventana digite el signo % seguido del código con la versión o el nombre del documento que desea revisar.
+NOTA: Al dar clic en el icono de revisar, la plataforma emitirá una notificación a través de correo electrónico a la persona responsable de la siguiente revisión.
+Para visualizar el documento de clic en el icono .
+Para aprobar la revisión del documento de clic en el icono .
+Para rechazar o devolver el documento al responsable de la elaboración o la actualización de clic en el icono , posteriormente la plataforma desplegará un cuadro de observaciones donde podrá relacionar los comentarios por los que se rechaza o devuelve el documento.
+De clic en “Confirmar” para guardar los comentarios.
+Cuando el documento cuente con el visto bueno del responsable del proceso, de Gestión de Calidad y cuente con la Aprobación Gerencial, Gestión de calidad debe realizar la publicación de este en la Plataforma conforme a lo establecido en el numeral 5 del presente documento.
+NOTA: Cuando el documento cuente con la aprobación gerencial, la plataforma emitirá una notificación a través de correo electrónico al responsable de la creación o actualización del procedimiento, notificando que el procedimiento está en proceso de publicación.
+PUBLICACIÓN Y PASO A OBSOLETO DE DOCUMENTOS.
+Cuando el nuevo documento cuente con el visto bueno del responsable del Proceso, Gestión de Calidad y Aprobación Gerencial, Gestión de Calidad realizará el proceso de publicación del documento en la plataforma de la siguiente forma:
+En el módulo de “Base documental”, seleccione la pestaña “Publicación”: 
+En el buscador de la pestaña “Publicación” digite el signo % seguido del código o nombre del documento que desea publicar: 
+NOTA:  La plataforma solamente permite publicar los documentos que esten en estado aprobado y que hayan completado todo el flujo de revisión y aprobación.
+Para publicar el documento seleccione el icono 
+NOTA: La fecha de entrada en vigencia del documento, corresponderá a la fecha en la que este sea publicado en la plataforma integra.
+Una vez el nuevo documento sea publicado en la plataforma, Gestión de Calidad deberá enviar a obsoleta la versión anterior si aplica, de la siguiente forma: 
+Ingrese a la pestaña “Elaboración de Documentos”, posteriormente en el buscador seleccione el proceso al que pertenece el documento y digite el signo % seguido  del código o nombre del documento que desea pasar a obsoleto. 
+Para pasar a obsoleto el documento de clic en el icono 
+De clic en el icono “Aceptar”.
+============================================================
+ARCHIVO: IGC-47-05-01 ADMINISTRACIÓN DE LA PLATAFORMA INTEGR@.docx
+============================================================
+INGRESO A LA PLATAFORMA.
+Ingrese a la página de colaboradores de la compañía https://colaboradores.solistica.com/ y de clic en “INTEGRA”.  
+Ingrese su usuario y contraseña asignados.
+BASE DOCUMENTAL 
+LISTADO MAESTRO DE DOCUMENTOS
+Ingrese al módulo de “Base Documental”, seleccione el programa “Listado Maestro de Documentos”. 
+En esta ventana podrá realizar la consulta del listado de todos los procedimientos que se encuentran cargados en la plataforma, adicionalmente la ventana cuenta con un buscador que permite filtrar la información según se requiera.
+Si desea exportar los datos a Excel de clic en el icono , para descargar la información que incluya los centros de consulta de clic en el icono “Maestro C.C.C”, si desea descargar la información sin centros de consulta de clic en “Maestro S.C.C”.
+INDICADOR BASE DOCUMENTAL
+Ingrese al módulo de “Base Documental”, seleccione el programa “Indicador Base Documental”.
+Indicador por estado: Para generar un indicador de los procedimientos que tuvieron algún cambio de estado durante un periodo de tiempo, debe seleccionar el proceso que desea consultar, el tipo de documento (Base documental o Servicios Técnicos), el periodo y por último seleccione el estado que desea consultar (elaborado, obsoleto, pendiente revisión, publicado y rechazado)
+Si desea exportar los datos de clic en el icono , posteriormente seleccione las columnas que desea incluir en el archivo y de clic en el icono     Exportar en el formato que desee.
+Indicador de procedimientos vencidos: Para general un indicador de procedimientos vencidos seleccione el proceso que desea consultar y posteriormente seleccione el tipo de documento según corresponda (Base documental o Servicios Técnicos).
+DOCUMENTOS OBSOLETOS
+Ingrese al módulo de “Base Documental”, seleccione el programa “Documentos Obsoletos”.
+En esta ventana podrá consultar todos los procedimientos que estén en estado obsoleto, en el buscador de la ventana relacione el signo % seguido del nombre o código del procedimiento que desea consultar, también podrá filtrar lo procedimientos por proceso o por fecha de paso a obsoleto.
+ LISTADO MAESTRO DE FORMATOS
+Ingrese al módulo de “Formatos”, seleccione el programa “Elaboración de Formatos”.
+De clic en el icono  para descargar el listado de formatos que estén cargados en la plataforma, posteriormente en el archivo podrá filtrar los formatos por estado (activo o inactivo).
+TIPO DE DOCUMENTOS
+Ingrese al módulo de “Contenido”, seleccione el programa “Tipos Documentos”.
+En esta ventana podrá modificar el nombre de los tipos de documentos ya sea Base Documental o Servicios Técnicos, dando clic en el icono , por último, de clic en el icono “Confirmar” para guardar los cambios.
+NOTA: La creación de un nuevo tipo de documento requiere de un desarrollo en la plataforma. 
+CONFIGURACIÓN DE MÓDULOS Y PROGRAMAS
+ MÓDULOS
+Ingrese al módulo de “Contenido”, seleccione el programa “Módulos”.
+Para agregar un módulo de clic en el icono  , si desea modificar el nombre de un módulo existente de clic en el icono 
+En el campo de descripción digite el nombre del módulo que desea crear o modificar, por último, de clic en el icono de “Confirmar”.
+ PROGRAMAS
+Ingrese al módulo de “Contenido”, seleccione el programa “Programas”.
+Para crear un programa de clic en el icono , si desea modificar la información de un programa existente podrá realizar la búsqueda seleccionando el módulo al que pertenece o también puede digitar el signo % seguido del nombre, cuando visualice el programa de clic en el icono 
+En la siguiente ventana relacione la información del programa que desea crear o modificar de la siguiente manera: 
+En el campo “Descripción” relacione el nombre que le asignará al programa.
+En el campo “Nombre Interno” relacione el nombre interno con el que fue desarrollado el programa en la plataforma, este nombre lo podrá encontrar en la URL de la plataforma: 
+En el campo “Módulo” seleccione el módulo al que estará asociado el programa (en que módulo se podrá visualizar el programa).
+En el campo “Orden” relacione el orden en el que desea que se liste el programa en el módulo asociado (1, 2, etc), lo anterior define la ubicación del programa al desplegar el módulo.
+En el campo “Estado” seleccione el estado del programa (activo o inactivo) esta selección podrá habilitar si el programa se visualiza o no.
+De clic en el icono “Confirmar” para guardar los cambios.
+DOCUMENTOS EXTERNOS
+TIPO DE DOCUMENTOS EXTERNOS
+Ingrese al módulo de “Documentos Externos”, seleccione el programa “Tipo Documentos Externos”.
+En esta ventana podrá modificar el listado de los tipos de documentos externos, para crear un nuevo tipo de documento externo de clic en icono, para modificar de clic en el icono , posteriormente relacione el consecutivo y el nombre que desea asignar al tipo de documento, de clic en el icono “Confirmar” para guardar los cambios.
+ CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS EXTERNOS
+Ingrese al módulo de “Documentos Externos”, seleccione el programa “Elaboración Documentos Externos”.
+En esta ventana podrá crear o modificar un documento externo, si es un documento existente podrá filtrar la búsqueda por el nombre, tipo, parte interesada y/o centros de consulta asignados al documento. Para modificar un documento existente de clic en el icono , para crear un documento nuevo de clic en el icono .
+En la siguiente ventana relacione la información del Documento (Código, parte interesada, tipo, nombre, método de actualización, número de copias físicas, estado, cargue del archivo en formato pdf, centros de consulta que podrán visualizar el documento y lugar de almacenamiento), por último, de clic en el icono “Confirmar” para guardar los cambios.
+GLOSARIO LOGISTICO
+ CARGUE Y MODIFICACIÓN DE GLOSARIO LOGISTICO
+En el módulo “Glosario Logístico” seleccione el programa “Elaboración Glosario Logístico”.
+En la siguiente ventana podrá crear o modificar una definición o termino, para crear una nueva de clic en el icono , para modificar una definición existente digite la inicial de la definición y por último de clic en el icono .
+En la siguiente ventana relacione la información del término que desea crear o modificar (Nombre, inicial y definición), por último, de clic en el icono “Confirmar” para guardar los cambios.
+PROCESOS
+GRUPO DE FORMATOS
+Ingrese al módulo “Procesos” y seleccione el programa “Grupo de Formatos”.
+En esta ventana podrá crear o modificar grupos de formatos, los grupos de formatos son los “centros de consulta” que se asignan a un formato al crearlo y a los usuarios en la plataforma, lo anterior define si un usuario podrá visualizar un formato o no.
+Para crear un Grupo de Formatos de clic en el icono , para modificar un Grupo de Formatos existente digite el nombre del grupo en el buscador y posteriormente de clic en el icono .
+Relacione el código y nombre que desea asignarle al Grupo de Formatos y de clic en “Confirmar” para guardar los cambios.
+SUCURSALES
+Ingrese al módulo “Procesos” y seleccione el programa “Sucursales”.
+En esta ventana podrá consultar el listado de sucursales de la compañía, la actualización de la información de las sucursales está a cargo del área de Tecnología.
+PROCESOS
+Ingrese al módulo “Procesos” y seleccione el programa “Listado de Procesos”.
+En esta ventana podrá crear o modificar un proceso, para crear un nuevo proceso de clic en el icono ,  para modificar un proceso existente de clic en el icono .
+En la siguiente ventana relacione la información del proceso que desea crear o modificar y por último de clic en el icono de “Confirmar” para guardar la información.
+NOTA:  Los responsables que seleccione en esta ventana serán los encargados de revisar y aprobar la creación o actualización de documentos Regulatorios y de Base Documental.
+CENTROS DE CONSULTA
+Ingrese al módulo “Procesos” y seleccione el programa “Listado Centros de Consulta”.
+En esta ventana podrá crear o modificar el listado de centros de consulta, para crear un nuevo centro de consulta de clic en el icono , para modificar un centro de consulta existente de clic en el icono .
+En la siguiente ventana relacione la información del Centro de Consulta que desea crear o modificar y por último de clic en el icono “Confirmar” para guardar los cambios.
+USUARIOS
+ CREACIÓN Y MODIFICACIÓN DE USUARIOS
+Ingrese al módulo “Usuarios” y seleccione el programa “Usuarios”.
+En la siguiente ventana podrá crear o modificar un usuario, para crear un nuevo usuario de clic en el icono para modificar un usuario existente de clic en el icono ; si desea exportar el listado de usuarios creados en la plataforma de clic en el icono .
+Relacione la información del usuario según corresponda, por último, de clic en el icono “Confirmar” para guardar la información.
+De clic en el iconopara seleccionar la sucursal a la que pertenece el usuario.
+En el campo “Cédula” relacione el número de identificación del usuario.
+En el campo “Colaborador” relacione el nombre completo del usuario.
+En el campo “Descripción” relacione el primer nombre y primer apellido del usuario.
+En la pestaña “Perfil” seleccione el perfil de usuario que desea asignar.
+En la pestaña “Proceso” seleccione el proceso o área al que pertenece el usuario.
+En el campo “Cargo” relacione el cargo completo del usuario.
+En el campo “Firma” relacione la firma corporativa del usuario.
+En el campo “Mail” relacione el correo corporativo del usuario.
+es un colaborador activo en la compañía de lo contrario seleccione inactivo.
+En el campo “Clave” asigne una clave temporal al usuario (Openmarket123*).
+En la pestaña “¿Usuario temporal?” seleccione si el usuario que esta creando o modificando está contratado a través de una temporal o por nómina.
+En las pestañas “Centro de consulta” y “Grupo” realice la asignación según corresponda, lo anterior permite definir que documentos y formatos puede consultar el usuario en la plataforma.
+NOTA: Para que la plataforma le solicite el cambio de la clave al usuario, antes de guardar la información seleccione la siguiente pestaña: 
+ PERFILES DE USUARIO
+Ingrese al módulo “Usuarios” y seleccione el programa “Perfiles de usuario”.
+En esta ventana podrá crear un perfil nuevo dando clic en el icono  o modificar uno existente dando clic en .
+Seleccione los accesos o permisos que tendrá el perfil en la plataforma dando clic en el icono , posteriormente seleccione cada acceso según corresponda dando clic en el icono , cuando seleccione el acceso deseado en la pestaña “Permiso Funcionalidad” seleccione “si”, por último, de clic en “Confirmar” para guardar los cambios.
+PERMISOS A PROGRAMAS
+Ingrese al módulo “Usuarios” y seleccione el programa “Permiso a programas”.
+En la siguiente ventana podrá seleccionar que programas se podrán visualizar por cada tipo de perfil, para modificar el listado de los programas de un perfil de clic en el icono .
+De clic en el icono, para visualizar el listado de programas, posteriormente de clic en el icono  para seleccionar cada programa, por último, de clic en el icono “Confirmar” para guardar los cambios.
+ AUDITORIA DE USUARIOS
+Ingrese al módulo “Usuarios” seleccione el programa “Auditoria de Usuarios”.
+En esta ventana podrá consultar que actividades ejecutó un usuario al ingresar a la plataforma, para realizar la consulta seleccione el periodo de tiempo según corresponda, digite el número de identificación y nombre del usuario.
+COMUNICACIONES INTERNAS DE CALIDAD 
+ TIPO DE COMUNICACIONES
+Ingrese al módulo “Comunicaciones Calidad” y seleccione el programa “Tipo Comunicación”.
+En esta ventana podrá crear o modificar tipos de comunicaciones internas de calidad (ver numeral 8.2.3).
+Relacione la información del tipo de comunicación que desea crear y por último de clic en el icono “Confirmar” para guardar los cambios.
+CARGUE DE COMUNICACIONES DE CALIDAD
+Ingrese al módulo “Comunicaciones Calidad” y seleccione el programa “Elaboración Comunicaciones”. 
+Para crear una comunicación interna de Calidad, de clic en el icono .
+En la siguiente ventana relacione la información de la comunicación que desea crear y por último de clic en el icono “Confirmar” para guardar la información.
+En la pestaña “Tipo Comunicación_Id” seleccione el tipo de comunicación que desea crear dando clic en el icono .
+En la pestaña “Publicación” seleccione la fecha en la que la comunicación se deberá publicar, NOTA: La última comunicación que se cargue será la que se visualice en la ventana principal de la plataforma. 
+Seleccione el archivo con la comunicación, este debe estar en formato PDF.
+FUNDAMENTOS CORPORATIVOS
+ TIPO DE FUNDAMENTOS CORPORATIVOS
+Ingrese al módulo “Fundamentos Corporativos” y seleccione el programa “Tipos Fundamentos Corporativos”.
+En esta ventana podrá crear un tipo fundamento corporativo dando clic en el icono  o modificar un existente dando clic en icono  (ver numeral 9.2.3).
+Relacione la información del tipo de fundamento que desea crear y por último de clic en el icono “Confirmar” para guardar los cambios. 
+ CARGUE Y ACTUALIZACIÓN DE FUNDAMENTOS CORPORATIVOS
+Ingrese al módulo “Fundamentos Corporativos” y seleccione el programa “Elaboración Fundamentos Corporativos”.
+Para crear un fundamento de clic en el icono , para modificar un fundamento existente de clic en el icono .
+Relacione la información y el archivo del Fundamento corporativo que desea crear y por último de clic en el icono “Confirmar” para guardar los cambios.
+NOTA: El formato del archivo debe ser pdf o mp4.
+ CARGUE Y ACTUALIZACIÓN DE MATRICES DEL SISTEMA DE GESTIÓN INTEGRAL
+Ingrese al módulo de “Fundamentos Corporativos” y seleccione el programa “Elaboración Matrices Sistema Gestión Integral”.
+Para crear una nueva matriz de clic en el icono , para modificar una matriz de clic en el icono 
+NOTA: Cuando se genere actualización de una Matriz del Sistema de Gestión y esta conlleve el cambio de código del formato se debe eliminar la versión anterior y crear una nueva.
+Relacione la información y adjunte el archivo pdf de la Matriz que desea crear o modificar, por último, de clic en el icono “Grabar” para guardar los cambios,
+NOTA: En los campos Código y Nombre relacione los datos completos como están creados en Base documental y relacione el proceso al que pertenece la Matriz.
+PARTES INTERESADAS Y NORMAS
+TIPO DE PARTES INTERESADAS
+Ingrese al módulo de “Partes interesadas y Normas” y seleccione el programa “Tipo Partes Interesadas”. 
+Para crear un tipo de parte interesada de clic en el icono , para modificar uno de los tipos existentes de clic en el icono 
+Relacione el nombre de la parte interesada que desea crear y por último de clic en el icono “Confirmar” para guardar los cambios.
+ CREACIÓN Y MODIFICACIÓN DE PARTES INTERESADAS
+Ingrese al módulo “Partes Interesadas y Normas” y seleccione el programa “Partes Interesadas”.
+Para crear una parte interesada de clic en el icono , para modificar una parte interesada existente de clic en el icono 
+Relacione la información de la parte interesada que desea crear o modificar y de clic en el icono “Confirmar” para guardar la información.
+CREACIÓN Y MODIFICACIÓN DE NORMAS
+Ingrese al módulo “Partes Interesadas y Normas” y seleccione el programa “Normas”.
+Para crear una norma de clic en el icono , para modificar una norma existente de clic en el icono 
+Relacione la información de la Norma que desea crear o modificar y de clic en el icono “Confirmar” para guardar la información. 
+============================================================
+ARCHIVO: IGC-47-06-01 MÓDULO DE NO CONFORMIDADES.docx
+============================================================
+INGRESO A LA PLATAFORMA.
+Digita tu usuario y clave para ingresar a INTEGR@
+2. INGRESO AL MODULO DE NO CONFORMIDADES
+En el menú lateral derecho de la pantalla da clic en NO CONFORMIDADES
+Se desplegará un menú auxiliar con las siguientes opciones
+Elaboración No Conformidad.
+Clasificación de No Conformidad.
+Tipo de No Conformidad.
+Auditorias de No Conformidad.
+Corrección No Conformidades.
+Planes de Acción.
+Aprobación.
+2.1 Elaboración de No Conformidad
+2.2 Da clic en el signo más para generar una nueva No Conformidad
+2.3 Seleccione la criticidad de la No Conformidad 
+Critica
+Mayor
+Menor
+Observación
+2.4 Seleccione el Tipo de la No Conformidad.
+Externa
+Interna
+2.5 Si seleccionas Externa debes seleccionar una de las siguientes fuentes
+Auditoría Externa
+Operativa
+Otros
+2.5.1 Seleccionas si es un cliente Regulado o No Regulado dando clic en el menú de Regulado
+2.5.2 Da clic en el botón de cliente para desplegar el menú y selecciona una opción.
+2.6 Si seleccionas Interna debes seleccionar una de las siguientes fuentes
+Auditoría Interna
+Autoinspección
+Operativo
+Verificación
+2.7 Seleccioné el proceso al que corresponde la No Conformidad de acuerdo con el menú despegable 
+2.8 Seleccioné la sucursal a la que corresponde la No Conformidad de acuerdo con el menú despegable
+2.9 en la opción “Centro de Consulta”, seleccioné la operación o área a la que pertenece la no Conformidad.
+2.10 Resumen de la No Conformidad.
+2.10.1 seleccione la fecha en que se generó la desviación.
+2.10.2 Diligencie los campos de:
+¿Cuándo paso?
+¿Dónde paso?
+¿Qué paso?
+¿Cómo paso?
+¿Quién?
+2.10.3 En la opción de “NORMA” selecciona la norma y numeral incumplido dando clic en la lupa.
+Y se desplegara la siguiente ventana para seleccionar la norma, numeral y nombre del numeral incumplido
+2.10.4 En la opción de “CLASIFICACIÓN” selecciona la causa de la novedad.
+2.11 Ingrese los correos a quienes le debe llegar la notificación del levantamiento de la no conformidad y de clic en CONFIRMAR para grabar la no conformidad o CANCELAR para anular la apertura de la no conformidad
+Una vez grabada la No Conformidad la puedes buscar filtrando por periodo de tiempo en que fue creada o por el número del consecutivo se genera el consecutivo.
+Para continuar con diligenciamiento de la no conformidad 
+CORRECCIÓN.
+5.1 Da clic en el botón Corrección No Conformidades 	
+Para registrar la corrección da clic en el signo más.
+Luego busca la no conformidad con el consecutivo y da clic sobre el numero seleccionado
+Selecciona de SI o NO se le realizo corrección la No Conformidad.
+ Si respondes que SI se realizó corrección a la No Conformidad, suba un archivo que soporte la actividad realizada.
+ANALISIS DE CAUSA
+6.1 Para subir el análisis de causa debemos dar clic en No Conformidades – Elaboración No Conformidades
+Dar clic sobre el numero de la No conformidad
+Luego da clic sobre la pestaña de Planes Acción NC
+Da clic sobre el signo más.
+6.5 En el espacio de análisis de causa podrá ingresar texto para referenciar los archivos que se cargan como soporte de la realización del análisis de causa. Y se debe cargar el formato FGC-11-02 donde se documentó el análisis de causa.
+NOTA: El cargue del archivo es obligatorio para poder grabar el análisis de causa
+6.6 En la opción de “Requerimiento de Aprobación” se debe indicar Si o No el análisis de causa y planes de acción requiere aprobación del cliente.
+En categoría del plan de acción seleccioné alguna de las siguientes opciones:
+Ataca la causa raíz
+Acción Correctiva
+Acción preventiva
+Acción de Verificación
+Acción Intermedia 
+Para seleccionar el responsable de ejecutar el plan de acción, da en clic en la lupa.
+Y busca el responsable con el código de empleado o nombre o número de cedula, luego da clic sobre el Icono de marca de verificación roja
+6.9 Digita en el espacio de “Plan de acción a ejecutar” la actividad a realizarse
+Coloca la fecha de compromiso de ejecución del plan de acción.
+Da un clic en “Confirmar” para grabar el plan de acción o en “Cancelar” para anular la acción.
+Si requiere adicionar más planes de acción da clic en el signo más y repite los pasos indicaos en el numeral 6.
+APROBACIÓN O RECHAZO DEL ANALISIS DE CAUSA Y PLANES DE ACCIÓN.
+7.1 Dar clic en el módulo de No Conformidades – Aprobación.
+NOTA: Este numeral solo aplica para los usuarios que en su perfil este habilitado.
+ 7.2 Dar clic sobre el Icono de marca de verificación roja para revisar el análisis de causa y planes de acción.
+7.3 Se debe revisar el análisis de causa y planes de acción para ser aprobados o rechazados
+7.3.1 Si el análisis de causa y planes de acción son aprobados puedes incluir una observación y dar clic en “Confirmar” 
+Si el análisis de causa y planes de acción remítase al siguiente paso descrito en el numeral 8.
+7.3.2 Si el análisis de causa y planes de acción son rechazados debes incluir una observación donde se realice la retroalimentación del porque fueron rechazados y dar clic en “Confirmar”
+7.4 Para revisar si los planes de acción fueron aprobados o rechazados o aún están en revisión por parte de calidad debes dar clic en No conformidades – Planes de acción.
+7.4.1 Una vez sea revisado por parte de calidad el análisis de causa y planes de acción cambiara de estado a “Aprobado” o “Rechazo”.
+  7.5 Si el análisis de causa y planes de acción fueron rechazados debes dar clic en modificar para volver a registrar el análisis de causa y planes de acción.
+Y debes volver a registrar el nuevo análisis de causa y planes de acción como se indica en el numeral 6.
+8. REGISTRO DE EJECUCIÓN DE LOS PLANES DE ACCIÓN.
+8.1 se debe dar clic en No Conformidades – Planes de Acción
+8.2 Luego dar clic en el botón de Modificar
+8.3 En la siguiente ventana registramos alguna observación del plan de acción ejecutado, la fecha en quien se ejecutó y sube el soporte, este soporte es obligatorio para que deje grabar la ejecución del plan de acción.
+9. APROBACIÓN O RECHAZO DE LA EJECUCIÓN DE LOS PLANES DE ACCIÓN
+9.1 Ingresa a No Conformidades – Aprobación Planes de acción y da clic en el Icono de marca de verificación roja
+9.2 En esta pantalla podrá Aprobar o Rechazar la ejecución del plan de acción de acuerdo con el soporte subido.
+9.3 Para aprobar la ejecución del plan de acción debes escribir una observación de aprobación sobre la verificación del soporte y seguido dar clic en “Confirmar”
+NOTA: Esta tarea se debe realizar con cada uno de los planes propuestos relacionados en la no conformidad
+9.4 Para rechazar la ejecución del plan de acción debes escribir una observación de rechazo del porque el archivo adjunto no cumple con la acción descrita en el plan de acción y seguido dar clic en “Confirmar”
+9.5 Una vez el plan de acción sea rechazado por parte del colaborador encargado de su revisión el usuario responsable de la ejecución deberá ajustar o el soporte adjunto que da cumplimiento a la ejecución del plan de acción como se indica en el numeral 8.
+10. CIERRE DE LA NO CONFORMIDAD
+Una vez se apruebe la ejecución de todos los planes de acción de una conformidad el sistema dar cierre a la no conformidad.
+============================================================
+ARCHIVO: MGC-47-01 MANUAL DE USUARIO INTEGR@.docx
+============================================================
+OBJETIVO
+El objetivo de este manual es proporcionar a los usuarios una guía clara y accesible para el uso efectivo de la plataforma de manejo documental y de no conformidades Integr@. A través de instrucciones detalladas, ejemplos prácticos y consejos útiles, se busca facilitar la comprensión de las funcionalidades de la plataforma, optimizar la gestión de documentos y asegurar el adecuado manejo de las no conformidades, contribuyendo así a la mejora continua de los procesos de la organización.
+ALCANCE
+El presente documento tiene alcance a la Razón Social: Operaciones Nacionales de Mercadeo – Open Market NIT: 860350940-1, aplica a todos los procesos y personal que hagan uso de la plataforma Integr@.
+DEFINICIONES
+AUDITORIA DE USUARIOS: Módulo de Integr@ que permite visualizar el registro de las acciones realizadas por los usuarios en la plataforma.
+APROBACIÓN GERENCIAL: Módulo de Integr@ que permite aprobar o rechazar la creación o actualización de un documento en la plataforma antes de ser publicado.
+CENTROS DE CONSULTA: Accesos que permiten a los usuarios visualizar documentos e información en los programas relacionados con Base documental, No conformidades, Servicios técnico y Documentos Externos. 
+PARTES INTERESADAS Y NORMAS: Módulo en el que actualiza la información relacionada al listado de clientes y normatividad relacionada con las No conformidades, Procedimientos y Documentos de Servicios técnicos.
+PERFILES DE USUARIO: Conjunto de Permisos y nivel de acceso, que permiten establecer las acciones que puede o no realizar un usuario en Integr@.
+PUBLICACIÓN DE DOCUMENTOS: Módulo que permite habilitar la visualización de un documento de base documental en integr@, posterior a cumplir con el flujo de aprobaciones.
+REVISIÓN RESPONSABLE DE PROCESO: Revisión realizada por un experto técnico a la creación o actualización de un documento de base documental; para el caso de documentos de Servicios técnicos esta revisión corresponde a la revisión 1.
+REVISIÓN DE CALIDAD: Revisión realizada por Gestión de Calidad a los documentos creados o actualizados de base documental para asegurar que estos cumplan con los lineamientos establecidos en el PGC-01 NORMA FUNDAMENTAL DE CONTROL DE DOCUMENTOS Y REGISTROS; para el caso de los documentos de servicios técnicos esta revisión corresponde a la revisión 2.
+USUARIO: Persona que tiene acceso a la plataforma y puede interactuar con sus funciones, ya sea para crear, editar, revisar, aprobar o consultar documentos.
+CONDICIONES GENERALES
+El contenido de los documentos que creen y se actualicen en Integr@ debe obedecer a lo establecido en el PGC-01 NORMA FUNDAMENTAL DE CONTROL DE DOCUMENTOS Y REGISTROS.
+Todo usuario que desee ingresar a la plataforma Integr@ debe contar con un contrato activo en Open Market.
+Cuando un usuario se desvincule de la compañía será restringido su acceso y los usuarios serán inactivados, para prevenir el inadecuado uso de la plataforma.
+Los permisos y accesos que tengan los usuarios dentro de la plataforma dependerán del perfil que sea asignado al momento de crear el usuario, ver ANEXO 1 PERFILES DE USUARIO INTEGR@.
+En el momento de realizar la solicitud de alta, baja o cambio de usuarios en el sistema se debe tener en cuenta el rol del colaborador y/o el cargo con el cual se encuentra contratado, con el fin de que la asignación de perfil sea conforme al ANEXO 1 del MGC-47 PERFILES DE USUARIO INTEGR@.
+CREDENCIALES DE INICIO DE SESIÓN
+El usuario debe ingresa con su número de cédula y la contraseña de inicio de sesión por primera vez es: Openmarket123*.
+Al generar el primer ingreso la plataforma solicitará el cambio de contraseña, la cual debe cumplir los siguientes parámetros: 
+Debe contener al menos 8 caracteres.
+Debe ser alfanumérica (letras y números), que contenga 5 letras entre mayúsculas y minúsculas y 2 números, debe contener un carácter especial (punto, coma, guion, porcentaje, asterisco, etc.)
+NOTA: Estas condiciones deben tenerse en cuenta para el restablecimiento de la contraseña en caso de pérdida o bloqueo.
+Posterior al cambio, la plataforma validará que las contraseñas ingresadas cumplan con los requisitos de complejidad y solicitará generar una autenticación doble de la nueva contraseña (En cada autenticación se debe relacionar la misma contraseña).  
+El tiempo de vigencia de las contraseñas en Integr@ tendrá un periodo de validez de 90 días y debe ser renovada bajo este tiempo, sin embargo, tras 7 intentos fallidos consecutivos de ingreso, la plataforma desactivará el usuario, posterior a ello, se debe solicitar la activación al área de Tecnología a través de Ticket GBS. 
+Las credenciales de acceso al sistema deben ser personales e intransferibles, por ningún motivo se debe realizar el préstamo del usuario.
+Por seguridad de la información, la plataforma Integr@ no permite generar contraseñas que se hayan sido utilizadas previamente.
+La sesión expirará automáticamente tras un periodo de inactividad de 10 minutos, posterior a esto el usuario debe iniciar sesión nuevamente.
+PROCEDIMIENTO
+CREACIÓN, ALTA O BAJA DE USUARIOS
+La solicitud de creación o baja de usuarios en Integr@ se debe realizar a través de GBS ticket dirigida al área de Tecnología. 
+NOTA: La creación o baja de usuarios se debe realizar conforme a lo establecido en el instructivo IGC-47-05 ADMINISTRACIÓN DE LA PLATAFORMA INTEGR@.
+ADMINISTRACIÓN DE LA PLATAFORMA
+Para el manejo de accesos y permisos asignados al Perfil de Administrador del Sistema y Administrador de Calidad se debe seguir el Instructivo IGC-47-05 ADMINISTRACIÓN DE LA PLATAFORMA INTEGR@.
+ELABORACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS Y FORMATOS. 
+La elaboración y actualización de documentos de base documental se debe realizar conforme al instructivo IGC-47-01 CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS BASE DOCUMENTAL - INTEGR@.
+La elaboración y actualización de documentos de Servicios técnicos se debe realizar conforme al instructivo IGC-47-04 CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS REGULATORIOS - INTEGR@.
+El cargue en la plataforma de los formatos actualizados se debe realizar conforme al instructivo IGC-47-02 CREACIÓN Y ACTUALIZACIÓN DE FORMATOS - INTEGR@.
+REVISIÓN, APROBACIÓN Y PUBLICACIÓN DE DOCUMENTOS. 
+El flujo de revisiones y aprobaciones de documentos de base documental y servicios técnicos se debe realizar conforme a lo establecido en los instructivos IGC-47-01 CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS BASE DOCUMENTAL - INTEGR@, IGC-47-04 CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS REGULATORIOS - INTEGR@.
+CONSULTA DE DOCUMENTOS Y FORMATOS EN INTEGRA.
+La consulta de documentos, información y/o formatos en Integr@, se debe realizar conforme al instructivo IGC-47-03 CONSULTA DE DOCUMENTOS E IMPRESIÓN DE FORMATOS - INTEGR@.
+MANEJO DE NO CONFORMIDADES
+Para el levantamiento y gestión de las no conformidades en Integra se debe seguir lo establecido en el instructivo IGC-47-06 MÓDULO DE NO CONFORMIDADES.
+PLAN DE CONTINGENCIA EN CASO DE FALLAS EN LA PLATAFORMA
+En caso de presentarse fallas en la plataforma Integr@ se deben seguir los pasos establecidos en el ANEXO 2 DEL MTI-04 PLAN DE CONTINGENCIA Y REACCIÓN ANTE FALLAS TECNOLÓGICAS EN EL PROCESO DE CALIDAD.
+RESPONSABLES
+Es responsabilidad del Jefe directo del personal realizar el levantamiento del requerimiento en el portal de Servicios GBS para dar de alta o baja el usuario en el sistema.
+Es responsabilidad del Administradores del sistema ejecutar las actividades de alta, baja y cambio de usuarios en Integr@.
+Es	responsabilidad de los usuarios utilizar la plataforma de manera ética, conforme a las políticas de la organización.
+Es responsabilidad de los usuarios mantener la confidencialidad de sus credenciales de acceso (nombre de usuario y contraseña) y no compartirlas con terceros. 
+Es responsabilidad de los usuarios asegurarse de que los documentos creados sean precisos, completos y cumplan con los lineamientos establecidos en el PGC-01 NORMA FUNDAMENTAL DE CONTROL DE DOCUMENTOS Y REGISTROS.
+REFERENCIAS
+Desarrollo Interno.
+SEGUIMIENTO HISTORICO
+ANEXOS
+CAMBIO # | DESCRIPCIÓN | FECHA DEL CAMBIO
+N/A | Creación del documento | 
+CÓDIGO | NOMBRE | TIPO | ESTADO
+ANEXO 1 | PERFILES DE USUARIO INTEGR@ | DIGITAL | VIGENTE
+IGC-47-01 | CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS BASE DOCUMENTAL - INTEGR@ | DIGITAL | VIGENTE
+IGC-47-02 | CREACIÓN Y ACTUALIZACIÓN DE FORMATOS - INTEGR@ | DIGITAL | VIGENTE
+IGC-47-03 | CONSULTA DE DOCUMENTOS E IMPRESIÓN DE FORMATOS - INTEGR@ | DIGITAL | VIGENTE
+IGC-47-04 | CREACIÓN Y ACTUALIZACIÓN DE DOCUMENTOS REGULATORIOS - INTEGR@ | DIGITAL | VIGENTE
+IGC-47-05 | ADMINISTRACIÓN DE LA PLATAFORMA INTEGR@ | DIGITAL | VIGENTE
+IGC-47-06 | MÓDULO DE NO CONFORMIDADES | DIGITAL | VIGENTE
