@@ -9,7 +9,9 @@ Uso:
 import os
 import sys
 import time
+import sqlite3
 from pathlib import Path
+from datetime import datetime
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -223,6 +225,16 @@ def evaluar_recuperacion(rag):
         }, f, ensure_ascii=False, indent=2)
     print(f"\n  Resultados guardados en: {report_path}")
 
+    return {
+        "precision": avg_precision,
+        "recall": avg_recall,
+        "f1": f1,
+        "mrr": avg_mrr,
+        "total_preguntas": len(resultados),
+        "tiempo_total": elapsed,
+        "resultados": resultados,
+    }
+
 
 def main():
     # Importar GraphRAG
@@ -240,6 +252,65 @@ def main():
     print(f"  Nodos en grafo: {rag.graph.number_of_nodes()}")
 
     evaluar_recuperacion(rag)
+
+
+def guardar_resultados_sqlite(conn, metricas, resultados):
+    """Guarda resultados de evaluacion RAG en SQLite."""
+    import sqlite3, json
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS pipeline_eval (
+            fecha TEXT PRIMARY KEY,
+            precision REAL,
+            recall REAL,
+            f1 REAL,
+            mrr REAL,
+            total_preguntas INTEGER,
+            tiempo_total REAL,
+            fallidas INTEGER,
+            detalle TEXT
+        )
+    """)
+    conn.execute("""
+        INSERT OR REPLACE INTO pipeline_eval
+        (fecha, precision, recall, f1, mrr, total_preguntas, tiempo_total, fallidas, detalle)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, (
+        datetime.now().isoformat(),
+        metricas["precision"],
+        metricas["recall"],
+        metricas["f1"],
+        metricas["mrr"],
+        metricas["total_preguntas"],
+        metricas["tiempo_total"],
+        len([r for r in resultados if r.get("precision", 0) == 0]),
+        json.dumps(resultados, ensure_ascii=False),
+    ))
+    conn.commit()
+
+
+def main(db_path=None):
+    # Importar GraphRAG
+    sys.path.insert(0, str(Path(__file__).parent))
+    from graph_rag import GraphRAG
+
+    api_key = os.environ.get("MISTRAL_API_KEY")
+    if not api_key:
+        print("  ⚠ Sin MISTRAL_API_KEY. Ejecuta con: $env:MISTRAL_API_KEY=\"<tu_api_key>\"")
+        return
+
+    print("\n  Cargando Graph RAG...")
+    rag = GraphRAG()
+    print(f"  Documentos cargados: {len(rag.docs)}")
+    print(f"  Nodos en grafo: {rag.graph.number_of_nodes()}")
+
+    metricas = evaluar_recuperacion(rag)
+    if metricas:
+        db_path = db_path or Path(__file__).parent.parent / "indice_procedimientos.db"
+        import sqlite3
+        conn = sqlite3.connect(str(db_path))
+        guardar_resultados_sqlite(conn, metricas, metricas.get("resultados", []))
+        conn.close()
+        print(f"  Resultados guardados en SQLite: {db_path}")
 
 
 if __name__ == "__main__":

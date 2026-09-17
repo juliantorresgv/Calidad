@@ -864,7 +864,7 @@
             "nombre": "MANUAL SISTEMA DE GESTIÓN INTEGRAL",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -3142,8 +3142,8 @@
           {
             "codigo": "PWH-32-05",
             "nombre": "MANEJO DE MATERIAL POP, MUESTRAS MÉDICAS Y EQUIPOS EN COMODA",
-            "estado": "E",
-            "estado_desc": "Elaborado",
+            "estado": "Q",
+            "estado_desc": "Revisado por Calidad / QA",
             "fecha_publicacion": null,
             "vigencia_dias": 1080
           },
@@ -3201,6 +3201,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-08-11 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PWH-36-15",
+            "nombre": "FLUJO DE PROCESO PARA LA OPERACIÓN DE ZOETIS",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -3556,6 +3564,14 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PWH-89-27",
+            "nombre": "RECEPCIÓN DE IMPORTACIONES J&J",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PWH-90-21",
             "nombre": "MANEJO DE INVENTARIOS EN LA OPERACIÓN DE J&J",
             "estado": "P",
@@ -3768,7 +3784,7 @@
             "nombre": "MANEJO DE INVENTARIOS EN BODEGAS DE ALMACENAMIENTO - PFIZER",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -3800,7 +3816,7 @@
             "nombre": "RECEPCIÓN EN LA OPERACIÓN BAYER S.A",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -4664,14 +4680,14 @@
             "nombre": "MANEJO DE INVENTARIOS EN BODEGAS DE ALMACENAMIENTO - PFIZER",
             "estado": "D",
             "estado_desc": "Devuelto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           }
         ],
-        "total": 477
+        "total": 479
       }
     },
-    "total_docs": 477
+    "total_docs": 479
   },
   "0002": {
     "codigo": "0002",
@@ -4699,7 +4715,7 @@
           {
             "codigo": "PCF-01-11",
             "nombre": "LIMPIEZA Y DESINFECCIÓN DE CUARTOS FRÍOS",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 1095
@@ -4710,6 +4726,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-02-23 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PCF-03-13",
+            "nombre": "PLAN DE CONTINGENCIA PARA EL MANEJO DE CADENA DE FRÍO",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -4825,10 +4849,10 @@
             "vigencia_dias": 1095
           }
         ],
-        "total": 18
+        "total": 19
       }
     },
-    "total_docs": 18
+    "total_docs": 19
   },
   "CM": {
     "codigo": "CM",
@@ -4843,6 +4867,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-03-30 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "MCO-03-04",
+            "nombre": "MANUAL DE COMUNICACIONES",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -4872,7 +4904,7 @@
           {
             "codigo": "PCO-01-12",
             "nombre": "INGRESO DE NUEVOS CLIENTES Y NOVEDADES EN CONDICIONES COMERC",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-12-13 00:00:00",
             "vigencia_dias": 1095
@@ -4880,9 +4912,9 @@
           {
             "codigo": "PCO-01-13",
             "nombre": "INGRESO DE NUEVOS CLIENTES Y NOVEDADES EN CONDICIONES COMERC",
-            "estado": "A",
+            "estado": "P",
             "estado_desc": "Aprobado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-04 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -5006,10 +5038,10 @@
             "vigencia_dias": 1080
           }
         ],
-        "total": 21
+        "total": 22
       }
     },
-    "total_docs": 21
+    "total_docs": 22
   },
   "0001": {
     "codigo": "0001",
@@ -5384,6 +5416,14 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "MGC-15-03",
+            "nombre": "PLAN DE CONTINUIDAD DEL NEGOCIO(BCP) PARA OPERACIONES ABBOTT",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1080
+          },
+          {
             "codigo": "MGC-35-04",
             "nombre": "MANUAL DEL SISTEMA HACCP",
             "estado": "P",
@@ -5468,7 +5508,7 @@
             "nombre": "PROGRAMA DE SANEAMIENTO E HIGIENE",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -5484,7 +5524,7 @@
             "nombre": "PLAN DE CONTINUIDAD DEL NEGOCIO (BCP)",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -5956,7 +5996,7 @@
             "nombre": "MANEJO DE DOCUMENTOS DE APOYO",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -7948,7 +7988,7 @@
             "nombre": "CUMPLIMIENTO REGULATORIO OPEN MARKET LTDA",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -8276,7 +8316,7 @@
             "nombre": "ALISTAMIENTO CONFIGURACIONES CADENA DE FRIO OPEN MARKET",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -8436,7 +8476,7 @@
             "nombre": "MANUAL  SISTEMA DE GESTIÓN INTEGRAL",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -8460,7 +8500,7 @@
             "nombre": "123",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": "2025-03-19 00:00:00",
+            "fecha_publicacion": "2025-03-19T00:00:00",
             "vigencia_dias": 1
           },
           {
@@ -8468,7 +8508,7 @@
             "nombre": "PRUEBA",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": "2024-09-19 00:00:00",
+            "fecha_publicacion": "2024-09-19T00:00:00",
             "vigencia_dias": 15
           },
           {
@@ -8652,7 +8692,7 @@
             "nombre": "Prueba Imagen editor",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": "2024-09-12 00:00:00",
+            "fecha_publicacion": "2024-09-12T00:00:00",
             "vigencia_dias": 300
           },
           {
@@ -8660,7 +8700,7 @@
             "nombre": "p",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": "2025-01-27 00:00:00",
+            "fecha_publicacion": "2025-01-27T00:00:00",
             "vigencia_dias": 1
           },
           {
@@ -8672,7 +8712,7 @@
             "vigencia_dias": 365
           }
         ],
-        "total": 442
+        "total": 443
       },
       "Regulatorio": {
         "nombre": "Regulatorio",
@@ -8778,14 +8818,14 @@
             "nombre": "PRUEBA",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": "2024-09-12 00:00:00",
+            "fecha_publicacion": "2024-09-12T00:00:00",
             "vigencia_dias": 15
           }
         ],
         "total": 13
       }
     },
-    "total_docs": 455
+    "total_docs": 456
   },
   "MA": {
     "codigo": "MA",
@@ -8917,9 +8957,17 @@
           {
             "codigo": "PMA-01-08",
             "nombre": "IDENTIFICACIÓN Y EVALUACIÓN DE ASPECTOS E IMPACTOS AMBIENTAL",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-02-10 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PMA-01-09",
+            "nombre": "IDENTIFICACIÓN Y EVALUACIÓN DE ASPECTOS E IMPACTOS AMBIENTAL",
+            "estado": "P",
+            "estado_desc": "Publicado",
+            "fecha_publicacion": "2026-09-07 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -9045,9 +9093,17 @@
           {
             "codigo": "PMA-04-07",
             "nombre": "MANTENIMIENTO Y USO DE ESTIBAS",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-08-08 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PMA-04-08",
+            "nombre": "MANTENIMIENTO Y USO DE ESTIBAS",
+            "estado": "P",
+            "estado_desc": "Publicado",
+            "fecha_publicacion": "2026-09-07 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -9189,9 +9245,17 @@
           {
             "codigo": "PMA-07-05",
             "nombre": "PROGRAMA DE AHORRO Y USO EFICIENTE DE RECURSOS",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-09-23 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PMA-07-06",
+            "nombre": "PROGRAMA DE AHORRO Y USO EFICIENTE DE RECURSOS",
+            "estado": "P",
+            "estado_desc": "Publicado",
+            "fecha_publicacion": "2026-09-07 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -9235,10 +9299,10 @@
             "vigencia_dias": 1095
           }
         ],
-        "total": 55
+        "total": 58
       }
     },
-    "total_docs": 55
+    "total_docs": 58
   },
   "GP": {
     "codigo": "GP",
@@ -9431,6 +9495,38 @@
           {
             "codigo": "MRS-21-17",
             "nombre": "MANUAL DE GESTIÓN DE RIESGO Y SEGURIDAD",
+            "estado": "ELIMINADO",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "MRS-21-17 (2)",
+            "nombre": "MANUAL DE GESTIÓN DE RIESGO Y SEGURIDAD",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "MRS-21-17 (3)",
+            "nombre": "MANUAL DE GESTIÓN DE RIESGO Y SEGURIDAD",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": "1753-01-01 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "MRS-21-17(1)",
+            "nombre": "MANUAL DE GESTIÓN DE RIESGO Y SEGURIDAD",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "MRS-21-177",
+            "nombre": "MANUAL DE GESTIÓN DE RIESGO Y SEGURIDAD",
             "estado": "E",
             "estado_desc": "Elaborado",
             "fecha_publicacion": null,
@@ -9577,7 +9673,7 @@
             "nombre": "MANUAL DE GESTION DE RIESGO Y SEGURIDAD",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -10005,10 +10101,10 @@
             "vigencia_dias": 1080
           }
         ],
-        "total": 88
+        "total": 92
       }
     },
-    "total_docs": 88
+    "total_docs": 92
   },
   "0003": {
     "codigo": "0003",
@@ -10448,7 +10544,7 @@
             "nombre": "LOGÍSTICA EN REVERSA PARA LA CADENA DE FRIO",
             "estado": "Z",
             "estado_desc": "Especial",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -10686,7 +10782,7 @@
           {
             "codigo": "PLTL-01-08",
             "nombre": "CONTRATACIÓN DE VEHICULOS EXTERNOS",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-03-17 00:00:00",
             "vigencia_dias": 1095
@@ -10694,9 +10790,9 @@
           {
             "codigo": "PLTL-01-09",
             "nombre": "CONTRATACIÓN DE VEHICULOS EXTERNOS",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -10736,7 +10832,7 @@
             "nombre": "ENVÍOS AÉREOS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -10828,6 +10924,14 @@
             "vigencia_dias": 1080
           },
           {
+            "codigo": "PLTL-07-08",
+            "nombre": "PESO / VOLUMEN",
+            "estado": "A",
+            "estado_desc": "Aprobado gerencial",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1080
+          },
+          {
             "codigo": "PLTL-08-04",
             "nombre": "TRANSPORTE Y MANEJO DE CONTENEDORES",
             "estado": "P",
@@ -10836,11 +10940,27 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PLTL-08-05",
+            "nombre": "TRANSPORTE Y MANEJO DE CONTENEDORES",
+            "estado": "A",
+            "estado_desc": "Aprobado gerencial",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PLTL-09-06",
             "nombre": "SEGUIMIENTO REMESAS Y DOCUMENTOS DE CLIENTES EN OPERACION LG",
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-04-19 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PLTL-09-07",
+            "nombre": "SEGUIMIENTO REMESAS Y DOCUMENTOS DE CLIENTES EN OPERACION LG",
+            "estado": "A",
+            "estado_desc": "Aprobado gerencial",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -10889,6 +11009,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-09-30 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PLTL-11-11",
+            "nombre": "LOGÍSTICA EN REVERSA PARA CADENA DE FRIO Y OTRAS TEMPERATURA",
+            "estado": "A",
+            "estado_desc": "Aprobado gerencial",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -11044,6 +11172,14 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PLTL-23-11",
+            "nombre": "ENVÍOS AÉREOS",
+            "estado": "A",
+            "estado_desc": "Aprobado gerencial",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PLTL-24-05",
             "nombre": "MANTENIMIENTO DE VEHICULOS",
             "estado": "O",
@@ -11076,6 +11212,14 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PLTL-25-07",
+            "nombre": "CONTROL SUMINISTRO COMBUSTIBLE VEHÍCULOS",
+            "estado": "A",
+            "estado_desc": "Aprobado gerencial",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PLTL-26-01",
             "nombre": "TRANSPORTE EN VEHÍCULOS CON CONTROL DE TEMPERATURA",
             "estado": "O",
@@ -11089,6 +11233,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-02-28 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PLTL-26-03",
+            "nombre": "TRANSPORTE EN VEHÍCULOS CON CONTROL DE TEMPERATURA",
+            "estado": "A",
+            "estado_desc": "Aprobado gerencial",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -11108,10 +11260,10 @@
             "vigencia_dias": 1095
           }
         ],
-        "total": 116
+        "total": 123
       }
     },
-    "total_docs": 116
+    "total_docs": 123
   },
   "MQ": {
     "codigo": "MQ",
@@ -12867,14 +13019,14 @@
           {
             "codigo": "PMQ-11-09",
             "nombre": "PROCESO DE TERMOENCOGIDO MANEJO, LIMPIEZA Y MANTENIMIENTO DE",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-05-27 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-11-10",
-            "nombre": "PROCESO DE TERMOENCOGIDO MANEJO, LIMPIEZA Y MANTENIMIENTO DE",
+            "nombre": "PROCESO DE TERMOENCOGIDO MANEJO, LIMPIEZA Y MANTENIMIENTO DE TERMOENCOGIDO",
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-08-31 00:00:00",
@@ -12971,7 +13123,7 @@
           {
             "codigo": "PMQ-15-10",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA SELLADORA EN L",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-04-24 00:00:00",
             "vigencia_dias": 1095
@@ -12979,9 +13131,9 @@
           {
             "codigo": "PMQ-15-11",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA SELLADORA EN L",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-10 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -13074,7 +13226,7 @@
           },
           {
             "codigo": "PMQ-30-08",
-            "nombre": "REVISION Y APROBACION DE ARTES Y ESPECIFICACIONES TECNICAS D",
+            "nombre": "REVISION Y APROBACION DE ARTES Y ESPECIFICACIONES TECNICAS DE MATERIALES",
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-08-31 00:00:00",
@@ -13123,7 +13275,7 @@
           {
             "codigo": "PMQ-34-09",
             "nombre": "ATENCIÓN DE QUEJAS Y RECLAMOS EN ACONDICIONAMIENTO",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-05-28 00:00:00",
             "vigencia_dias": 1095
@@ -13131,9 +13283,9 @@
           {
             "codigo": "PMQ-34-10",
             "nombre": "ATENCIÓN DE QUEJAS Y RECLAMOS EN ACONDICIONAMIENTO",
-            "estado": "D",
+            "estado": "P",
             "estado_desc": "Devuelto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-10 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -13147,9 +13299,9 @@
           {
             "codigo": "PMQ-37-06",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA MAQUINA CODIFICADORA",
-            "estado": "D",
+            "estado": "P",
             "estado_desc": "Devuelto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-10 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -13171,7 +13323,7 @@
           {
             "codigo": "PMQ-39-05",
             "nombre": "CREACIÓN INSTRUCTIVOS DE ACONDICIONAMIENTO PARA CLIENTES",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-02-10 00:00:00",
             "vigencia_dias": 1095
@@ -13179,15 +13331,15 @@
           {
             "codigo": "PMQ-39-06",
             "nombre": "CREACIÓN INSTRUCTIVOS DE ACONDICIONAMIENTO PARA CLIENTES",
-            "estado": "D",
+            "estado": "P",
             "estado_desc": "Devuelto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-10 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-41-07",
             "nombre": "MATRIZ DE SEGURIDAD Y CAMBIOS A DATA PACK",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-03-03 00:00:00",
             "vigencia_dias": 1095
@@ -13195,23 +13347,23 @@
           {
             "codigo": "PMQ-41-08",
             "nombre": "MATRIZ DE SEGURIDAD Y CAMBIOS A DATA PACK",
-            "estado": "D",
+            "estado": "P",
             "estado_desc": "Devuelto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-42-06",
             "nombre": "PLAN DE CONTINGENCIA PARA DATA PACK",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-43-04",
             "nombre": "MANEJO LIMPIEZA Y MANTENIMIENTO TERMOSELLADORA TERMOENCOGIDO",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-03-17 00:00:00",
             "vigencia_dias": 1095
@@ -13219,9 +13371,9 @@
           {
             "codigo": "PMQ-43-05",
             "nombre": "MANEJO LIMPIEZA Y MANTENIMIENTO TERMOSELLADORA TERMOENCOGIDO",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -13371,9 +13523,9 @@
           {
             "codigo": "PMQ-55-03",
             "nombre": "SUMINISTRO Y MANEJO INSUMOS ACONDICIONAMIENTO",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -13411,23 +13563,23 @@
           {
             "codigo": "PMQ-58-02",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA ETIQUETADORA QR",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-59-02",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA MAQUINA DE CODIFICADO",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-61-01",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE SELLADORA EN L AUTOMÁTIC",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-02-14 00:00:00",
             "vigencia_dias": 1095
@@ -13435,17 +13587,25 @@
           {
             "codigo": "PMQ-61-02",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE SELLADORA EN L AUTOMÁTIC",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-62-01",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE ETIQUETADORA XPA 934",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-11-01 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PMQ-62-02",
+            "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE ETIQUETADORA XPA 934",
+            "estado": "P",
+            "estado_desc": "Publicado",
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -13459,7 +13619,7 @@
           {
             "codigo": "PMQ-64-01",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE CODIFICADORA HSAJET",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-11-01 00:00:00",
             "vigencia_dias": 1095
@@ -13467,15 +13627,15 @@
           {
             "codigo": "PMQ-64-02",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE CODIFICADORA HSAJET",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-65-02",
             "nombre": "MANEJO LIMPIEZA Y MANTENIMIENTO DE ETIQUETADORA XLP504",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-08-06 00:00:00",
             "vigencia_dias": 1095
@@ -13483,15 +13643,15 @@
           {
             "codigo": "PMQ-65-03",
             "nombre": "MANEJO LIMPIEZA Y MANTENIMIENTO DE ETIQUETADORA XLP504",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-66-01",
             "nombre": "MANEJO LIMPIEZA Y MANTENIMIENTO DE LA MAQUINA KGKJET CCS3100",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-03-08 00:00:00",
             "vigencia_dias": 1095
@@ -13499,15 +13659,15 @@
           {
             "codigo": "PMQ-66-02",
             "nombre": "MANEJO LIMPIEZA Y MANTENIMIENTO DE LA MAQUINA KGKJET CCS3100",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
             "codigo": "PMQ-67-01",
             "nombre": "FLUJO DE PROCESO DE INICIATIVAS DEL CLIENTE PROCTER  GAMBLE",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-06-03 00:00:00",
             "vigencia_dias": 1095
@@ -13515,9 +13675,9 @@
           {
             "codigo": "PMQ-67-02",
             "nombre": "FLUJO DE PROCESO DE INICIATIVAS DEL CLIENTE PROCTER  GAMBLE",
-            "estado": "E",
+            "estado": "P",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -13531,7 +13691,7 @@
           {
             "codigo": "PMQ-68-02",
             "nombre": "MANEJO, LIMPIEZA Y MANT. DE LA MÁQUINA CODIFICADORA ZANASI",
-            "estado": "E",
+            "estado": "D",
             "estado_desc": "Elaborado",
             "fecha_publicacion": null,
             "vigencia_dias": 1095
@@ -13613,7 +13773,7 @@
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA SELLADORA EN L",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -13923,7 +14083,7 @@
           {
             "codigo": "PWHS-MQ37-05",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA MAQUINA CODIFICADORA",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-05-23 00:00:00",
             "vigencia_dias": 1095
@@ -13979,7 +14139,7 @@
           {
             "codigo": "PWHS-MQ42-05",
             "nombre": "PLAN DE CONTINGENCIA PARA DATA PACK",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-07-12 00:00:00",
             "vigencia_dias": 1095
@@ -14131,7 +14291,7 @@
           {
             "codigo": "PWHS-MQ55-02",
             "nombre": "SUMINISTRO Y MANEJO INSUMOS ACONDICIONAMIENTO",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-03-15 00:00:00",
             "vigencia_dias": 1095
@@ -14171,7 +14331,7 @@
           {
             "codigo": "PWHS-MQ58-01",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA ETIQUETADORA QR",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-01-05 00:00:00",
             "vigencia_dias": 1095
@@ -14179,7 +14339,7 @@
           {
             "codigo": "PWHS-MQ59-01",
             "nombre": "MANEJO, LIMPIEZA Y MANTENIMIENTO DE LA MAQUINA DE CODIFICADO",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-02-03 00:00:00",
             "vigencia_dias": 1095
@@ -14209,7 +14369,7 @@
             "vigencia_dias": 1095
           }
         ],
-        "total": 386
+        "total": 387
       },
       "Regulatorio": {
         "nombre": "Regulatorio",
@@ -14218,7 +14378,7 @@
             "codigo": "prrueba 5",
             "nombre": "",
             "estado": "Z",
-            "estado_desc": "Especial",
+            "estado_desc": "Estado especial (por confirmar)",
             "fecha_publicacion": null,
             "vigencia_dias": 0
           }
@@ -14226,7 +14386,7 @@
         "total": 1
       }
     },
-    "total_docs": 387
+    "total_docs": 388
   },
   "AB": {
     "codigo": "AB",
@@ -14265,6 +14425,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-12-13 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "MAR-01-11",
+            "nombre": "MANUAL DE ARCHIVO",
+            "estado": "D",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -14308,6 +14476,14 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PAB-03-04",
+            "nombre": "ORDENES DE COMPRA FRECUENTES",
+            "estado": "D",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PAB-04-01",
             "nombre": "FLUJO DE APROBACIÓN ORDENES DE COMPRA",
             "estado": "P",
@@ -14330,6 +14506,14 @@
             "estado_desc": "Publicado",
             "fecha_publicacion": "2023-07-17 00:00:00",
             "vigencia_dias": 1080
+          },
+          {
+            "codigo": "PAR-02-08",
+            "nombre": "MANEJO DE LA CORRESPONDENCIA",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
           },
           {
             "codigo": "PGA-AR02-05",
@@ -14484,10 +14668,10 @@
             "vigencia_dias": 1080
           }
         ],
-        "total": 31
+        "total": 34
       }
     },
-    "total_docs": 31
+    "total_docs": 34
   },
   "PR": {
     "codigo": "PR",
@@ -14874,7 +15058,7 @@
             "nombre": "MANTENIMIENTO DE MAQUINARIA, INSTALACIONES Y EQUIPOS",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -15168,7 +15352,7 @@
           {
             "codigo": "PMT-01-18",
             "nombre": "CONTROL DE PLAGAS",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-05-22 00:00:00",
             "vigencia_dias": 1095
@@ -15176,9 +15360,9 @@
           {
             "codigo": "PMT-01-19",
             "nombre": "CONTROL DE PLAGAS",
-            "estado": "D",
+            "estado": "P",
             "estado_desc": "Devuelto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-07 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -15336,9 +15520,9 @@
           {
             "codigo": "PMT-16-01",
             "nombre": "MANEJO, OPERACIÓN Y MANTENIMIENTO DEL SISTEMA DE TRANSPORTE DE PALLETS TIPO CONVEYOR",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-04 00:00:00",
             "vigencia_dias": 1095
           }
         ],
@@ -15368,6 +15552,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2025-10-24 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "LRH-19-03",
+            "nombre": "POLÍTICA DERECHOS HUMANOS Y LABORALES",
+            "estado": "Q",
+            "estado_desc": "Revisado por Calidad / QA",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -15485,7 +15677,7 @@
           {
             "codigo": "MRH-21-03",
             "nombre": "MANUAL PROCESO DE ENCARGATURA",
-            "estado": "P",
+            "estado": "O",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-04-30 00:00:00",
             "vigencia_dias": 1095
@@ -15493,9 +15685,9 @@
           {
             "codigo": "MRH-21-04",
             "nombre": "MANUAL PROCESO DE ENCARGATURA",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-04 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -15791,7 +15983,7 @@
             "nombre": "RECLUTAMIENTO Y SELECCIÓN DE PERSONAL",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -16047,7 +16239,7 @@
             "nombre": "SOLICITUD DE ALIMENTOS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -16515,7 +16707,7 @@
             "vigencia_dias": 1080
           }
         ],
-        "total": 145
+        "total": 146
       },
       "Regulatorio": {
         "nombre": "Regulatorio",
@@ -16532,7 +16724,7 @@
         "total": 1
       }
     },
-    "total_docs": 146
+    "total_docs": 147
   },
   "1": {
     "codigo": "1",
@@ -16606,9 +16798,9 @@
           {
             "codigo": "AC-037-PT-IQ, OQ, PQ-2632 V.01",
             "nombre": "ANEXO 2 del PGC-29 PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -16662,7 +16854,7 @@
           {
             "codigo": "AC-231-RP-IQ, OQ, PQ-2604 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADOR",
-            "estado": "D",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -16734,7 +16926,7 @@
           {
             "codigo": "AC-249RPIQOQPQ2587V.01",
             "nombre": "AC-249-RP -IQ, OQ, PQ-2587 V.01 ANEXO 3 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -16958,9 +17150,9 @@
           {
             "codigo": "AC-425-PT-IQ, OQ, PQ-2630 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -17044,59 +17236,67 @@
             "vigencia_dias": 365
           },
           {
+            "codigo": "AC-442-RP-IQ, OQ, PQ-2605 V.01",
+            "nombre": "ANEXO 2 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 365
+          },
+          {
             "codigo": "AC-448-PT-IQ, OQ, PQ-2635 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
             "codigo": "AC-449-PT-IQ, OQ, PQ-2641 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADOR",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
             "codigo": "AC-450-PT-IQ, OQ, PQ-2636 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
             "codigo": "AC-451-PT-IQ, OQ, PQ-2638 V.01",
             "nombre": "ANEXO 3 del PGC-29  PROTOCOLO CALIFICACIÓN DE IQ,OQ Y PQ EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TERMOENCOGIDO",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 365
           },
           {
             "codigo": "AC-452-PT-IQ, OQ, PQ-2642 V.01",
             "nombre": "ANEXO 3 del PGC-29  PROTOCOLO CALIFICACIÓN DE IQ,OQ Y PQ EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TERMOENCOGIDO",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 365
           },
           {
             "codigo": "AC-453-PT-IQ, OQ, PQ-2637 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 365
           },
           {
             "codigo": "AC-458-PT-IQ, OQ, PQ-2639 V.01",
             "nombre": "ANEXO 3 del PGC-29  PROTOCOLO CALIFICACIÓN DE IQ, OQ Y PQ EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TERMOENCOGIDO",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -17182,9 +17382,9 @@
           {
             "codigo": "AC-469-PT-IQ, OQ, PQ-2629 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -17352,6 +17552,14 @@
             "nombre": "ANEXO 3 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TE",
             "estado": "E",
             "estado_desc": "Elaborado",
+            "fecha_publicacion": null,
+            "vigencia_dias": 365
+          },
+          {
+            "codigo": "AC-498-RP-IQ, OQ, PQ-2614 V.01",
+            "nombre": "ANEXO 3 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TERM",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
             "fecha_publicacion": null,
             "vigencia_dias": 365
           },
@@ -17662,7 +17870,7 @@
           {
             "codigo": "AC-524-RP-IQ, OQ, PQ-2603 V.01",
             "nombre": "ANEXO 2 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "D",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -17694,9 +17902,9 @@
           {
             "codigo": "AC-527-PT-IQ, OQ, PQ-2631 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -17710,9 +17918,9 @@
           {
             "codigo": "AC-530-PT-IQ, OQ, PQ-2628 V.01",
             "nombre": "ANEXO 3 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TE",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -17726,9 +17934,9 @@
           {
             "codigo": "AC-541-PT-IQ, OQ, PQ-2640 V.01",
             "nombre": "ANEXO 30 del PGC-29 PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -17824,7 +18032,7 @@
             "nombre": "PROTOCOLO CALIFICACIÓN DE DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA MULTICABEZAL",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -17840,7 +18048,7 @@
             "nombre": "PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -18014,9 +18222,9 @@
           {
             "codigo": "AC-566-PT-IQ, OQ, PQ-2634 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-02 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -18188,6 +18396,14 @@
             "vigencia_dias": 365
           },
           {
+            "codigo": "AC-582-RP-IQ, OQ, PQ-2606 V.01",
+            "nombre": "ANEXO 2 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 365
+          },
+          {
             "codigo": "AC-583-PT-IQ, OQ, PQ-2602 V.01",
             "nombre": "ANEXO 2 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADOR",
             "estado": "P",
@@ -18198,7 +18414,7 @@
           {
             "codigo": "AC-583-RP-IQ, OQ, PQ-2602 V.01",
             "nombre": "ANEXO 2 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "D",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -18214,7 +18430,7 @@
           {
             "codigo": "AC-589-RP-IQ, OQ, PQ-2568 V.01",
             "nombre": "ANEXO 3 del PGC-29  REPORTE CALIFICACIÓN DE IQ, OQ Y PQ EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TERMOENCOGIDO",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -18230,7 +18446,7 @@
           {
             "codigo": "AC-593-RP-IQ, OQ, PQ-2569 V.01",
             "nombre": "ANEXO 2 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -18302,7 +18518,7 @@
           {
             "codigo": "AC-599-RP-IQ, OQ, PQ-2562 V.01",
             "nombre": "ANEXO 30 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO DE ACONDICIONAMIENTO CODIFICADORA",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -18318,9 +18534,9 @@
           {
             "codigo": "AC-601-PT-IQ, OQ, PQ-2643 V.01",
             "nombre": "ANEXO 3 del PGC-29  PROTOCOLO CALIFICACIÓN DE IQ,OQ Y PQ EQUIPO DE ACONDICIONAMIENTO TÚNEL DE TERMOENCOGIDO",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -18430,9 +18646,9 @@
           {
             "codigo": "AC-624-PT-IQ, OQ, PQ-2633 V.01",
             "nombre": "ANEXO 30 del PGC-29 CALIFICACIÓN DE IQ,OQ Y PQ EQUIPO DE ACONDICIONAMIENTO CODIFICADORA MULTICABEZAL",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-02 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -18582,7 +18798,7 @@
           {
             "codigo": "AC-631-RP-IQ, OQ, PQ-2585 V.01",
             "nombre": "ANEXO 32 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO EQUIPO SISTEMA DE ALIMENTACIÓN SACHET",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -18632,7 +18848,7 @@
             "nombre": "ANEXO 10. CALIFICACIÓN DE INSTALACIÓN OPERACIÓN Y DESEMPEÑO",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 380
           },
           {
@@ -18972,6 +19188,14 @@
             "vigencia_dias": 370
           },
           {
+            "codigo": "CF-074-PT-IQ, OQ, PQ-2645 V.01",
+            "nombre": "ANEXO 20 del PGC-29  PROTOCOLO INSTALACION, OPERACIÓN Y DESEMPEÑO DE VEHÍCULO REFRIGERADO PLACA WEQ953",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
+          },
+          {
             "codigo": "CF-076-PT-IQ, OQ, PQ-2620 V.01",
             "nombre": "ANEXO 10 del PGC-29 PROTOCOLO IQ, OQ, PQ BODEGA 12 AREA CUARTO DE REFRIGERACIÓN FISHER CLINICAL SERVICES",
             "estado": "P",
@@ -19054,10 +19278,18 @@
           {
             "codigo": "CF-084-RP-IQ,OQ,PQ-2553 V.01",
             "nombre": "ANEXO 10 del PGC-29 REPORTE CALIFICACIÓN INSTALACIÓN,OPERACIÓN Y DESEMPEÑO BG 1 CILOG ÁREA CUARTO DE ACONDICIONAMIENTO",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 365
+          },
+          {
+            "codigo": "CF-101-AD-RP-PQ- 2470 V.01",
+            "nombre": "ANEXO 18 del PGC-29 ADENDA DE ANALISIS DE MAXIMO ERROR PERMISIBLE BODEGA PLATAFORMA BARRANQUILLA AREA REFRIGUERACION",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
           },
           {
             "codigo": "CF-101-AD-RP-PQ-2470 V.01",
@@ -19100,6 +19332,14 @@
             "vigencia_dias": 380
           },
           {
+            "codigo": "CF-103-AD-RP-PQ- 2452 V.01",
+            "nombre": "ANEXO 18 del PGC-29  ADENDA DE ANALISIS DE MAXIMO  ERROR PERMISIBLE  BODEGA PLATAFORMA BARRANQUILLA ÁREA PRECÁMARA",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
+          },
+          {
             "codigo": "CF-103-PT-IQ, OQ, PQ-2452 V.01",
             "nombre": "ANEXO 10 del PGC-29  PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO BODEGA BARRANQUILLA ÁREA PRECÁMARA",
             "estado": "P",
@@ -19113,6 +19353,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-06-05 00:00:00",
+            "vigencia_dias": 380
+          },
+          {
+            "codigo": "CF-117-AD-RP-PQ- 2476 V.01",
+            "nombre": "ANEXO 18 del PGC-29 ADENDA DE ANALISIS DE MAXIMO ERROR PERMISIBLE BODEGA PLATAFORMA CILOG AREA PRECAMARA",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
             "vigencia_dias": 380
           },
           {
@@ -19148,6 +19396,14 @@
             "vigencia_dias": 380
           },
           {
+            "codigo": "CF-118-RP-IQ,OQ,PQ-2598 V.01",
+            "nombre": "ANEXO 10 del PGC-29 REPORTE CALIFICACIÓN DE IQ,OQ Y PQ BD PLATAFORMA BOGOTÁ CUARTO DE REFRIGERACIÓN",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
+          },
+          {
             "codigo": "CF-125-PT-IQ, OQ, PQ-2354 V.01",
             "nombre": "ANEXO 10 del PGC-29 PROTOCOLO CALIFICACIÓN IQ, OQ, PQ BODEGA 80 CELTA ÁREA CUARTO DE REFRIGERACIÓN",
             "estado": "P",
@@ -19174,10 +19430,10 @@
           {
             "codigo": "CF-127-RP-IQ,OQ,PQ-2554 V.01",
             "nombre": "ANEXO 25 del PGC-29 REPORTE CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO BD 80 ÁREA CUARTO DE CONGELACIÓN DE GELES",
-            "estado": "D",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
-            "vigencia_dias": 365
+            "vigencia_dias": 380
           },
           {
             "codigo": "CF-128- PT-IQ,OQ,PQ-2372 V.01",
@@ -19398,9 +19654,9 @@
           {
             "codigo": "CF-136-RP-IQ,OQ,PQ-2579 V.01",
             "nombre": "ANEXO 25 del PGC-29 REPORTE CALIFICACION IQ,OQ,PQ BODEGA PLATAFORMA PASTO ÁREA CUARTO DE CONGELACION GELES",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 370
           },
           {
@@ -19469,10 +19725,10 @@
           },
           {
             "codigo": "CF-140-PT-IQ, OQ, PQ-2627 V.01",
-            "nombre": "ANEXO 25 del PGC-29  PROTOCOLO IQ,OQ,PQ BODEGA PLATAFORMA DE PEREIRA  AREA CUARTO DE CONGELACION DE GELES",
-            "estado": "R",
+            "nombre": "ANEXO 25 del PGC-29  PROTOCOLO IQ,OQ,PQ BODEGA PLATAFORMA PEREIRA  AREA CUARTO DE CONGELACION DE GELES",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 380
           },
           {
@@ -19569,6 +19825,22 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-07-27 00:00:00",
+            "vigencia_dias": 380
+          },
+          {
+            "codigo": "CF-156-RP-IQ,OQ,PQ-2499 V.01",
+            "nombre": "ANEXO 10 del PGC-29  REPORTE CALIFICACIÓN IQ, OQ Y PQ BODEGA MEDELLIN ÁREA CUARTO DE REFRIGERACIÓN",
+            "estado": "E",
+            "estado_desc": "Elaborado",
+            "fecha_publicacion": "1753-01-01 00:00:00",
+            "vigencia_dias": 380
+          },
+          {
+            "codigo": "CF-156-RP-IQ,OQ,PQ-2499 V.02",
+            "nombre": "ANEXO 10 del PGC-29  REPORTE CALIFICACIÓN IQ, OQ Y PQ BODEGA MEDELLIN ÁREA CUARTO DE REFRIGERACIÓN",
+            "estado": "R",
+            "estado_desc": "Revisado por responsable de proceso",
+            "fecha_publicacion": null,
             "vigencia_dias": 380
           },
           {
@@ -19706,6 +19978,14 @@
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-01-05 00:00:00",
             "vigencia_dias": 385
+          },
+          {
+            "codigo": "CF-170-PT-IQ,OQ,PQ-2644 V.01",
+            "nombre": "ANEXO 25 del PGC-29 PROTOCOLO CALIFICACIÓN IQ,OQ,PQ BODEGA 5 AREA CUARTO DE CONGELACION DE GELES",
+            "estado": "P",
+            "estado_desc": "Publicado",
+            "fecha_publicacion": "2026-09-08 00:00:00",
+            "vigencia_dias": 380
           },
           {
             "codigo": "CF-170-RP-IQ, OQ, PQ-2367 V.01",
@@ -19910,7 +20190,7 @@
           {
             "codigo": "CF-183-RP-IQ,OQ,PQ-2555 V.01",
             "nombre": "ANEXO 10 DEL PGC-29 REPORTE CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO BD 4 ÁREA CUARTO DE CONGELACIÓN PRODUCTO",
-            "estado": "R",
+            "estado": "Q",
             "estado_desc": "Revisado",
             "fecha_publicacion": null,
             "vigencia_dias": 365
@@ -19925,8 +20205,8 @@
           },
           {
             "codigo": "CF-184-RP-IQ, OQ, PQ-2556 V.01",
-            "nombre": "ANEXO 25 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO BODEGA 5 CUARTO DE CONGELACION DE GELES",
-            "estado": "D",
+            "nombre": "ANEXO 25 del PGC-29 REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO BODEGA 4-5 CUARTO DE CONGELACION DE GELES",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
             "vigencia_dias": 380
@@ -19964,11 +20244,43 @@
             "vigencia_dias": 380
           },
           {
+            "codigo": "CF-188-RP-IQ,OQ,PQ-2599 V.01",
+            "nombre": "ANEXO 25 del PGC-29 REPORTE CALIFICACION IQ, OQ PQ BODEGA PES 15-16 CUARTO DE CONGELACION DE GELES",
+            "estado": "R",
+            "estado_desc": "Revisado por responsable de proceso",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
+          },
+          {
+            "codigo": "CF-188-RP-IQ,OQ,PQ-2599 V.02",
+            "nombre": "ANEXO 25 del PGC-29 REPORTE CALIFICACION IQ,OQ,PQ BODEGA PES 15-16 CUARTO DE CONGELACION DE GELES",
+            "estado": "Z",
+            "estado_desc": "Estado especial (por confirmar)",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
+          },
+          {
             "codigo": "CF-194-PT-IQ,OQ,PQ-2600 V.01",
             "nombre": "ANEXO 10 del PGC-29 PROTOCOLO CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO BODEGA 209 ÁREA CUARTO DE REFRIGERACIÓN",
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-08-04 00:00:00",
+            "vigencia_dias": 380
+          },
+          {
+            "codigo": "CF-194-RP-IQ,OQ,PQ-2600 V.01",
+            "nombre": "ANEXO 10 del PGC-29 REPORTE CALIFICACION IQ,OQ,PQ BODEGA 209 CUARTO DE REFRIGERACION",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
+          },
+          {
+            "codigo": "CF-194-RP-IQ,OQ,PQ-2600 V.1",
+            "nombre": "ANEXO 10 del PGC-29 REPORTE DE CALIFICACION IQ,OQ,PQ BODEGA 209 CUARTO DE REFRIGERACION",
+            "estado": "Z",
+            "estado_desc": "Estado especial (por confirmar)",
+            "fecha_publicacion": null,
             "vigencia_dias": 380
           },
           {
@@ -20188,6 +20500,14 @@
             "vigencia_dias": 380
           },
           {
+            "codigo": "CF-218-RP-IQ, OQ, PQ-2589 V.01",
+            "nombre": "ANEXO 10 del PGC-29  REPORTE CALIFICACIÓN DE INSTALACIÓN, OPERACIÓN Y DESEMPEÑO BD PES 15 Y 16 CUARTO DE REFRIGERACIÓN",
+            "estado": "R",
+            "estado_desc": "Revisado por responsable de proceso",
+            "fecha_publicacion": null,
+            "vigencia_dias": 380
+          },
+          {
             "codigo": "CF-221-PT-IQ,OQ,PQ-2423 V.01",
             "nombre": "ANEXO 25 del PGC-29 PROTOCOLO CALIFICACIÓN DE INSTALACIÓN,OPERACIÓN Y DESEMPEÑO BD 12-13 PES CUARTO DE CONGELACIÓN GELES",
             "estado": "P",
@@ -20304,7 +20624,7 @@
             "nombre": "MAPEO TEMPERATURA Y HUMEDAD",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -20319,7 +20639,7 @@
             "codigo": "REP-CR-B1",
             "nombre": "Reporte Control insectos y roedores",
             "estado": "D",
-            "estado_desc": "Devuelto",
+            "estado_desc": "Devuelto / con observaciones",
             "fecha_publicacion": null,
             "vigencia_dias": 365
           },
@@ -20327,7 +20647,7 @@
             "codigo": "REP-CR-B12Y13PES",
             "nombre": "Reporte Control insectos y roedores",
             "estado": "R",
-            "estado_desc": "Revisado",
+            "estado_desc": "Revisado por responsable de proceso",
             "fecha_publicacion": null,
             "vigencia_dias": 365
           },
@@ -20406,9 +20726,9 @@
           {
             "codigo": "TA-005-RP-MP-2552 V.01",
             "nombre": "ANEXO 5 del PGC-29 REPORTE MAPEO DE TEMPERATURA Y HUMEDAD RELATIVA BODEGA CILOG PLATAFORMA ÁREA ALMACENAMIENTO",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 730
           },
           {
@@ -20421,8 +20741,8 @@
           },
           {
             "codigo": "TA-016-RP-MP-2609 V.01",
-            "nombre": "ANEXO 5 del PGC-29 REPORTE DE MAPEO DE TEMPERATURA Y HUMEDAD RELATIVA BOD 6 CILOG ÁREA ACOND PRODUCTOS ESPECIALES",
-            "estado": "D",
+            "nombre": "ANEXO 5 del PGC-29 REPORTE DE MAPEO DE TEMPERATURA Y HUMEDAD RELATIVA BD 6 CILOG ÁREA ACOND PRODUCTOS ESPECIALES",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
             "vigencia_dias": 730
@@ -20464,7 +20784,7 @@
             "nombre": "MAPEO TEMPERATURA Y HUMEDAD",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 365
           },
           {
@@ -20598,9 +20918,9 @@
           {
             "codigo": "TA-107-PT-MP-2615 V.1",
             "nombre": "ANEXO 5 del PGC-29 PROTOCOLO DE MAPEO DE TEMPERATURA Y HUMEDAD RELATIVA BODEGA MEDELLIN AREA ALMACENAMIENTO Y PLATAFORMA",
-            "estado": "D",
+            "estado": "P",
             "estado_desc": "Devuelto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-08 00:00:00",
             "vigencia_dias": 730
           },
           {
@@ -20622,7 +20942,7 @@
           {
             "codigo": "TA-108-RP-MP-2577 V.01",
             "nombre": "ANEXO 5 del PGC-29 REPORTE  DE MAPEO DE TEMPERATURA Y HUMEDAD RELATIVA BODEGA MEDELLIN  ÁREA CONFORT",
-            "estado": "Q",
+            "estado": "Z",
             "estado_desc": "Revisado por Calidad",
             "fecha_publicacion": null,
             "vigencia_dias": 730
@@ -20750,9 +21070,9 @@
           {
             "codigo": "TA-134-AD-RP-PQ-2481 V.01",
             "nombre": "ANEXO 18 del PGC-29  ADENDA DE ANALISIS DE MAXIMO ERROR PERMISIBLE  CILOG BODEGA 9 AREA ALMACENAMIENTO GENERAL",
-            "estado": "R",
+            "estado": "P",
             "estado_desc": "Revisado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-10 00:00:00",
             "vigencia_dias": 730
           },
           {
@@ -20782,9 +21102,9 @@
           {
             "codigo": "TA-140-RP-MP-2547 V.01",
             "nombre": "ANEXO 5 del PGC-29 REPORTE MAPEO DE TEMPERATURA  Y HUMEDAD RELATIVA  BODEGA 8  ÁREA ALMACENAMIENTO GENERAL",
-            "estado": "Q",
+            "estado": "P",
             "estado_desc": "Revisado por Calidad",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "2026-09-09 00:00:00",
             "vigencia_dias": 730
           },
           {
@@ -20813,8 +21133,8 @@
           },
           {
             "codigo": "TA-150-RP-MP-2549 V.01",
-            "nombre": "ANEXO 5 del PGC-29  REPORTE   DE MAPEO DE TEMPERATURA  Y HUMEDAD RELATIVA  BODEGA PASTO ÁREA PLATAFORMA",
-            "estado": "D",
+            "nombre": "ANEXO 5 del PGC-29  REPORTE  DE MAPEO DE TEMPERATURA  Y HUMEDAD RELATIVA  BODEGA PASTO ÁREA PLATAFORMA",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
             "vigencia_dias": 730
@@ -20870,7 +21190,7 @@
           {
             "codigo": "TA-154-RP-MP-2550 V.01",
             "nombre": "ANEXO 5 del PGC-29  REPORTE   DE MAPEO DE TEMPERATURA  Y HUMEDAD RELATIVA  BODEGA PASTO  ÁREA ALMACENAMIENTO MEDICAMENTO",
-            "estado": "D",
+            "estado": "R",
             "estado_desc": "Devuelto",
             "fecha_publicacion": null,
             "vigencia_dias": 730
@@ -20897,6 +21217,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-08-06 00:00:00",
+            "vigencia_dias": 730
+          },
+          {
+            "codigo": "TA-157-RP-MP-2610 V.01",
+            "nombre": "ANEXO 5 del PGC-29 REPORTE DE MAPEO DE TEMPERATURA Y HUMEDAD RELATIVA BOD 134 CELTA ÁREA ALMACEN DISPOSITIVOS MEDICOS",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
             "vigencia_dias": 730
           },
           {
@@ -20993,6 +21321,14 @@
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2026-08-18 00:00:00",
+            "vigencia_dias": 730
+          },
+          {
+            "codigo": "TA-205-RP-MP-2617 V.01",
+            "nombre": "ANEXO 5 del PGC-29  REPORTE MAPEO TEMPERATURA Y HUMEDAD RELATIVA CILOG BODEGA 9  ÁREA ALMACENAMIENTO P&G BRANDING",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
             "vigencia_dias": 730
           },
           {
@@ -21148,10 +21484,10 @@
             "vigencia_dias": 1
           }
         ],
-        "total": 573
+        "total": 591
       }
     },
-    "total_docs": 575
+    "total_docs": 593
   },
   "SG": {
     "codigo": "SG",
@@ -21186,7 +21522,7 @@
             "nombre": "MANUAL DE PREVENCIÓN INTEGRAL DEL CONSUMO DE ALCOHOL, TABACO",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -21642,7 +21978,7 @@
             "nombre": "MANEJO DE ELEMENTOS PARA ATENCIÓN DE EMERGENCIAS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -21807,7 +22143,7 @@
             "nombre": "INFORME NOVEDADES DIARIAS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -21815,7 +22151,7 @@
             "nombre": "INFORME NOVEDADES DIARIAS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -21847,7 +22183,7 @@
             "nombre": "INFORME NOVEDADES DIARIAS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -21975,7 +22311,7 @@
             "nombre": "INFORME NOVEDADES DIARIAS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -21983,7 +22319,7 @@
             "nombre": "INFORME NOVEDADES DIARIAS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -22372,7 +22708,7 @@
             "nombre": "GESTIÓN PARA PROYECTOS  Y REQUERIMIENTOS DE TECNOLOGÍA",
             "estado": "O",
             "estado_desc": "Obsoleto",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1080
           },
           {
@@ -22484,7 +22820,7 @@
             "nombre": "PLAN MAESTRO DE VALIDACIONES DE SISTEMAS COMPUTARIZADOS",
             "estado": "E",
             "estado_desc": "Elaborado",
-            "fecha_publicacion": null,
+            "fecha_publicacion": "1753-01-01 00:00:00",
             "vigencia_dias": 1095
           },
           {
@@ -22654,7 +22990,7 @@
             "codigo": "PFL-DCC06-02",
             "nombre": "",
             "estado": "Z",
-            "estado_desc": "Especial",
+            "estado_desc": "Estado especial (por confirmar)",
             "fecha_publicacion": null,
             "vigencia_dias": 0
           },
@@ -22883,11 +23219,27 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PTM-01-02",
+            "nombre": "SOLICITUD DE SERVICIO",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PTM-02-01",
             "nombre": "CONSECUCIÓN Y ASIGNACIÓN DE VEHÍCULOS",
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-09-20 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PTM-02-02",
+            "nombre": "CONSECUCIÓN Y ASIGNACIÓN DE VEHÍCULOS",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -22899,11 +23251,27 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PTM-03-02",
+            "nombre": "DESPACHO DE VIAJE",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PTM-04-01",
             "nombre": "ASIGNACIÓN DE ANTICIPOS",
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-09-20 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PTM-04-02",
+            "nombre": "ASIGNACIÓN DE ANTICIPOS",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -22915,11 +23283,27 @@
             "vigencia_dias": 1095
           },
           {
+            "codigo": "PTM-05-02",
+            "nombre": "SEGUIMIENTO DE VIAJE",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
+          },
+          {
             "codigo": "PTM-06-01",
             "nombre": "CIERRE DE VIAJE",
             "estado": "P",
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-09-20 00:00:00",
+            "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PTM-06-02",
+            "nombre": "CIERRE DE VIAJE",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
             "vigencia_dias": 1095
           },
           {
@@ -22929,12 +23313,20 @@
             "estado_desc": "Publicado",
             "fecha_publicacion": "2024-09-20 00:00:00",
             "vigencia_dias": 1095
+          },
+          {
+            "codigo": "PTM-07-02",
+            "nombre": "TRANSPORTE Y MANEJO DE CONTENEDORES",
+            "estado": "D",
+            "estado_desc": "Devuelto / con observaciones",
+            "fecha_publicacion": null,
+            "vigencia_dias": 1095
           }
         ],
-        "total": 47
+        "total": 54
       }
     },
-    "total_docs": 47
+    "total_docs": 54
   },
   "VA": {
     "codigo": "VA",

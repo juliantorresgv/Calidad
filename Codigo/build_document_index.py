@@ -207,8 +207,8 @@ def main():
             proceso_cod, proceso_nom, tipo_doc, vigencia,
             fmt_date(fec_elab), fmt_date(fec_pub), fmt_date(fec_obs),
             elaborador, rev_proc, rev_cal, apro_ger, publicador,
-            (html or "")[:50000],
-            texto[:20000],
+            html or "",
+            texto,
             texto_length,
             0,
         ))

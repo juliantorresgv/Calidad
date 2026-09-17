@@ -234,6 +234,84 @@ class ProcedimientosClient:
         return rows[0].get("contenido")
 
 
+def get_procedimiento_completo(sql_conn, codigo: str) -> Optional[dict]:
+    """Descarga un procedimiento completo de Integr@ usando una conexion pyodbc directa.
+
+    Args:
+        sql_conn: conexion pyodbc a SQL Server Integr@
+        codigo: codigo del procedimiento a descargar
+
+    Returns:
+        dict con codigo, nombre, estado, estado_desc, proceso_cod, proceso_nom,
+        tipo_documento, contenido_html, contenido_texto, fecha_publicacion,
+        vigencia_dias, fecha_elaboracion. None si no se encuentra.
+    """
+    from bs4 import BeautifulSoup
+
+    cod = codigo.strip()
+    cur = sql_conn.execute("""
+        SELECT
+            TRIM(p.PROCEDIMIENTOS_COD),
+            TRIM(p.PROCEDIMIENTOS_NOMBRE),
+            p.PROCEDIMIENTOS_ESTADO,
+            TRIM(pr.ProcesoNom),
+            TRIM(p.ProcesoCod),
+            TRIM(td.TipoDocumento_Descr),
+            p.PROCEDIMIENTOS_VIGENCIA,
+            p.PROCEDIMIENTOS_FCHELBABORACION,
+            p.PROCEDIMIENTOS_FCHPUBLICACION,
+            p.PROCEDIMIENTOS_WORD
+        FROM dbo.PROCEDIMIENTOS p
+        LEFT JOIN dbo.Proceso pr ON TRIM(p.ProcesoCod) = TRIM(pr.ProcesoCod)
+        LEFT JOIN dbo.TipoDocumento td ON p.TipoDocumento_Id = td.TipoDocumento_Id
+        WHERE TRIM(p.PROCEDIMIENTOS_COD) = ?
+    """, (cod,))
+
+    row = cur.fetchone()
+    if not row:
+        return None
+
+    codigo_db, nombre, estado, proceso_nom, proceso_cod, tipo_doc, \
+        vigencia, fec_elab, fec_pub, html = row
+
+    # Convertir HTML a texto plano
+    texto = ""
+    if html:
+        try:
+            soup = BeautifulSoup(html, "html.parser")
+            for tag in soup(["script", "style"]):
+                tag.decompose()
+            text = soup.get_text(separator="\n")
+            lines = [line.strip() for line in text.splitlines() if line.strip()]
+            texto = "\n".join(lines)
+        except Exception:
+            texto = ""
+
+    def _fmt_date(d):
+        if d is None:
+            return None
+        if isinstance(d, (date, datetime)):
+            if d.year <= 1900:
+                return None
+            return d.isoformat()
+        return str(d) if d else None
+
+    return {
+        "codigo": codigo_db,
+        "nombre": nombre or "",
+        "estado": estado or "",
+        "estado_desc": ESTADO_LABELS.get(estado, ""),
+        "proceso_cod": proceso_cod or "",
+        "proceso_nom": proceso_nom or "",
+        "tipo_documento": tipo_doc or "",
+        "contenido_html": html or "",
+        "contenido_texto": texto,
+        "fecha_publicacion": _fmt_date(fec_pub),
+        "fecha_elaboracion": _fmt_date(fec_elab),
+        "vigencia_dias": vigencia or 0,
+    }
+
+
 if __name__ == "__main__":
     import sys
     try:

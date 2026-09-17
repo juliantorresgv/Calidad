@@ -4,14 +4,24 @@ Expone el agente Graph RAG como una API HTTP para integrarlo con
 Power Apps, Teams, web apps u otros sistemas.
 
 Endpoints:
-    POST /ask          - Hacer una pregunta al agente
-    GET  /search       - Búsqueda de documentos (sin LLM)
-    GET  /stats        - Estadísticas del grafo
-    GET  /jerarquia    - Tabla jerárquica
-    GET  /vencidos     - Documentos vencidos
-    GET  /resumen/{cod}- Resumen ejecutivo de un documento
-    GET  /glosario     - Buscar términos del glosario
-    GET  /health       - Health check
+    POST /ask              - Hacer una pregunta al agente
+    GET  /search           - Busqueda de documentos (sin LLM)
+    GET  /documento/{cod}  - Obtener documento completo
+    GET  /documentos       - Listar documentos con filtros
+    GET  /stats            - Estadisticas del grafo
+    GET  /jerarquia        - Tabla jerarquica
+    GET  /vencidos         - Documentos vencidos
+    GET  /resumen/{cod}    - Resumen ejecutivo de un documento
+    GET  /glosario         - Buscar terminos del glosario
+    GET  /temas            - Lista temas detectados
+    GET  /finops           - Dashboard FinOps
+    GET  /audit            - Audit trail
+    GET  /health           - Health check
+    POST /login            - Autenticacion de usuarios
+    GET  /ncs              - Listar no conformidades
+    GET  /ncs/{cod}        - Obtener NC especifica
+    GET  /ncs/stats        - Estadisticas de NCs
+    GET  /reporte          - Generar reporte (semanal/mensual)
 
 Uso:
     $env:INTEGRA_DB_SERVER="10.238.66.14"
@@ -219,6 +229,144 @@ async def temas():
 async def finops():
     """Dashboard de FinOps: tokens, costos, latencia."""
     return rag.obs.dashboard()
+
+
+# ──────────────────────────────────────────────
+# Endpoints nuevos (v2)
+# ──────────────────────────────────────────────
+
+@app.get("/documento/{codigo}")
+async def documento(codigo: str):
+    """Obtener documento completo por codigo."""
+    doc = rag.get_documento(codigo)
+    if not doc:
+        raise HTTPException(status_code=404, detail=f"Documento {codigo} no encontrado")
+    return doc
+
+
+@app.get("/documentos")
+async def documentos(
+    q: str = Query("", description="Buscar por codigo, nombre o contenido"),
+    estado: str = Query("", description="Filtrar por estado"),
+    proceso: str = Query("", description="Filtrar por proceso"),
+    tipo: str = Query("", description="Filtrar por tipo de documento"),
+    vigencia: str = Query("", description="vigentes, vencidos, por_vencer"),
+    limit: int = Query(50, ge=1, le=500),
+):
+    """Listar documentos con filtros avanzados."""
+    import sqlite3
+    db_path = Path(__file__).parent.parent / "indice_procedimientos.db"
+    conn = sqlite3.connect(str(db_path))
+
+    query = "SELECT codigo, nombre, proceso_nom, estado, estado_desc, tipo_documento, fecha_publicacion, vigencia_dias FROM procedimientos WHERE 1=1"
+    params = []
+
+    if q:
+        query += " AND (codigo LIKE ? OR nombre LIKE ? OR proceso_nom LIKE ? OR contenido_texto LIKE ?)"
+        like = f"%{q}%"
+        params.extend([like, like, like, like])
+    if estado:
+        query += " AND estado = ?"
+        params.append(estado)
+    if proceso:
+        query += " AND proceso_nom LIKE ?"
+        params.append(f"%{proceso}%")
+    if tipo:
+        query += " AND tipo_documento = ?"
+        params.append(tipo)
+    if vigencia == "vigentes":
+        query += " AND estado = 'P'"
+    elif vigencia == "vencidos":
+        query += " AND vigencia_dias IS NOT NULL AND vigencia_dias < 0"
+    elif vigencia == "por_vencer":
+        query += " AND vigencia_dias IS NOT NULL AND vigencia_dias >= 0 AND vigencia_dias <= 30"
+
+    query += " ORDER BY nombre LIMIT ?"
+    params.append(limit)
+
+    rows = conn.execute(query, params).fetchall()
+    conn.close()
+
+    return {
+        "total": len(rows),
+        "documentos": [
+            {"codigo": r[0], "nombre": r[1], "proceso": r[2], "estado": r[3],
+             "estado_desc": r[4], "tipo_documento": r[5], "fecha_publicacion": r[6],
+             "vigencia_dias": r[7]}
+            for r in rows
+        ],
+    }
+
+
+@app.get("/audit")
+async def audit(limit: int = Query(50, ge=1, le=500)):
+    """Audit trail de interacciones."""
+    if hasattr(rag, "obtener_audit_trail"):
+        return {"registros": rag.obtener_audit_trail(limit=limit)}
+    raise HTTPException(status_code=404, detail="Audit trail no disponible")
+
+
+@app.post("/login")
+async def login(username: str = Query(...), password: str = Query(...)):
+    """Autenticacion de usuarios."""
+    from auth import AuthManager
+    auth = AuthManager()
+    result = auth.login(username, password)
+    if result["ok"]:
+        return result
+    raise HTTPException(status_code=401, detail=result["mensaje"])
+
+
+@app.get("/ncs")
+async def ncs(
+    estado: str = Query("", description="Filtrar por estado"),
+    proceso: str = Query("", description="Filtrar por proceso"),
+    limit: int = Query(100, ge=1, le=500),
+):
+    """Listar no conformidades de Integr@."""
+    try:
+        from no_conformidades import NoConformidadesAPI
+        api = NoConformidadesAPI()
+        return {"ncs": api.listar_ncs(estado=estado, proceso=proceso, limit=limit)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error consultando NCs: {e}")
+
+
+@app.get("/ncs/{codigo}")
+async def nc_detalle(codigo: str):
+    """Obtener no conformidad especifica con correcciones y planes de accion."""
+    try:
+        from no_conformidades import NoConformidadesAPI
+        api = NoConformidadesAPI()
+        nc = api.obtener_nc(codigo)
+        if not nc:
+            raise HTTPException(status_code=404, detail=f"NC {codigo} no encontrada")
+        return nc
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error: {e}")
+
+
+@app.get("/ncs/stats")
+async def nc_stats():
+    """Estadisticas de no conformidades."""
+    try:
+        from no_conformidades import NoConformidadesAPI
+        api = NoConformidadesAPI()
+        return api.estadisticas_nc()
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error: {e}")
+
+
+@app.get("/reporte")
+async def reporte(periodo: str = Query("semanal", description="semanal o mensual")):
+    """Generar reporte programado."""
+    try:
+        from reportes_programados import generar_reporte
+        return generar_reporte(periodo=periodo)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error generando reporte: {e}")
 
 
 # ──────────────────────────────────────────────

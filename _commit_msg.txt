@@ -1,0 +1,27 @@
+Agente de Calidad Integr@ - Graph RAG Hibrido
+
+Agente consultor de calidad HSEQ para Solistica que se conecta a Integr@ (SQL Server).
+
+Caracteristicas principales:
+- Graph RAG hibrido: BM25 + FAISS + grafo de conocimiento
+- HyDE, multi-query, CRAG, cross-encoder reranking, parent-child retrieval
+- Multi-provider LLM con fallback: OpenAI -> Mistral -> Ollama -> Groq -> Gemini
+- Governance AI: prompt injection, PII, SQL peligroso, rate limiting
+- Content moderation: toxicidad, hate speech, acoso
+- Cache semantico + sesiones persistentes
+- 2805 documentos indexados de Integr@
+- 55 terminos en glosario de calidad
+- 15 temas detectados por clustering
+- 3333 nodos, 17899 aristas en grafo de conocimiento
+- Streamlit UI con 10 tabs: Chat, Estadisticas, Jerarquia, Vencidos, Glosario, FinOps, Documentos, Comparador, Arquitectura, Seguridad
+- Dashboard FinOps interactivo con graficos
+- Comparador de versiones de documentos
+- Previsualizacion de documentos en chat
+- Sugerencias dinamicas con storytelling
+- Streaming de respuestas
+- Feedback de usuario
+- Exportar conversaciones
+
+Generated with [Devin](https://devin.ai)
+
+Co-Authored-By: Devin <158243242+devin-ai-integration[bot]@users.noreply.github.com>

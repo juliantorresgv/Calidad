@@ -22,14 +22,18 @@ try:
 except Exception:
     pass
 
-# Manejo graceful de Ctrl+C
+# Manejo graceful de Ctrl+C (solo funciona en el hilo principal)
 _INTERRUPTED = False
 
 def _signal_handler(signum, frame):
     global _INTERRUPTED
     _INTERRUPTED = True
 
-signal.signal(signal.SIGINT, _signal_handler)
+try:
+    signal.signal(signal.SIGINT, _signal_handler)
+except (ValueError, OSError):
+    # No se puede registrar signal en hilos secundarios (ej: Streamlit)
+    pass
 
 def interruptible_sleep(seconds: float, msg: str = ""):
     """Sleep que puede ser interrumpido con Ctrl+C.
@@ -152,8 +156,9 @@ def _try_provider(provider_client, model, messages, max_tokens=300, provider_nam
 def llm_chat(client, prompt: str, system_msg: str,
              openai_client=None, groq_client=None, gemini_client=None, ollama_client=None,
              use_openai: bool = False, use_groq: bool = False, use_gemini: bool = False, use_ollama: bool = False):
-    """Llama al LLM con cascada: Ollama (local) → Mistral → Groq → Gemini → OpenAI.
-    Ollama es primario (sin rate limit ni firewall). Las nubes son fallback de velocidad.
+    """Llama al LLM con cascada: OpenAI → Mistral → Groq → Gemini → Ollama.
+    OpenAI es primario (desbloqueado). Mistral/Groq/Gemini son fallback de velocidad.
+    Ollama es el salvavidas local (sin rate limit ni firewall).
     Retorna (respuesta_texto, modelo_usado).
     """
     messages = [
@@ -183,15 +188,14 @@ def llm_chat(client, prompt: str, system_msg: str,
             return result, "openai"
         print(f"\n  ⚠ OpenAI forzado falló: {err}", end="")
 
-    # ── PRIMARIO: Ollama (local, sin rate limit, sin firewall) ──
-    if ollama_client:
-        result, err = _try_provider(ollama_client, OLLAMA_CHAT_MODEL, messages, provider_name="ollama")
+    # ── PRIMARIO: OpenAI (cloud, desbloqueado) ──
+    if openai_client:
+        result, err = _try_provider(openai_client, OPENAI_CHAT_MODEL, messages, provider_name="openai")
         if result:
-            return result, "ollama"
-        # Si Ollama falla, intentar nubes como fallback
-        print(f"\n  ⚠ Ollama falló: {err}. Intentando nubes...", end="")
+            return result, "openai"
+        print(f"\n  ⚠ OpenAI falló: {err}. Intentando Mistral...", end="")
 
-    # ── FALLBACK VELOCIDAD: Mistral (cloud, rápido) ──
+    # ── FALLBACK 1: Mistral (cloud, rápido) ──
     try:
         resp = client.chat.completions.create(
             model=CHAT_MODEL,
@@ -204,7 +208,7 @@ def llm_chat(client, prompt: str, system_msg: str,
         err_msg = str(e)
         err_type = type(e).__name__
 
-        # Rate limit Mistral → Groq → Gemini → OpenAI → backoff con Ollama
+        # Rate limit Mistral → Groq → Gemini → Ollama → backoff rotando
         if "429" in err_msg or "rate" in err_msg.lower():
             # Intentar Groq
             if groq_client:
@@ -222,7 +226,7 @@ def llm_chat(client, prompt: str, system_msg: str,
                     return result, "gemini"
                 print(f" ⚠ Gemini falló: {err}", end="")
 
-            # Intentar OpenAI (puede estar bloqueado)
+            # Intentar OpenAI (si fallo al inicio, reintentar ahora)
             if openai_client:
                 print(f"\n  ⚡ Fallback OpenAI...", end="")
                 result, err = _try_provider(openai_client, OPENAI_CHAT_MODEL, messages, provider_name="openai")
@@ -238,17 +242,17 @@ def llm_chat(client, prompt: str, system_msg: str,
                     return result, "ollama"
                 print(f" ⚠ Ollama falló: {err}", end="")
 
-            # Backoff rotando, con Ollama primero en cada intento
+            # Backoff rotando, con OpenAI primero en cada intento
             providers = []
-            if ollama_client:
-                providers.append(("ollama", ollama_client, OLLAMA_CHAT_MODEL))
+            if openai_client:
+                providers.append(("openai", openai_client, OPENAI_CHAT_MODEL))
             if groq_client:
                 providers.append(("groq", groq_client, GROQ_CHAT_MODEL))
             if gemini_client:
                 providers.append(("gemini", gemini_client, GEMINI_CHAT_MODEL))
             providers.append(("mistral", client, CHAT_MODEL))
-            if openai_client:
-                providers.append(("openai", openai_client, OPENAI_CHAT_MODEL))
+            if ollama_client:
+                providers.append(("ollama", ollama_client, OLLAMA_CHAT_MODEL))
 
             wait = RATE_LIMIT_WAIT
             for rl in range(10):
@@ -332,15 +336,15 @@ def generar_resumenes(conn, client):
     """)
     conn.commit()
 
-    # Inicializar Ollama (primario) + fallbacks cloud
+    # Inicializar OpenAI (primario) + fallbacks cloud + Ollama (salvavidas local)
     ollama_client = _get_ollama_client()
     openai_client = _get_openai_client()
     groq_client = _get_groq_client()
     gemini_client = _get_gemini_client()
-    if ollama_client:
-        print(f"  ✅ LLM primario: Ollama ({OLLAMA_CHAT_MODEL}) [local, sin rate limit]")
+    if openai_client:
+        print(f"  ✅ LLM primario: OpenAI ({OPENAI_CHAT_MODEL}) [cloud, desbloqueado]")
     else:
-        print("  ⚠ Ollama no disponible (instalar con: ollama pull qwen2.5:7b)")
+        print("  ⚠ Sin OPENAI_API_KEY - Mistral sera primario")
     if groq_client:
         print(f"  ✅ Fallback Groq disponible ({GROQ_CHAT_MODEL}) [cloud, rápido]")
     else:
@@ -349,10 +353,10 @@ def generar_resumenes(conn, client):
         print(f"  ✅ Fallback Gemini disponible ({GEMINI_CHAT_MODEL}) [cloud, rápido]")
     else:
         print("  ⚠ Sin GEMINI_API_KEY - fallback Gemini no disponible")
-    if openai_client:
-        print(f"  ✅ Fallback OpenAI disponible ({OPENAI_CHAT_MODEL}) [cloud, puede estar bloqueado]")
+    if ollama_client:
+        print(f"  ✅ Salvavidas Ollama disponible ({OLLAMA_CHAT_MODEL}) [local, sin rate limit]")
     else:
-        print("  ⚠ Sin OPENAI_API_KEY - fallback OpenAI no disponible")
+        print("  ⚠ Ollama no disponible (instalar con: ollama pull qwen2.5:7b)")
 
     # Contar pendientes
     total = conn.execute("SELECT COUNT(*) FROM procedimientos WHERE texto_length > 100").fetchone()[0]

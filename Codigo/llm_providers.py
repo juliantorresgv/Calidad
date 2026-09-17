@@ -45,6 +45,7 @@ GEMINI_CHAT_MODEL = os.environ.get("GEMINI_CHAT_MODEL", "gemini-2.0-flash")
 
 OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434/v1")
 OLLAMA_CHAT_MODEL = os.environ.get("OLLAMA_CHAT_MODEL", "qwen-fast")
+OLLAMA_EMBED_MODEL = os.environ.get("OLLAMA_EMBED_MODEL", "nomic-embed-text")
 
 # Orden de fallback por defecto
 DEFAULT_FALLBACK_ORDER = ["ollama", "mistral", "groq", "gemini", "openai"]
@@ -109,6 +110,8 @@ class LLMProviders:
         except Exception:
             pass
 
+
+
         # Groq
         groq_key = os.environ.get("GROQ_API_KEY")
         if groq_key:
@@ -160,6 +163,21 @@ class LLMProviders:
         print(f"  [LLM] Orden de fallback: {' → '.join(self.fallback_order)}")
         if not available:
             print("  [LLM] ⚠ No hay proveedores disponibles!")
+
+    def _ollama_embed(self, text: str) -> list[float]:
+        """Embedding nativo de Ollama via /api/embeddings (fallback si /v1 no funciona)."""
+        import json
+        from urllib import request, error
+        base = OLLAMA_BASE_URL.replace("/v1", "").rstrip("/")
+        url = f"{base}/api/embeddings"
+        data = json.dumps({"model": OLLAMA_EMBED_MODEL, "prompt": text[:8000]}).encode("utf-8")
+        req = request.Request(url, data=data, headers={"Content-Type": "application/json"})
+        try:
+            with request.urlopen(req, timeout=120) as resp:
+                result = json.loads(resp.read().decode("utf-8"))
+                return result["embedding"]
+        except Exception as e:
+            raise RuntimeError(f"Ollama embedding fallo: {e}")
 
     def _is_rate_limited(self, provider: str, cooldown: int = 60) -> bool:
         """Verifica si un proveedor esta en cooldown por rate limit."""
@@ -374,15 +392,23 @@ class LLMProviders:
         max_chars: int = 8000,
         prefer: str = "mistral",
     ) -> tuple[list[float], str]:
-        """Genera embeddings con fallback Mistral → OpenAI.
+        """Genera embeddings con fallback segun prefer (mistral → ollama → openai).
 
         Returns:
             (embedding_vector, provider_used)
         """
         text = text[:max_chars]
 
+        # Ollama
+        if prefer in ("ollama", None) and "ollama" in self.clients and not self._is_rate_limited("ollama"):
+            try:
+                emb = self._ollama_embed(text)
+                return emb, "ollama"
+            except Exception as e:
+                print(f"  [LLM] Ollama embedding fallo: {e}")
+
         # Mistral
-        if prefer != "openai" and "mistral" in self.clients and not self._is_rate_limited("mistral"):
+        if prefer not in ("openai", "ollama") and "mistral" in self.clients and not self._is_rate_limited("mistral"):
             try:
                 client, _ = self.clients["mistral"]
                 resp = client.embeddings.create(model=MISTRAL_EMBED_MODEL, input=[text])
@@ -403,7 +429,7 @@ class LLMProviders:
                 if _classify_error(e) == "rate_limit":
                     self._mark_rate_limited("openai")
 
-        raise RuntimeError("No se pudo generar embedding: Mistral y OpenAI fallaron")
+        raise RuntimeError("No se pudo generar embedding: Mistral, Ollama y OpenAI fallaron")
 
     def get_status(self) -> dict:
         """Retorna el estado actual de los proveedores."""
