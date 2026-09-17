@@ -1,4 +1,4 @@
-# Agente de Calidad Integr@ — Solistica
+# Agente de Calidad Integr@ — AGV
 
 Agente conversacional en español para consultas de calidad HSEQ sobre la plataforma **Integr@** de Solistica. Combina **Graph RAG híbrido** con retrieval avanzado (HyDE, multi-query, CRAG, RRF, Self-RAG, ColBERT, NER, RAPTOR, parent-child), governance con guardrails, RBAC multi-usuario, watermarking, detección de anomalías, content moderation, bias detection, red teaming, human-in-the-loop, tabla de cambios, y memoria persistente. Soporta múltiples proveedores LLM (Mistral, Ollama, Groq, Gemini, OpenAI) con fallback automático.
 
