@@ -11,4 +11,5 @@ networkx>=3.0
 faiss-cpu>=1.7.0
 chromadb>=0.5.0
 rank-bm25>=0.2.2
-sentence-transformers>=3.0.0
+# sentence-transformers deshabilitado en Streamlit Cloud gratis para ahorrar RAM
+# sentence-transformers>=3.0.0
