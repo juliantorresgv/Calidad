@@ -12,6 +12,7 @@ import math
 from pathlib import Path
 from datetime import datetime, timedelta
 from collections import defaultdict
+from typing import Optional, Any, Dict, List
 
 DB_PATH = Path(__file__).resolve().parent.parent / "indice_procedimientos.db"
 
